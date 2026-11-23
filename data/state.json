@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T14:05:08+08:00",
+ "updated": "2026-11-23T14:10:46+08:00",
  "sources": {
   "openrouter": {
    "thinkingmachines/inkling-2-mini": {
@@ -5816,7 +5816,7 @@
     "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
     "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
     "meta": {
-     "score": 379,
+     "score": 386,
      "comments": 157
     }
    },
@@ -5824,7 +5824,7 @@
     "title": "Show HN: I built a game where you are an LLM's subagent",
     "url": "https://github.com/gulivan/worker755",
     "meta": {
-     "score": 300,
+     "score": 301,
      "comments": 72
     }
    },
@@ -5832,7 +5832,7 @@
     "title": "0rwx – A simple model of AI usage, inspired by Unix permissions",
     "url": "https://0rwx.com/",
     "meta": {
-     "score": 34,
+     "score": 35,
      "comments": 8
     }
    },
@@ -5840,7 +5840,7 @@
     "title": "Localcode, open source agentic coding on your Mac with one command",
     "url": "https://github.com/mjwsolo/localcode",
     "meta": {
-     "score": 46,
+     "score": 47,
      "comments": 13
     }
    },
@@ -5848,7 +5848,7 @@
     "title": "Harvard CS 2881R AI Safety",
     "url": "https://boazbk.github.io/mltheoryseminar/",
     "meta": {
-     "score": 63,
+     "score": 64,
      "comments": 8
     }
    },

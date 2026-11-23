@@ -1,42 +1,11 @@
 {
  "date": "2026-11-23",
- "generated_at": "2026-11-23T14:05:08+08:00",
+ "generated_at": "2026-11-23T14:10:46+08:00",
  "baseline": false,
  "sources": {
   "openrouter": {
    "new": [],
-   "changed": [
-    {
-     "id": "deepseek/deepseek-v4.1-flash-1017",
-     "title": "DeepSeek: DeepSeek V4.1 Flash 1017",
-     "url": "https://openrouter.ai/models/deepseek/deepseek-v4.1-flash-1017",
-     "from": {
-      "prompt": 0.15,
-      "completion": 0.6,
-      "ctx": 1048576
-     },
-     "to": {
-      "prompt": 0.3,
-      "completion": 1.2,
-      "ctx": 1048576
-     }
-    },
-    {
-     "id": "google/gemma-4-26b-a4b-it",
-     "title": "Google: Gemma 4 26B A4B ",
-     "url": "https://openrouter.ai/models/google/gemma-4-26b-a4b-it",
-     "from": {
-      "prompt": 0.0675,
-      "completion": 0.225,
-      "ctx": 262144
-     },
-     "to": {
-      "prompt": 0.09,
-      "completion": 0.3,
-      "ctx": 262144
-     }
-    }
-   ],
+   "changed": [],
    "gone": []
   },
   "mcp": {
@@ -45,7 +14,7 @@
    "gone": []
   },
   "arxiv": {
-   "error": "HTTP Error 429: Too Many Requests",
+   "error": "HTTP Error 429: Unknown Error",
    "new": [],
    "gone": [],
    "changed": []
@@ -58,11 +27,11 @@
      "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
      "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
      "from": {
-      "score": 372,
-      "comments": 154
+      "score": 379,
+      "comments": 157
      },
      "to": {
-      "score": 379,
+      "score": 386,
       "comments": 157
      }
     },
@@ -71,11 +40,11 @@
      "title": "Show HN: I built a game where you are an LLM's subagent",
      "url": "https://github.com/gulivan/worker755",
      "from": {
-      "score": 297,
+      "score": 300,
       "comments": 72
      },
      "to": {
-      "score": 300,
+      "score": 301,
       "comments": 72
      }
     },
@@ -85,37 +54,37 @@
      "url": "https://0rwx.com/",
      "from": {
       "score": 34,
-      "comments": 6
+      "comments": 8
      },
      "to": {
-      "score": 34,
+      "score": 35,
       "comments": 8
      }
     },
     {
-     "id": "50597612",
-     "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
-     "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+     "id": "50604540",
+     "title": "Localcode, open source agentic coding on your Mac with one command",
+     "url": "https://github.com/mjwsolo/localcode",
      "from": {
-      "score": 934,
-      "comments": 935
+      "score": 46,
+      "comments": 13
      },
      "to": {
-      "score": 934,
-      "comments": 936
+      "score": 47,
+      "comments": 13
      }
     },
     {
-     "id": "50556249",
-     "title": "Agentics: Mushy Software",
-     "url": "https://12gramsofcarbon.com/p/agentics-mushy-software",
+     "id": "50602153",
+     "title": "Harvard CS 2881R AI Safety",
+     "url": "https://boazbk.github.io/mltheoryseminar/",
      "from": {
-      "score": 44,
-      "comments": 6
+      "score": 63,
+      "comments": 8
      },
      "to": {
-      "score": 45,
-      "comments": 6
+      "score": 64,
+      "comments": 8
      }
     }
    ],
@@ -125,7 +94,7 @@
  "counts": {
   "openrouter": {
    "new": 0,
-   "changed": 2,
+   "changed": 0,
    "gone": 0,
    "total": 477
   },
