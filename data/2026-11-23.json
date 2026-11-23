@@ -1,6 +1,6 @@
 {
  "date": "2026-11-23",
- "generated_at": "2026-11-23T14:17:27+08:00",
+ "generated_at": "2026-11-23T14:19:32+08:00",
  "baseline": false,
  "sources": {
   "openrouter": {
@@ -16,9 +16,7 @@
   "hf": {
    "new": [],
    "changed": [],
-   "gone": [],
-   "baseline": 40,
-   "first": true
+   "gone": []
   },
   "hn": {
    "new": [],
@@ -28,51 +26,12 @@
      "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
      "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
      "from": {
-      "score": 386,
-      "comments": 157
-     },
-     "to": {
       "score": 390,
       "comments": 157
-     }
-    },
-    {
-     "id": "50599762",
-     "title": "Show HN: I built a game where you are an LLM's subagent",
-     "url": "https://github.com/gulivan/worker755",
-     "from": {
-      "score": 301,
-      "comments": 72
      },
      "to": {
-      "score": 302,
-      "comments": 74
-     }
-    },
-    {
-     "id": "50597612",
-     "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
-     "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
-     "from": {
-      "score": 934,
-      "comments": 936
-     },
-     "to": {
-      "score": 935,
-      "comments": 936
-     }
-    },
-    {
-     "id": "50604314",
-     "title": "Agent swarm trying to solve P vs. NP",
-     "url": "https://pequalnp.com/",
-     "from": {
-      "score": 140,
-      "comments": 112
-     },
-     "to": {
-      "score": 140,
-      "comments": 113
+      "score": 391,
+      "comments": 157
      }
     }
    ],
@@ -100,7 +59,7 @@
   },
   "hn": {
    "new": 0,
-   "changed": 4,
+   "changed": 1,
    "gone": 0,
    "total": 8
   }

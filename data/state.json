@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T14:17:27+08:00",
+ "updated": "2026-11-23T14:19:32+08:00",
  "sources": {
   "openrouter": {
    "thinkingmachines/inkling-2-mini": {
@@ -6177,7 +6177,7 @@
     "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
     "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
     "meta": {
-     "score": 390,
+     "score": 391,
      "comments": 157
     }
    },
