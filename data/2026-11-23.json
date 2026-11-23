@@ -1,40 +1,131 @@
 {
  "date": "2026-11-23",
- "generated_at": "2026-11-23T13:54:47+08:00",
- "baseline": true,
+ "generated_at": "2026-11-23T14:05:08+08:00",
+ "baseline": false,
  "sources": {
   "openrouter": {
    "new": [],
-   "changed": [],
-   "gone": [],
-   "baseline": 477,
-   "first": false
+   "changed": [
+    {
+     "id": "deepseek/deepseek-v4.1-flash-1017",
+     "title": "DeepSeek: DeepSeek V4.1 Flash 1017",
+     "url": "https://openrouter.ai/models/deepseek/deepseek-v4.1-flash-1017",
+     "from": {
+      "prompt": 0.15,
+      "completion": 0.6,
+      "ctx": 1048576
+     },
+     "to": {
+      "prompt": 0.3,
+      "completion": 1.2,
+      "ctx": 1048576
+     }
+    },
+    {
+     "id": "google/gemma-4-26b-a4b-it",
+     "title": "Google: Gemma 4 26B A4B ",
+     "url": "https://openrouter.ai/models/google/gemma-4-26b-a4b-it",
+     "from": {
+      "prompt": 0.0675,
+      "completion": 0.225,
+      "ctx": 262144
+     },
+     "to": {
+      "prompt": 0.09,
+      "completion": 0.3,
+      "ctx": 262144
+     }
+    }
+   ],
+   "gone": []
   },
   "mcp": {
    "new": [],
    "changed": [],
-   "gone": [],
-   "baseline": 189,
-   "first": false
+   "gone": []
   },
   "arxiv": {
-   "error": "The read operation timed out",
+   "error": "HTTP Error 429: Too Many Requests",
    "new": [],
    "gone": [],
    "changed": []
   },
   "hn": {
    "new": [],
-   "changed": [],
-   "gone": [],
-   "baseline": 9,
-   "first": false
+   "changed": [
+    {
+     "id": "50603845",
+     "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+     "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+     "from": {
+      "score": 372,
+      "comments": 154
+     },
+     "to": {
+      "score": 379,
+      "comments": 157
+     }
+    },
+    {
+     "id": "50599762",
+     "title": "Show HN: I built a game where you are an LLM's subagent",
+     "url": "https://github.com/gulivan/worker755",
+     "from": {
+      "score": 297,
+      "comments": 72
+     },
+     "to": {
+      "score": 300,
+      "comments": 72
+     }
+    },
+    {
+     "id": "50605445",
+     "title": "0rwx – A simple model of AI usage, inspired by Unix permissions",
+     "url": "https://0rwx.com/",
+     "from": {
+      "score": 34,
+      "comments": 6
+     },
+     "to": {
+      "score": 34,
+      "comments": 8
+     }
+    },
+    {
+     "id": "50597612",
+     "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+     "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+     "from": {
+      "score": 934,
+      "comments": 935
+     },
+     "to": {
+      "score": 934,
+      "comments": 936
+     }
+    },
+    {
+     "id": "50556249",
+     "title": "Agentics: Mushy Software",
+     "url": "https://12gramsofcarbon.com/p/agentics-mushy-software",
+     "from": {
+      "score": 44,
+      "comments": 6
+     },
+     "to": {
+      "score": 45,
+      "comments": 6
+     }
+    }
+   ],
+   "gone": []
   }
  },
  "counts": {
   "openrouter": {
    "new": 0,
-   "changed": 0,
+   "changed": 2,
    "gone": 0,
    "total": 477
   },
@@ -52,9 +143,9 @@
   },
   "hn": {
    "new": 0,
-   "changed": 0,
+   "changed": 5,
    "gone": 0,
-   "total": 9
+   "total": 8
   }
  }
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T13:54:47+08:00",
+ "updated": "2026-11-23T14:05:08+08:00",
  "sources": {
   "openrouter": {
    "thinkingmachines/inkling-2-mini": {
@@ -420,8 +420,8 @@
     "title": "DeepSeek: DeepSeek V4.1 Flash 1017",
     "url": "https://openrouter.ai/models/deepseek/deepseek-v4.1-flash-1017",
     "meta": {
-     "prompt": 0.15,
-     "completion": 0.6,
+     "prompt": 0.3,
+     "completion": 1.2,
      "ctx": 1048576
     }
    },
@@ -2301,8 +2301,8 @@
     "title": "Google: Gemma 4 26B A4B ",
     "url": "https://openrouter.ai/models/google/gemma-4-26b-a4b-it",
     "meta": {
-     "prompt": 0.0675,
-     "completion": 0.225,
+     "prompt": 0.09,
+     "completion": 0.3,
      "ctx": 262144
     }
    },
@@ -5816,15 +5816,15 @@
     "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
     "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
     "meta": {
-     "score": 372,
-     "comments": 154
+     "score": 379,
+     "comments": 157
     }
    },
    "50599762": {
     "title": "Show HN: I built a game where you are an LLM's subagent",
     "url": "https://github.com/gulivan/worker755",
     "meta": {
-     "score": 297,
+     "score": 300,
      "comments": 72
     }
    },
@@ -5833,7 +5833,7 @@
     "url": "https://0rwx.com/",
     "meta": {
      "score": 34,
-     "comments": 6
+     "comments": 8
     }
    },
    "50604540": {
@@ -5857,14 +5857,14 @@
     "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
     "meta": {
      "score": 934,
-     "comments": 935
+     "comments": 936
     }
    },
    "50556249": {
     "title": "Agentics: Mushy Software",
     "url": "https://12gramsofcarbon.com/p/agentics-mushy-software",
     "meta": {
-     "score": 44,
+     "score": 45,
      "comments": 6
     }
    },
@@ -5874,14 +5874,6 @@
     "meta": {
      "score": 140,
      "comments": 112
-    }
-   },
-   "50603219": {
-    "title": "What Happened in Fall 2026: AI and P vs. NP",
-    "url": "https://cacm.acm.org/blogcacm/what-happened-in-fall-2026-ai-and-p-vs-np",
-    "meta": {
-     "score": 22,
-     "comments": 4
     }
    }
   }
