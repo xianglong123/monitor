@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T14:19:32+08:00",
+ "updated": "2026-11-23T14:21:09+08:00",
  "sources": {
   "openrouter": {
    "thinkingmachines/inkling-2-mini": {
@@ -5811,6 +5811,15 @@
    }
   },
   "hf": {
+   "2611.27915": {
+    "title": "StereoVLM: Binocular Vision-Language Models for Metric 3D Spatial Reasoning",
+    "url": "https://huggingface.co/papers/2611.27915",
+    "meta": {
+     "up": null,
+     "cm": 1,
+     "pub": "2026-11-20"
+    }
+   },
    "2611.27973": {
     "title": "MemOnce: A Scalable Memory Architecture for Large Language Models",
     "url": "https://huggingface.co/papers/2611.27973",
@@ -6160,15 +6169,6 @@
      "up": null,
      "cm": 2,
      "pub": "2026-11-18"
-    }
-   },
-   "2611.26444": {
-    "title": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
-    "url": "https://huggingface.co/papers/2611.26444",
-    "meta": {
-     "up": null,
-     "cm": 4,
-     "pub": "2026-11-19"
     }
    }
   },
