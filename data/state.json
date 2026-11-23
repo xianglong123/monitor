@@ -1,0 +1,5889 @@
+{
+ "updated": "2026-11-23T13:54:47+08:00",
+ "sources": {
+  "openrouter": {
+   "thinkingmachines/inkling-2-mini": {
+    "title": "Thinking Machines: Inkling 2 Mini",
+    "url": "https://openrouter.ai/models/thinkingmachines/inkling-2-mini",
+    "meta": {
+     "prompt": 0.075,
+     "completion": 0.3,
+     "ctx": 1048576
+    }
+   },
+   "radixark/daisyrose-27b": {
+    "title": "RadixArk: DaisyRose 27B",
+    "url": "https://openrouter.ai/models/radixark/daisyrose-27b",
+    "meta": {
+     "prompt": 0.15,
+     "completion": 1.875,
+     "ctx": 262144
+    }
+   },
+   "mistralai/pixtral-large-2502": {
+    "title": "Mistral: Pixtral Large 2502",
+    "url": "https://openrouter.ai/models/mistralai/pixtral-large-2502",
+    "meta": {
+     "prompt": 2.0,
+     "completion": 6.0,
+     "ctx": 128000
+    }
+   },
+   "google/gemini-4-neon": {
+    "title": "Google: Gemini 4 Neon",
+    "url": "https://openrouter.ai/models/google/gemini-4-neon",
+    "meta": {
+     "prompt": 3.0,
+     "completion": 15.0,
+     "ctx": 1048576
+    }
+   },
+   "google/gemini-4-neon:batch": {
+    "title": "Google: Gemini 4 Neon (batch)",
+    "url": "https://openrouter.ai/models/google/gemini-4-neon",
+    "meta": {
+     "prompt": 1.5,
+     "completion": 7.5,
+     "ctx": 1048576
+    }
+   },
+   "openai/gpt-6.2-astra-pro": {
+    "title": "OpenAI: GPT-6.2 Astra Pro",
+    "url": "https://openrouter.ai/models/openai/gpt-6.2-astra-pro",
+    "meta": {
+     "prompt": 8.0,
+     "completion": 40.0,
+     "ctx": 1050000
+    }
+   },
+   "openai/gpt-6.2-astra-pro:batch": {
+    "title": "OpenAI: GPT-6.2 Astra Pro (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-6.2-astra-pro",
+    "meta": {
+     "prompt": 4.0,
+     "completion": 20.0,
+     "ctx": 1050000
+    }
+   },
+   "openai/gpt-6.2-astra": {
+    "title": "OpenAI: GPT-6.2 Astra",
+    "url": "https://openrouter.ai/models/openai/gpt-6.2-astra",
+    "meta": {
+     "prompt": 8.0,
+     "completion": 40.0,
+     "ctx": 1050000
+    }
+   },
+   "openai/gpt-6.2-astra:batch": {
+    "title": "OpenAI: GPT-6.2 Astra (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-6.2-astra",
+    "meta": {
+     "prompt": 4.0,
+     "completion": 20.0,
+     "ctx": 1050000
+    }
+   },
+   "openai/gpt-6.2-sol-pro": {
+    "title": "OpenAI: GPT-6.2 Sol Pro",
+    "url": "https://openrouter.ai/models/openai/gpt-6.2-sol-pro",
+    "meta": {
+     "prompt": 2.0,
+     "completion": 10.0,
+     "ctx": 1050000
+    }
+   },
+   "openai/gpt-6.2-sol-pro:batch": {
+    "title": "OpenAI: GPT-6.2 Sol Pro (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-6.2-sol-pro",
+    "meta": {
+     "prompt": 1.0,
+     "completion": 5.0,
+     "ctx": 1050000
+    }
+   },
+   "openai/gpt-6.2-sol": {
+    "title": "OpenAI: GPT-6.2 Sol",
+    "url": "https://openrouter.ai/models/openai/gpt-6.2-sol",
+    "meta": {
+     "prompt": 2.0,
+     "completion": 10.0,
+     "ctx": 1050000
+    }
+   },
+   "openai/gpt-6.2-sol:batch": {
+    "title": "OpenAI: GPT-6.2 Sol (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-6.2-sol",
+    "meta": {
+     "prompt": 1.0,
+     "completion": 5.0,
+     "ctx": 1050000
+    }
+   },
+   "tencent/hy4-flash": {
+    "title": "Tencent: Hy4 flash",
+    "url": "https://openrouter.ai/models/tencent/hy4-flash",
+    "meta": {
+     "prompt": 0.035,
+     "completion": 0.1405,
+     "ctx": 1048576
+    }
+   },
+   "qwen/qwen4-max": {
+    "title": "Qwen: Qwen4 Max",
+    "url": "https://openrouter.ai/models/qwen/qwen4-max",
+    "meta": {
+     "prompt": 1.425,
+     "completion": 4.275,
+     "ctx": 1000000
+    }
+   },
+   "inclusionai/ling-3.2-flash:free": {
+    "title": "inclusionAI: Ling 3.2 Flash (free)",
+    "url": "https://openrouter.ai/models/inclusionai/ling-3.2-flash",
+    "meta": {
+     "prompt": 0.0,
+     "completion": 0.0,
+     "ctx": 1048576
+    }
+   },
+   "google/gemini-4-hydrogen": {
+    "title": "Google: Gemini 4 Hydrogen",
+    "url": "https://openrouter.ai/models/google/gemini-4-hydrogen",
+    "meta": {
+     "prompt": 1.5,
+     "completion": 7.5,
+     "ctx": 1048576
+    }
+   },
+   "google/gemini-4-hydrogen:batch": {
+    "title": "Google: Gemini 4 Hydrogen (batch)",
+    "url": "https://openrouter.ai/models/google/gemini-4-hydrogen",
+    "meta": {
+     "prompt": 0.75,
+     "completion": 3.75,
+     "ctx": 1048576
+    }
+   },
+   "baidu/ernie-5.5-flash-preview:free": {
+    "title": "Baidu: ERNIE-5.5-Flash-Preview (free)",
+    "url": "https://openrouter.ai/models/baidu/ernie-5.5-flash-preview",
+    "meta": {
+     "prompt": 0.0,
+     "completion": 0.0,
+     "ctx": 1024000
+    }
+   },
+   "baidu/ernie-light-dt-1.0-intl": {
+    "title": "Baidu: ERNIE-Light-DT-1.0",
+    "url": "https://openrouter.ai/models/baidu/ernie-light-dt-1.0-intl",
+    "meta": {
+     "prompt": 1.13,
+     "completion": 3.94,
+     "ctx": 1024000
+    }
+   },
+   "google/gemini-4-carbon": {
+    "title": "Google: Gemini 4 Carbon",
+    "url": "https://openrouter.ai/models/google/gemini-4-carbon",
+    "meta": {
+     "prompt": 2.0,
+     "completion": 10.0,
+     "ctx": 1048576
+    }
+   },
+   "google/gemini-4-carbon:batch": {
+    "title": "Google: Gemini 4 Carbon (batch)",
+    "url": "https://openrouter.ai/models/google/gemini-4-carbon",
+    "meta": {
+     "prompt": 1.0,
+     "completion": 5.0,
+     "ctx": 1048576
+    }
+   },
+   "nex-agi/nex-n2.6": {
+    "title": "Nex AGI: Nex-N2.6",
+    "url": "https://openrouter.ai/models/nex-agi/nex-n2.6",
+    "meta": {
+     "prompt": 0.12,
+     "completion": 0.4,
+     "ctx": 262144
+    }
+   },
+   "thinkingmachines/inkling-2-small": {
+    "title": "Thinking Machines: Inkling 2 Small",
+    "url": "https://openrouter.ai/models/thinkingmachines/inkling-2-small",
+    "meta": {
+     "prompt": 0.3,
+     "completion": 1.0,
+     "ctx": 1048576
+    }
+   },
+   "anthropic/claude-fable-5.2": {
+    "title": "Anthropic: Claude Fable 5.2",
+    "url": "https://openrouter.ai/models/anthropic/claude-fable-5.2",
+    "meta": {
+     "prompt": 8.0,
+     "completion": 40.0,
+     "ctx": 1000000
+    }
+   },
+   "anthropic/claude-fable-5.2:batch": {
+    "title": "Anthropic: Claude Fable 5.2 (batch)",
+    "url": "https://openrouter.ai/models/anthropic/claude-fable-5.2",
+    "meta": {
+     "prompt": 4.0,
+     "completion": 20.0,
+     "ctx": 1000000
+    }
+   },
+   "meta/muse-ember": {
+    "title": "Meta: Muse Ember",
+    "url": "https://openrouter.ai/models/meta/muse-ember",
+    "meta": {
+     "prompt": 0.1,
+     "completion": 0.5,
+     "ctx": 1048576
+    }
+   },
+   "liquid/lfm-3-1.7b": {
+    "title": "LiquidAI: LFM3-1.7B",
+    "url": "https://openrouter.ai/models/liquid/lfm-3-1.7b",
+    "meta": {
+     "prompt": 0.08,
+     "completion": 0.2,
+     "ctx": 262144
+    }
+   },
+   "liquid/lfm-3-1.7b:free": {
+    "title": "LiquidAI: LFM3-1.7B (free)",
+    "url": "https://openrouter.ai/models/liquid/lfm-3-1.7b",
+    "meta": {
+     "prompt": 0.0,
+     "completion": 0.0,
+     "ctx": 262144
+    }
+   },
+   "google/gemini-omni-1.2-flash": {
+    "title": "Google: Gemini Omni 1.2 Flash",
+    "url": "https://openrouter.ai/models/google/gemini-omni-1.2-flash",
+    "meta": {
+     "prompt": 1.5,
+     "completion": 9.0,
+     "ctx": 131072
+    }
+   },
+   "kt/midm-k-3.0-pro": {
+    "title": "KT: Mi:dm K 3.0 Pro",
+    "url": "https://openrouter.ai/models/kt/midm-k-3.0-pro",
+    "meta": {
+     "prompt": 0.2,
+     "completion": 0.8,
+     "ctx": 261795
+    }
+   },
+   "google/gemini-omni-1.1-flash": {
+    "title": "Google: Gemini Omni 1.1 Flash",
+    "url": "https://openrouter.ai/models/google/gemini-omni-1.1-flash",
+    "meta": {
+     "prompt": 1.5,
+     "completion": 9.0,
+     "ctx": 131072
+    }
+   },
+   "ricursiveai/ripple-65b-preview": {
+    "title": "Ricursive: Ripple 65B Preview",
+    "url": "https://openrouter.ai/models/ricursiveai/ripple-65b-preview",
+    "meta": {
+     "prompt": 0.1,
+     "completion": 0.3,
+     "ctx": 1048576
+    }
+   },
+   "tencent/hy4": {
+    "title": "Tencent: Hy4",
+    "url": "https://openrouter.ai/models/tencent/hy4",
+    "meta": {
+     "prompt": 0.417,
+     "completion": 1.2505,
+     "ctx": 1048576
+    }
+   },
+   "motif-technologies/motif-3": {
+    "title": "Motif Technologies: Motif 3",
+    "url": "https://openrouter.ai/models/motif-technologies/motif-3",
+    "meta": {
+     "prompt": 0.3,
+     "completion": 1.2,
+     "ctx": 262144
+    }
+   },
+   "z-ai/glm-5.3-flashx-legal": {
+    "title": "Z.ai: GLM 5.3 FlashX Legal",
+    "url": "https://openrouter.ai/models/z-ai/glm-5.3-flashx-legal",
+    "meta": {
+     "prompt": 0.37,
+     "completion": 1.25,
+     "ctx": 1048576
+    }
+   },
+   "particle-ai/particle-1": {
+    "title": "Particle AI: Particle-1",
+    "url": "https://openrouter.ai/models/particle-ai/particle-1",
+    "meta": {
+     "prompt": 0.07,
+     "completion": 0.5,
+     "ctx": 1048576
+    }
+   },
+   "particle-ai/particle-1:free": {
+    "title": "Particle AI: Particle-1 (free)",
+    "url": "https://openrouter.ai/models/particle-ai/particle-1",
+    "meta": {
+     "prompt": 0.0,
+     "completion": 0.0,
+     "ctx": 1048576
+    }
+   },
+   "openai/gpt-6.1-terra-pro": {
+    "title": "OpenAI: GPT-6.1 Terra Pro",
+    "url": "https://openrouter.ai/models/openai/gpt-6.1-terra-pro",
+    "meta": {
+     "prompt": 1.0,
+     "completion": 5.0,
+     "ctx": 1050000
+    }
+   },
+   "openai/gpt-6.1-terra-pro:batch": {
+    "title": "OpenAI: GPT-6.1 Terra Pro (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-6.1-terra-pro",
+    "meta": {
+     "prompt": 0.5,
+     "completion": 2.5,
+     "ctx": 1050000
+    }
+   },
+   "openai/gpt-6.1-terra": {
+    "title": "OpenAI: GPT-6.1 Terra",
+    "url": "https://openrouter.ai/models/openai/gpt-6.1-terra",
+    "meta": {
+     "prompt": 1.0,
+     "completion": 5.0,
+     "ctx": 1050000
+    }
+   },
+   "openai/gpt-6.1-terra:batch": {
+    "title": "OpenAI: GPT-6.1 Terra (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-6.1-terra",
+    "meta": {
+     "prompt": 0.5,
+     "completion": 2.5,
+     "ctx": 1050000
+    }
+   },
+   "moonshotai/kimi-k3.1-pro": {
+    "title": "MoonshotAI: Kimi K3.1 Pro",
+    "url": "https://openrouter.ai/models/moonshotai/kimi-k3.1-pro",
+    "meta": {
+     "prompt": 0.2403,
+     "completion": 8.4023,
+     "ctx": 1048576
+    }
+   },
+   "moonshotai/kimi-k3.1-pro:batch": {
+    "title": "MoonshotAI: Kimi K3.1 Pro (batch)",
+    "url": "https://openrouter.ai/models/moonshotai/kimi-k3.1-pro",
+    "meta": {
+     "prompt": 0.372,
+     "completion": 5.583,
+     "ctx": 1048576
+    }
+   },
+   "recursive/flint-v1.0:free": {
+    "title": "Recursive: Flint (free)",
+    "url": "https://openrouter.ai/models/recursive/flint-v1.0",
+    "meta": {
+     "prompt": 0.0,
+     "completion": 0.0,
+     "ctx": 262144
+    }
+   },
+   "minimax/minimax-m3.1-flash": {
+    "title": "MiniMax: MiniMax M3.1 Flash",
+    "url": "https://openrouter.ai/models/minimax/minimax-m3.1-flash",
+    "meta": {
+     "prompt": 0.15,
+     "completion": 0.6,
+     "ctx": 1048576
+    }
+   },
+   "deepseek/deepseek-v4.1-flash-1017": {
+    "title": "DeepSeek: DeepSeek V4.1 Flash 1017",
+    "url": "https://openrouter.ai/models/deepseek/deepseek-v4.1-flash-1017",
+    "meta": {
+     "prompt": 0.15,
+     "completion": 0.6,
+     "ctx": 1048576
+    }
+   },
+   "deepseek/deepseek-v4.1-flash-1017:batch": {
+    "title": "DeepSeek: DeepSeek V4.1 Flash 1017 (batch)",
+    "url": "https://openrouter.ai/models/deepseek/deepseek-v4.1-flash-1017",
+    "meta": {
+     "prompt": 0.035,
+     "completion": 0.149,
+     "ctx": 1048576
+    }
+   },
+   "elorian/glimpse": {
+    "title": "Elorian: Glimpse",
+    "url": "https://openrouter.ai/models/elorian/glimpse",
+    "meta": {
+     "prompt": 0.6,
+     "completion": 3.0,
+     "ctx": 262144
+    }
+   },
+   "reflection/beam-1.0-501b-a23b": {
+    "title": "Reflection: Beam 1.0 501B A23B",
+    "url": "https://openrouter.ai/models/reflection/beam-1.0-501b-a23b",
+    "meta": {
+     "prompt": 0.25,
+     "completion": 1.0,
+     "ctx": 1048576
+    }
+   },
+   "prism-ml/ternary-bonsai-2-9b": {
+    "title": "PrismML: Ternary Bonsai 2 9B",
+    "url": "https://openrouter.ai/models/prism-ml/ternary-bonsai-2-9b",
+    "meta": {
+     "prompt": 0.08,
+     "completion": 0.13,
+     "ctx": 262144
+    }
+   },
+   "moondream/moondream3-preview": {
+    "title": "Moondream: Moondream 3 Preview",
+    "url": "https://openrouter.ai/models/moondream/moondream3-preview",
+    "meta": {
+     "prompt": 0.3,
+     "completion": 2.5,
+     "ctx": 32000
+    }
+   },
+   "moondream/moondream3.1-9b-a2b": {
+    "title": "Moondream: Moondream 3.1",
+    "url": "https://openrouter.ai/models/moondream/moondream3.1-9b-a2b",
+    "meta": {
+     "prompt": 0.3,
+     "completion": 2.5,
+     "ctx": 32000
+    }
+   },
+   "meta/muse-spark-open": {
+    "title": "Meta: Muse Spark Open",
+    "url": "https://openrouter.ai/models/meta/muse-spark-open",
+    "meta": {
+     "prompt": 1.25,
+     "completion": 4.25,
+     "ctx": 1048576
+    }
+   },
+   "nvidia/nemotron-3.5-super-vl": {
+    "title": "NVIDIA: Nemotron 3.5 Super VL",
+    "url": "https://openrouter.ai/models/nvidia/nemotron-3.5-super-vl",
+    "meta": {
+     "prompt": 0.15,
+     "completion": 0.47,
+     "ctx": 1048576
+    }
+   },
+   "nvidia/nemotron-3.5-super-vl:free": {
+    "title": "NVIDIA: Nemotron 3.5 Super VL (free)",
+    "url": "https://openrouter.ai/models/nvidia/nemotron-3.5-super-vl",
+    "meta": {
+     "prompt": 0.0,
+     "completion": 0.0,
+     "ctx": 1000000
+    }
+   },
+   "unbiased/pareto-26.10": {
+    "title": "Pareto 26.10",
+    "url": "https://openrouter.ai/models/unbiased/pareto-26.10",
+    "meta": {
+     "prompt": 0.8,
+     "completion": 3.2,
+     "ctx": 1048576
+    }
+   },
+   "~unbiased/pareto-latest": {
+    "title": "Pareto Latest",
+    "url": "https://openrouter.ai/models/~unbiased/pareto-latest",
+    "meta": {
+     "prompt": 0.8,
+     "completion": 3.2,
+     "ctx": 1048576
+    }
+   },
+   "unbiased/pareto-26.9": {
+    "title": "Pareto 26.9",
+    "url": "https://openrouter.ai/models/unbiased/pareto-26.9",
+    "meta": {
+     "prompt": 2.5,
+     "completion": 7.5,
+     "ctx": 262144
+    }
+   },
+   "liquid/lfm-2.5-24b-a2b": {
+    "title": "LiquidAI: LFM2.5-24B-A2B",
+    "url": "https://openrouter.ai/models/liquid/lfm-2.5-24b-a2b",
+    "meta": {
+     "prompt": 0.05,
+     "completion": 0.7,
+     "ctx": 128000
+    }
+   },
+   "google/gemini-4-argon": {
+    "title": "Google: Gemini 4 Argon",
+    "url": "https://openrouter.ai/models/google/gemini-4-argon",
+    "meta": {
+     "prompt": 2.0,
+     "completion": 10.0,
+     "ctx": 1048576
+    }
+   },
+   "google/gemini-4-argon:batch": {
+    "title": "Google: Gemini 4 Argon (batch)",
+    "url": "https://openrouter.ai/models/google/gemini-4-argon",
+    "meta": {
+     "prompt": 1.0,
+     "completion": 5.0,
+     "ctx": 1048576
+    }
+   },
+   "scaledown/summarize": {
+    "title": "ScaleDown: Summarize",
+    "url": "https://openrouter.ai/models/scaledown/summarize",
+    "meta": {
+     "prompt": 0.04,
+     "completion": 0.0,
+     "ctx": 1000000
+    }
+   },
+   "scaledown/extract": {
+    "title": "ScaleDown: Extract",
+    "url": "https://openrouter.ai/models/scaledown/extract",
+    "meta": {
+     "prompt": 0.04,
+     "completion": 0.0,
+     "ctx": 1000000
+    }
+   },
+   "meta/muse-wonder": {
+    "title": "Meta: Muse Wonder",
+    "url": "https://openrouter.ai/models/meta/muse-wonder",
+    "meta": {
+     "prompt": 4.0,
+     "completion": 20.0,
+     "ctx": 1048576
+    }
+   },
+   "stepfun/step-5-preview": {
+    "title": "StepFun: Step 5 Preview",
+    "url": "https://openrouter.ai/models/stepfun/step-5-preview",
+    "meta": {
+     "prompt": 1.0,
+     "completion": 2.7,
+     "ctx": 1000000
+    }
+   },
+   "anthropic/claude-haiku-5.5": {
+    "title": "Anthropic: Claude Haiku 5.5",
+    "url": "https://openrouter.ai/models/anthropic/claude-haiku-5.5",
+    "meta": {
+     "prompt": 0.1,
+     "completion": 0.5,
+     "ctx": 1000000
+    }
+   },
+   "anthropic/claude-haiku-5.5:batch": {
+    "title": "Anthropic: Claude Haiku 5.5 (batch)",
+    "url": "https://openrouter.ai/models/anthropic/claude-haiku-5.5",
+    "meta": {
+     "prompt": 0.05,
+     "completion": 0.25,
+     "ctx": 1000000
+    }
+   },
+   "google/gemini-nano-banana-2.1": {
+    "title": "Google: Nano Banana 2.1",
+    "url": "https://openrouter.ai/models/google/gemini-nano-banana-2.1",
+    "meta": {
+     "prompt": 1.5,
+     "completion": 7.5,
+     "ctx": 65536
+    }
+   },
+   "mistralai/mistral-large-4-0": {
+    "title": "Mistral: Mistral Large 4",
+    "url": "https://openrouter.ai/models/mistralai/mistral-large-4-0",
+    "meta": {
+     "prompt": 0.7,
+     "completion": 2.1,
+     "ctx": 1048576
+    }
+   },
+   "inclusionai/ling-3.1-flash": {
+    "title": "inclusionAI: Ling 3.1 Flash",
+    "url": "https://openrouter.ai/models/inclusionai/ling-3.1-flash",
+    "meta": {
+     "prompt": 0.06,
+     "completion": 0.18,
+     "ctx": 1000000
+    }
+   },
+   "unbiased/pareto-26.10-preview": {
+    "title": "Pareto 26.10 Preview",
+    "url": "https://openrouter.ai/models/unbiased/pareto-26.10-preview",
+    "meta": {
+     "prompt": 0.8,
+     "completion": 3.2,
+     "ctx": 1048576
+    }
+   },
+   "openai/gpt-6.1-sol-pro": {
+    "title": "OpenAI: GPT-6.1 Sol Pro",
+    "url": "https://openrouter.ai/models/openai/gpt-6.1-sol-pro",
+    "meta": {
+     "prompt": 2.0,
+     "completion": 10.0,
+     "ctx": 1050000
+    }
+   },
+   "openai/gpt-6.1-sol-pro:batch": {
+    "title": "OpenAI: GPT-6.1 Sol Pro (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-6.1-sol-pro",
+    "meta": {
+     "prompt": 1.0,
+     "completion": 5.0,
+     "ctx": 1050000
+    }
+   },
+   "openai/gpt-6.1-sol": {
+    "title": "OpenAI: GPT-6.1 Sol",
+    "url": "https://openrouter.ai/models/openai/gpt-6.1-sol",
+    "meta": {
+     "prompt": 2.0,
+     "completion": 10.0,
+     "ctx": 1050000
+    }
+   },
+   "openai/gpt-6.1-sol:batch": {
+    "title": "OpenAI: GPT-6.1 Sol (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-6.1-sol",
+    "meta": {
+     "prompt": 1.0,
+     "completion": 5.0,
+     "ctx": 1050000
+    }
+   },
+   "anthropic/claude-sonnet-5.5": {
+    "title": "Anthropic: Claude Sonnet 5.5",
+    "url": "https://openrouter.ai/models/anthropic/claude-sonnet-5.5",
+    "meta": {
+     "prompt": 2.0,
+     "completion": 10.0,
+     "ctx": 1000000
+    }
+   },
+   "anthropic/claude-sonnet-5.5:batch": {
+    "title": "Anthropic: Claude Sonnet 5.5 (batch)",
+    "url": "https://openrouter.ai/models/anthropic/claude-sonnet-5.5",
+    "meta": {
+     "prompt": 1.0,
+     "completion": 5.0,
+     "ctx": 1000000
+    }
+   },
+   "perceptron/perceptron-mk1.5": {
+    "title": "Perceptron: Perceptron Mk1.5",
+    "url": "https://openrouter.ai/models/perceptron/perceptron-mk1.5",
+    "meta": {
+     "prompt": 0.15,
+     "completion": 1.5,
+     "ctx": 36864
+    }
+   },
+   "fireworks/ember-1": {
+    "title": "Fireworks: Ember-1",
+    "url": "https://openrouter.ai/models/fireworks/ember-1",
+    "meta": {
+     "prompt": 3.0,
+     "completion": 15.0,
+     "ctx": 1048576
+    }
+   },
+   "z-ai/glm-5.3-prime": {
+    "title": "Z.ai: GLM 5.3 Prime",
+    "url": "https://openrouter.ai/models/z-ai/glm-5.3-prime",
+    "meta": {
+     "prompt": 1.68,
+     "completion": 5.28,
+     "ctx": 1000000
+    }
+   },
+   "qwen/qwen3.8-max-prime": {
+    "title": "Qwen: Qwen3.8 Max Prime",
+    "url": "https://openrouter.ai/models/qwen/qwen3.8-max-prime",
+    "meta": {
+     "prompt": 4.0,
+     "completion": 12.0,
+     "ctx": 1000000
+    }
+   },
+   "aion-labs/aion-3.5-mini": {
+    "title": "AionLabs: Aion 3.5 Mini",
+    "url": "https://openrouter.ai/models/aion-labs/aion-3.5-mini",
+    "meta": {
+     "prompt": 0.7,
+     "completion": 1.4,
+     "ctx": 262144
+    }
+   },
+   "aion-labs/aion-3.5": {
+    "title": "AionLabs: Aion 3.5",
+    "url": "https://openrouter.ai/models/aion-labs/aion-3.5",
+    "meta": {
+     "prompt": 3.0,
+     "completion": 6.0,
+     "ctx": 262144
+    }
+   },
+   "upstage/solar-mini4": {
+    "title": "Upstage: Solar Mini 4",
+    "url": "https://openrouter.ai/models/upstage/solar-mini4",
+    "meta": {
+     "prompt": 0.05,
+     "completion": 0.2,
+     "ctx": 524288
+    }
+   },
+   "cohere/command-a-plus": {
+    "title": "Cohere: Command A+",
+    "url": "https://openrouter.ai/models/cohere/command-a-plus",
+    "meta": {
+     "prompt": 0.3,
+     "completion": 1.5,
+     "ctx": 192000
+    }
+   },
+   "openai/gpt-6-luna-pro": {
+    "title": "OpenAI: GPT-6 Luna Pro",
+    "url": "https://openrouter.ai/models/openai/gpt-6-luna-pro",
+    "meta": {
+     "prompt": 0.1,
+     "completion": 0.5,
+     "ctx": 1050000
+    }
+   },
+   "openai/gpt-6-luna-pro:batch": {
+    "title": "OpenAI: GPT-6 Luna Pro (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-6-luna-pro",
+    "meta": {
+     "prompt": 0.05,
+     "completion": 0.25,
+     "ctx": 1050000
+    }
+   },
+   "openai/gpt-6-luna": {
+    "title": "OpenAI: GPT-6 Luna",
+    "url": "https://openrouter.ai/models/openai/gpt-6-luna",
+    "meta": {
+     "prompt": 0.1,
+     "completion": 0.5,
+     "ctx": 1050000
+    }
+   },
+   "openai/gpt-6-luna:batch": {
+    "title": "OpenAI: GPT-6 Luna (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-6-luna",
+    "meta": {
+     "prompt": 0.05,
+     "completion": 0.25,
+     "ctx": 1050000
+    }
+   },
+   "openai/gpt-6-sol-pro": {
+    "title": "OpenAI: GPT-6 Sol Pro",
+    "url": "https://openrouter.ai/models/openai/gpt-6-sol-pro",
+    "meta": {
+     "prompt": 2.0,
+     "completion": 10.0,
+     "ctx": 1050000
+    }
+   },
+   "openai/gpt-6-sol-pro:batch": {
+    "title": "OpenAI: GPT-6 Sol Pro (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-6-sol-pro",
+    "meta": {
+     "prompt": 1.0,
+     "completion": 5.0,
+     "ctx": 1050000
+    }
+   },
+   "openai/gpt-6-sol": {
+    "title": "OpenAI: GPT-6 Sol",
+    "url": "https://openrouter.ai/models/openai/gpt-6-sol",
+    "meta": {
+     "prompt": 2.0,
+     "completion": 10.0,
+     "ctx": 1050000
+    }
+   },
+   "openai/gpt-6-sol:batch": {
+    "title": "OpenAI: GPT-6 Sol (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-6-sol",
+    "meta": {
+     "prompt": 1.0,
+     "completion": 5.0,
+     "ctx": 1050000
+    }
+   },
+   "anthropic/claude-opus-5.5": {
+    "title": "Anthropic: Claude Opus 5.5",
+    "url": "https://openrouter.ai/models/anthropic/claude-opus-5.5",
+    "meta": {
+     "prompt": 4.0,
+     "completion": 20.0,
+     "ctx": 1000000
+    }
+   },
+   "anthropic/claude-opus-5.5:batch": {
+    "title": "Anthropic: Claude Opus 5.5 (batch)",
+    "url": "https://openrouter.ai/models/anthropic/claude-opus-5.5",
+    "meta": {
+     "prompt": 2.0,
+     "completion": 10.0,
+     "ctx": 1000000
+    }
+   },
+   "xiaomi/mimo-v2.6-pro-ultraspeed": {
+    "title": "Xiaomi: MiMo-V2.6-Pro-UltraSpeed",
+    "url": "https://openrouter.ai/models/xiaomi/mimo-v2.6-pro-ultraspeed",
+    "meta": {
+     "prompt": 4.35,
+     "completion": 8.7,
+     "ctx": 1048576
+    }
+   },
+   "xiaomi/mimo-v2.6-flash": {
+    "title": "Xiaomi: MiMo-V2.6-Flash",
+    "url": "https://openrouter.ai/models/xiaomi/mimo-v2.6-flash",
+    "meta": {
+     "prompt": 0.14,
+     "completion": 0.28,
+     "ctx": 1048576
+    }
+   },
+   "xiaomi/mimo-v2.6-pro": {
+    "title": "Xiaomi: MiMo-V2.6-Pro",
+    "url": "https://openrouter.ai/models/xiaomi/mimo-v2.6-pro",
+    "meta": {
+     "prompt": 0.435,
+     "completion": 0.87,
+     "ctx": 1048576
+    }
+   },
+   "x-ai/grok-4.7": {
+    "title": "SpaceXSI: Grok 4.7",
+    "url": "https://openrouter.ai/models/x-ai/grok-4.7",
+    "meta": {
+     "prompt": 2.0,
+     "completion": 6.0,
+     "ctx": 500000
+    }
+   },
+   "x-ai/grok-4.7:batch": {
+    "title": "SpaceXSI: Grok 4.7 (batch)",
+    "url": "https://openrouter.ai/models/x-ai/grok-4.7",
+    "meta": {
+     "prompt": 1.6,
+     "completion": 4.8,
+     "ctx": 500000
+    }
+   },
+   "qwen/qwen3.8-omni-flash": {
+    "title": "Qwen: Qwen3.8 Omni Flash",
+    "url": "https://openrouter.ai/models/qwen/qwen3.8-omni-flash",
+    "meta": {
+     "prompt": 0.15,
+     "completion": 0.47,
+     "ctx": 1000000
+    }
+   },
+   "prism-ml/ternary-bonsai-2-27b": {
+    "title": "PrismML: Ternary Bonsai 2 27B",
+    "url": "https://openrouter.ai/models/prism-ml/ternary-bonsai-2-27b",
+    "meta": {
+     "prompt": 0.075,
+     "completion": 0.5,
+     "ctx": 262144
+    }
+   },
+   "z-ai/glm-5.3-flashx": {
+    "title": "Z.ai: GLM 5.3 FlashX",
+    "url": "https://openrouter.ai/models/z-ai/glm-5.3-flashx",
+    "meta": {
+     "prompt": 0.37,
+     "completion": 1.25,
+     "ctx": 1048576
+    }
+   },
+   "~deepseek/deepseek-pro-latest": {
+    "title": "DeepSeek: DeepSeek Pro Latest",
+    "url": "https://openrouter.ai/models/~deepseek/deepseek-pro-latest",
+    "meta": {
+     "prompt": 0.1188,
+     "completion": 5.0,
+     "ctx": 1048576
+    }
+   },
+   "~deepseek/deepseek-flash-latest": {
+    "title": "DeepSeek: DeepSeek Flash Latest",
+    "url": "https://openrouter.ai/models/~deepseek/deepseek-flash-latest",
+    "meta": {
+     "prompt": 0.036,
+     "completion": 0.5,
+     "ctx": 1048576
+    }
+   },
+   "inference-net/schematron-v2-turbo": {
+    "title": "Inference.net: Schematron V2 Turbo",
+    "url": "https://openrouter.ai/models/inference-net/schematron-v2-turbo",
+    "meta": {
+     "prompt": 0.03,
+     "completion": 0.15,
+     "ctx": 128000
+    }
+   },
+   "inference-net/schematron-v2-small": {
+    "title": "Inference.net: Schematron V2 Small",
+    "url": "https://openrouter.ai/models/inference-net/schematron-v2-small",
+    "meta": {
+     "prompt": 0.05,
+     "completion": 0.23,
+     "ctx": 128000
+    }
+   },
+   "~openai/gpt-astra-latest": {
+    "title": "OpenAI: GPT Astra Latest",
+    "url": "https://openrouter.ai/models/~openai/gpt-astra-latest",
+    "meta": {
+     "prompt": 8.0,
+     "completion": 40.0,
+     "ctx": 1050000
+    }
+   },
+   "~openai/gpt-sol-latest": {
+    "title": "OpenAI: GPT Sol Latest",
+    "url": "https://openrouter.ai/models/~openai/gpt-sol-latest",
+    "meta": {
+     "prompt": 2.0,
+     "completion": 10.0,
+     "ctx": 1050000
+    }
+   },
+   "~openai/gpt-terra-latest": {
+    "title": "OpenAI: GPT Terra Latest",
+    "url": "https://openrouter.ai/models/~openai/gpt-terra-latest",
+    "meta": {
+     "prompt": 1.0,
+     "completion": 5.0,
+     "ctx": 1050000
+    }
+   },
+   "~openai/gpt-luna-latest": {
+    "title": "OpenAI: GPT Luna Latest",
+    "url": "https://openrouter.ai/models/~openai/gpt-luna-latest",
+    "meta": {
+     "prompt": 0.1,
+     "completion": 0.5,
+     "ctx": 1050000
+    }
+   },
+   "sakana/fugu-ultra-v2": {
+    "title": "Sakana: Fugu Ultra v2",
+    "url": "https://openrouter.ai/models/sakana/fugu-ultra-v2",
+    "meta": {
+     "prompt": 5.0,
+     "completion": 30.0,
+     "ctx": 1000000
+    }
+   },
+   "sakana/fugu-max": {
+    "title": "Sakana: Fugu Max",
+    "url": "https://openrouter.ai/models/sakana/fugu-max",
+    "meta": {
+     "prompt": 2.0,
+     "completion": 6.0,
+     "ctx": 1000000
+    }
+   },
+   "inclusionai/ling-3.0-flash-vl": {
+    "title": "inclusionAI: Ling 3.0 Flash VL",
+    "url": "https://openrouter.ai/models/inclusionai/ling-3.0-flash-vl",
+    "meta": {
+     "prompt": 0.06,
+     "completion": 0.18,
+     "ctx": 131072
+    }
+   },
+   "deepseek/deepseek-v4.1-flash": {
+    "title": "DeepSeek: DeepSeek V4.1 Flash",
+    "url": "https://openrouter.ai/models/deepseek/deepseek-v4.1-flash",
+    "meta": {
+     "prompt": 0.0498,
+     "completion": 0.1992,
+     "ctx": 1048576
+    }
+   },
+   "deepseek/deepseek-v4.1-flash:batch": {
+    "title": "DeepSeek: DeepSeek V4.1 Flash (batch)",
+    "url": "https://openrouter.ai/models/deepseek/deepseek-v4.1-flash",
+    "meta": {
+     "prompt": 0.05,
+     "completion": 0.15,
+     "ctx": 1048576
+    }
+   },
+   "nex-agi/nex-n2.5-mini": {
+    "title": "Nex AGI: Nex-N2.5-Mini",
+    "url": "https://openrouter.ai/models/nex-agi/nex-n2.5-mini",
+    "meta": {
+     "prompt": 0.025,
+     "completion": 0.1,
+     "ctx": 262144
+    }
+   },
+   "nex-agi/nex-n2.5-pro": {
+    "title": "Nex AGI: Nex-N2.5-Pro",
+    "url": "https://openrouter.ai/models/nex-agi/nex-n2.5-pro",
+    "meta": {
+     "prompt": 0.075,
+     "completion": 0.25,
+     "ctx": 262144
+    }
+   },
+   "openai/gpt-6-astra": {
+    "title": "OpenAI: GPT-6 Astra",
+    "url": "https://openrouter.ai/models/openai/gpt-6-astra",
+    "meta": {
+     "prompt": 10.0,
+     "completion": 50.0,
+     "ctx": 1050000
+    }
+   },
+   "openai/gpt-6-astra:batch": {
+    "title": "OpenAI: GPT-6 Astra (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-6-astra",
+    "meta": {
+     "prompt": 5.0,
+     "completion": 25.0,
+     "ctx": 1050000
+    }
+   },
+   "openai/gpt-6-astra-pro": {
+    "title": "OpenAI: GPT-6 Astra Pro",
+    "url": "https://openrouter.ai/models/openai/gpt-6-astra-pro",
+    "meta": {
+     "prompt": 10.0,
+     "completion": 50.0,
+     "ctx": 1050000
+    }
+   },
+   "openai/gpt-6-astra-pro:batch": {
+    "title": "OpenAI: GPT-6 Astra Pro (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-6-astra-pro",
+    "meta": {
+     "prompt": 5.0,
+     "completion": 25.0,
+     "ctx": 1050000
+    }
+   },
+   "qwen/qwen3.8-max-0902": {
+    "title": "Qwen: Qwen3.8 Max (0902)",
+    "url": "https://openrouter.ai/models/qwen/qwen3.8-max-0902",
+    "meta": {
+     "prompt": 2.0,
+     "completion": 6.0,
+     "ctx": 1000000
+    }
+   },
+   "qwen/qwen3.8-max-0902:batch": {
+    "title": "Qwen: Qwen3.8 Max (0902) (batch)",
+    "url": "https://openrouter.ai/models/qwen/qwen3.8-max-0902",
+    "meta": {
+     "prompt": 1.15,
+     "completion": 3.45,
+     "ctx": 262144
+    }
+   },
+   "meta/muse-spark-1.3-contributor": {
+    "title": "Meta: Muse Spark 1.3 Contributor",
+    "url": "https://openrouter.ai/models/meta/muse-spark-1.3-contributor",
+    "meta": {
+     "prompt": 0.1,
+     "completion": 0.2,
+     "ctx": 1048576
+    }
+   },
+   "meta/muse-spark-1.3": {
+    "title": "Meta: Muse Spark 1.3",
+    "url": "https://openrouter.ai/models/meta/muse-spark-1.3",
+    "meta": {
+     "prompt": 1.25,
+     "completion": 4.25,
+     "ctx": 1048576
+    }
+   },
+   "google/gemini-3.8-flash": {
+    "title": "Google: Gemini 3.8 Flash",
+    "url": "https://openrouter.ai/models/google/gemini-3.8-flash",
+    "meta": {
+     "prompt": 0.825,
+     "completion": 4.125,
+     "ctx": 1048576
+    }
+   },
+   "google/gemini-3.8-flash:batch": {
+    "title": "Google: Gemini 3.8 Flash (batch)",
+    "url": "https://openrouter.ai/models/google/gemini-3.8-flash",
+    "meta": {
+     "prompt": 0.375,
+     "completion": 1.875,
+     "ctx": 1048576
+    }
+   },
+   "anthropic/claude-fable-5.1": {
+    "title": "Anthropic: Claude Fable 5.1",
+    "url": "https://openrouter.ai/models/anthropic/claude-fable-5.1",
+    "meta": {
+     "prompt": 10.0,
+     "completion": 50.0,
+     "ctx": 1000000
+    }
+   },
+   "anthropic/claude-fable-5.1:batch": {
+    "title": "Anthropic: Claude Fable 5.1 (batch)",
+    "url": "https://openrouter.ai/models/anthropic/claude-fable-5.1",
+    "meta": {
+     "prompt": 5.0,
+     "completion": 25.0,
+     "ctx": 1000000
+    }
+   },
+   "ibm-granite/granite-4.2-8b": {
+    "title": "IBM: Granite 4.2 8B",
+    "url": "https://openrouter.ai/models/ibm-granite/granite-4.2-8b",
+    "meta": {
+     "prompt": 0.06,
+     "completion": 0.15,
+     "ctx": 131072
+    }
+   },
+   "tencent/hy4-preview": {
+    "title": "Tencent: Hy4 preview",
+    "url": "https://openrouter.ai/models/tencent/hy4-preview",
+    "meta": {
+     "prompt": 0.834,
+     "completion": 2.501,
+     "ctx": 1048576
+    }
+   },
+   "~z-ai/glm-flash-latest": {
+    "title": "Z.ai: GLM Flash Latest",
+    "url": "https://openrouter.ai/models/~z-ai/glm-flash-latest",
+    "meta": {
+     "prompt": 0.0399,
+     "completion": 0.0784,
+     "ctx": 1048576
+    }
+   },
+   "qwen/qwen3.8-flash": {
+    "title": "Qwen: Qwen3.8 Flash",
+    "url": "https://openrouter.ai/models/qwen/qwen3.8-flash",
+    "meta": {
+     "prompt": 0.15,
+     "completion": 0.47,
+     "ctx": 1000000
+    }
+   },
+   "z-ai/glm-5.3-flash": {
+    "title": "Z.ai: GLM 5.3 Flash",
+    "url": "https://openrouter.ai/models/z-ai/glm-5.3-flash",
+    "meta": {
+     "prompt": 0.0399,
+     "completion": 0.0784,
+     "ctx": 1048576
+    }
+   },
+   "z-ai/glm-5.3-flash:batch": {
+    "title": "Z.ai: GLM 5.3 Flash (batch)",
+    "url": "https://openrouter.ai/models/z-ai/glm-5.3-flash",
+    "meta": {
+     "prompt": 0.023,
+     "completion": 0.068,
+     "ctx": 1048576
+    }
+   },
+   "meta/muse-spark-1.2-contributor": {
+    "title": "Meta: Muse Spark 1.2 Contributor",
+    "url": "https://openrouter.ai/models/meta/muse-spark-1.2-contributor",
+    "meta": {
+     "prompt": 0.1,
+     "completion": 0.2,
+     "ctx": 1048576
+    }
+   },
+   "deepseek/deepseek-v4-flash-vision-exp": {
+    "title": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+    "url": "https://openrouter.ai/models/deepseek/deepseek-v4-flash-vision-exp",
+    "meta": {
+     "prompt": 0.2156,
+     "completion": 0.6468,
+     "ctx": 1048576
+    }
+   },
+   "tencent/hy-mt2-1.8b": {
+    "title": "Tencent: Hy-MT2-1.8B",
+    "url": "https://openrouter.ai/models/tencent/hy-mt2-1.8b",
+    "meta": {
+     "prompt": 0.044,
+     "completion": 0.177,
+     "ctx": 8192
+    }
+   },
+   "tencent/hy-mt2-30b-a3b": {
+    "title": "Tencent: Hy-MT2-30B-A3B",
+    "url": "https://openrouter.ai/models/tencent/hy-mt2-30b-a3b",
+    "meta": {
+     "prompt": 0.074,
+     "completion": 0.295,
+     "ctx": 8192
+    }
+   },
+   "~z-ai/glm-latest": {
+    "title": "Z.ai: GLM Latest",
+    "url": "https://openrouter.ai/models/~z-ai/glm-latest",
+    "meta": {
+     "prompt": 0.0699,
+     "completion": 1.4,
+     "ctx": 1048576
+    }
+   },
+   "tencent/hy-mt2-7b": {
+    "title": "Tencent: Hy-MT2-7B",
+    "url": "https://openrouter.ai/models/tencent/hy-mt2-7b",
+    "meta": {
+     "prompt": 0.074,
+     "completion": 0.295,
+     "ctx": 8192
+    }
+   },
+   "z-ai/glm-5.3": {
+    "title": "Z.ai: GLM 5.3",
+    "url": "https://openrouter.ai/models/z-ai/glm-5.3",
+    "meta": {
+     "prompt": 0.0699,
+     "completion": 1.4,
+     "ctx": 1048576
+    }
+   },
+   "z-ai/glm-5.3:batch": {
+    "title": "Z.ai: GLM 5.3 (batch)",
+    "url": "https://openrouter.ai/models/z-ai/glm-5.3",
+    "meta": {
+     "prompt": 0.28,
+     "completion": 1.249,
+     "ctx": 1048576
+    }
+   },
+   "qwen/qwen3.8-27b": {
+    "title": "Qwen: Qwen3.8 27B",
+    "url": "https://openrouter.ai/models/qwen/qwen3.8-27b",
+    "meta": {
+     "prompt": 0.035,
+     "completion": 1.5,
+     "ctx": 1024000
+    }
+   },
+   "qwen/qwen3.8-27b:batch": {
+    "title": "Qwen: Qwen3.8 27B (batch)",
+    "url": "https://openrouter.ai/models/qwen/qwen3.8-27b",
+    "meta": {
+     "prompt": 0.16,
+     "completion": 2.0,
+     "ctx": 262144
+    }
+   },
+   "dots-studio/dots-3-note-preview:free": {
+    "title": "Dots Studio: Dots3-Note Preview (free)",
+    "url": "https://openrouter.ai/models/dots-studio/dots-3-note-preview",
+    "meta": {
+     "prompt": 0.0,
+     "completion": 0.0,
+     "ctx": 512000
+    }
+   },
+   "google/gemini-3.7-flash": {
+    "title": "Google: Gemini 3.7 Flash",
+    "url": "https://openrouter.ai/models/google/gemini-3.7-flash",
+    "meta": {
+     "prompt": 0.75,
+     "completion": 3.75,
+     "ctx": 1048576
+    }
+   },
+   "google/gemini-3.7-flash:batch": {
+    "title": "Google: Gemini 3.7 Flash (batch)",
+    "url": "https://openrouter.ai/models/google/gemini-3.7-flash",
+    "meta": {
+     "prompt": 0.375,
+     "completion": 1.875,
+     "ctx": 1048576
+    }
+   },
+   "bytedance-seed/seed-2-1-turbo": {
+    "title": "ByteDance Seed: Seed 2.1 Turbo",
+    "url": "https://openrouter.ai/models/bytedance-seed/seed-2-1-turbo",
+    "meta": {
+     "prompt": 0.5,
+     "completion": 2.5,
+     "ctx": 262144
+    }
+   },
+   "qwen/qwen3.8-2.4t-a95b": {
+    "title": "Qwen: Qwen3.8 2.4T A95B",
+    "url": "https://openrouter.ai/models/qwen/qwen3.8-2.4t-a95b",
+    "meta": {
+     "prompt": 2.0,
+     "completion": 6.0,
+     "ctx": 1048576
+    }
+   },
+   "deepseek/deepseek-v4-pro-0813": {
+    "title": "DeepSeek: DeepSeek V4 Pro 0813",
+    "url": "https://openrouter.ai/models/deepseek/deepseek-v4-pro-0813",
+    "meta": {
+     "prompt": 1.32,
+     "completion": 3.96,
+     "ctx": 1048576
+    }
+   },
+   "x-ai/grok-4.6": {
+    "title": "SpaceXSI: Grok 4.6",
+    "url": "https://openrouter.ai/models/x-ai/grok-4.6",
+    "meta": {
+     "prompt": 2.0,
+     "completion": 6.0,
+     "ctx": 500000
+    }
+   },
+   "x-ai/grok-4.6:batch": {
+    "title": "SpaceXSI: Grok 4.6 (batch)",
+    "url": "https://openrouter.ai/models/x-ai/grok-4.6",
+    "meta": {
+     "prompt": 1.6,
+     "completion": 4.8,
+     "ctx": 500000
+    }
+   },
+   "nvidia/nemotron-3.5-lightning": {
+    "title": "NVIDIA: Nemotron 3.5 Lightning",
+    "url": "https://openrouter.ai/models/nvidia/nemotron-3.5-lightning",
+    "meta": {
+     "prompt": 0.07,
+     "completion": 0.2,
+     "ctx": 1048576
+    }
+   },
+   "nvidia/nemotron-3.5-lightning:free": {
+    "title": "NVIDIA: Nemotron 3.5 Lightning (free)",
+    "url": "https://openrouter.ai/models/nvidia/nemotron-3.5-lightning",
+    "meta": {
+     "prompt": 0.0,
+     "completion": 0.0,
+     "ctx": 1000000
+    }
+   },
+   "sakana/sakana-namazu": {
+    "title": "Sakana: Sakana Namazu",
+    "url": "https://openrouter.ai/models/sakana/sakana-namazu",
+    "meta": {
+     "prompt": 0.95,
+     "completion": 4.0,
+     "ctx": 262144
+    }
+   },
+   "upstage/solar-pro4": {
+    "title": "Upstage: Solar Pro 4",
+    "url": "https://openrouter.ai/models/upstage/solar-pro4",
+    "meta": {
+     "prompt": 0.15,
+     "completion": 0.6,
+     "ctx": 524288
+    }
+   },
+   "meta/muse-glimmer-30b": {
+    "title": "Meta: Muse Glimmer 30B",
+    "url": "https://openrouter.ai/models/meta/muse-glimmer-30b",
+    "meta": {
+     "prompt": 0.35,
+     "completion": 1.5,
+     "ctx": 131072
+    }
+   },
+   "meta/muse-glimmer-30b:batch": {
+    "title": "Meta: Muse Glimmer 30B (batch)",
+    "url": "https://openrouter.ai/models/meta/muse-glimmer-30b",
+    "meta": {
+     "prompt": 0.24,
+     "completion": 0.96,
+     "ctx": 131072
+    }
+   },
+   "inclusionai/ling-3.0-tiny": {
+    "title": "inclusionAI: Ling 3.0 Tiny",
+    "url": "https://openrouter.ai/models/inclusionai/ling-3.0-tiny",
+    "meta": {
+     "prompt": 0.015,
+     "completion": 0.045,
+     "ctx": 262144
+    }
+   },
+   "meta/muse-spark-1.2": {
+    "title": "Meta: Muse Spark 1.2",
+    "url": "https://openrouter.ai/models/meta/muse-spark-1.2",
+    "meta": {
+     "prompt": 1.25,
+     "completion": 4.25,
+     "ctx": 1048576
+    }
+   },
+   "~deepseek/deepseek-v4-flash-latest": {
+    "title": "DeepSeek: DeepSeek V4 Flash Latest",
+    "url": "https://openrouter.ai/models/~deepseek/deepseek-v4-flash-latest",
+    "meta": {
+     "prompt": 0.0434,
+     "completion": 0.3,
+     "ctx": 1048576
+    }
+   },
+   "deepseek/deepseek-v4-flash-0731": {
+    "title": "DeepSeek: DeepSeek V4 Flash 0731",
+    "url": "https://openrouter.ai/models/deepseek/deepseek-v4-flash-0731",
+    "meta": {
+     "prompt": 0.0434,
+     "completion": 0.3,
+     "ctx": 1048576
+    }
+   },
+   "deepseek/deepseek-v4-flash-0731:batch": {
+    "title": "DeepSeek: DeepSeek V4 Flash 0731 (batch)",
+    "url": "https://openrouter.ai/models/deepseek/deepseek-v4-flash-0731",
+    "meta": {
+     "prompt": 0.048,
+     "completion": 0.144,
+     "ctx": 1048576
+    }
+   },
+   "thinkingmachines/inkling-small": {
+    "title": "Thinking Machines: Inkling Small",
+    "url": "https://openrouter.ai/models/thinkingmachines/inkling-small",
+    "meta": {
+     "prompt": 0.45,
+     "completion": 1.2,
+     "ctx": 524288
+    }
+   },
+   "thinkingmachines/inkling-small:batch": {
+    "title": "Thinking Machines: Inkling Small (batch)",
+    "url": "https://openrouter.ai/models/thinkingmachines/inkling-small",
+    "meta": {
+     "prompt": 0.36,
+     "completion": 0.96,
+     "ctx": 524288
+    }
+   },
+   "qwen/qwen3.7-flash": {
+    "title": "Qwen: Qwen3.7 Flash",
+    "url": "https://openrouter.ai/models/qwen/qwen3.7-flash",
+    "meta": {
+     "prompt": 0.03,
+     "completion": 0.13,
+     "ctx": 1000000
+    }
+   },
+   "anthropic/claude-opus-5": {
+    "title": "Anthropic: Claude Opus 5",
+    "url": "https://openrouter.ai/models/anthropic/claude-opus-5",
+    "meta": {
+     "prompt": 5.0,
+     "completion": 25.0,
+     "ctx": 1000000
+    }
+   },
+   "anthropic/claude-opus-5:batch": {
+    "title": "Anthropic: Claude Opus 5 (batch)",
+    "url": "https://openrouter.ai/models/anthropic/claude-opus-5",
+    "meta": {
+     "prompt": 2.5,
+     "completion": 12.5,
+     "ctx": 1000000
+    }
+   },
+   "inclusionai/ling-3.0-flash": {
+    "title": "inclusionAI: Ling 3.0 Flash",
+    "url": "https://openrouter.ai/models/inclusionai/ling-3.0-flash",
+    "meta": {
+     "prompt": 0.021,
+     "completion": 0.063,
+     "ctx": 262144
+    }
+   },
+   "google/gemini-3.6-flash": {
+    "title": "Google: Gemini 3.6 Flash",
+    "url": "https://openrouter.ai/models/google/gemini-3.6-flash",
+    "meta": {
+     "prompt": 0.75,
+     "completion": 3.75,
+     "ctx": 1048576
+    }
+   },
+   "google/gemini-3.6-flash:batch": {
+    "title": "Google: Gemini 3.6 Flash (batch)",
+    "url": "https://openrouter.ai/models/google/gemini-3.6-flash",
+    "meta": {
+     "prompt": 0.375,
+     "completion": 1.875,
+     "ctx": 1048576
+    }
+   },
+   "google/gemini-3.5-flash-lite": {
+    "title": "Google: Gemini 3.5 Flash Lite",
+    "url": "https://openrouter.ai/models/google/gemini-3.5-flash-lite",
+    "meta": {
+     "prompt": 0.3,
+     "completion": 2.5,
+     "ctx": 1048576
+    }
+   },
+   "google/gemini-3.5-flash-lite:batch": {
+    "title": "Google: Gemini 3.5 Flash Lite (batch)",
+    "url": "https://openrouter.ai/models/google/gemini-3.5-flash-lite",
+    "meta": {
+     "prompt": 0.15,
+     "completion": 1.25,
+     "ctx": 1048576
+    }
+   },
+   "thinkingmachines/inkling": {
+    "title": "Thinking Machines: Inkling",
+    "url": "https://openrouter.ai/models/thinkingmachines/inkling",
+    "meta": {
+     "prompt": 1.0,
+     "completion": 4.05,
+     "ctx": 524288
+    }
+   },
+   "moonshotai/kimi-k3": {
+    "title": "MoonshotAI: Kimi K3",
+    "url": "https://openrouter.ai/models/moonshotai/kimi-k3",
+    "meta": {
+     "prompt": 0.192,
+     "completion": 16.0,
+     "ctx": 1048576
+    }
+   },
+   "moonshotai/kimi-k3:batch": {
+    "title": "MoonshotAI: Kimi K3 (batch)",
+    "url": "https://openrouter.ai/models/moonshotai/kimi-k3",
+    "meta": {
+     "prompt": 2.28,
+     "completion": 11.4,
+     "ctx": 1048576
+    }
+   },
+   "meta/muse-spark-1.1": {
+    "title": "Meta: Muse Spark 1.1",
+    "url": "https://openrouter.ai/models/meta/muse-spark-1.1",
+    "meta": {
+     "prompt": 1.25,
+     "completion": 4.25,
+     "ctx": 1048576
+    }
+   },
+   "openai/gpt-5.6-luna-pro": {
+    "title": "OpenAI: GPT-5.6 Luna Pro",
+    "url": "https://openrouter.ai/models/openai/gpt-5.6-luna-pro",
+    "meta": {
+     "prompt": 0.2,
+     "completion": 1.2,
+     "ctx": 1050000
+    }
+   },
+   "openai/gpt-5.6-luna-pro:batch": {
+    "title": "OpenAI: GPT-5.6 Luna Pro (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-5.6-luna-pro",
+    "meta": {
+     "prompt": 0.1,
+     "completion": 0.6,
+     "ctx": 1050000
+    }
+   },
+   "openai/gpt-5.6-luna": {
+    "title": "OpenAI: GPT-5.6 Luna",
+    "url": "https://openrouter.ai/models/openai/gpt-5.6-luna",
+    "meta": {
+     "prompt": 0.2,
+     "completion": 1.2,
+     "ctx": 1050000
+    }
+   },
+   "openai/gpt-5.6-luna:batch": {
+    "title": "OpenAI: GPT-5.6 Luna (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-5.6-luna",
+    "meta": {
+     "prompt": 0.1,
+     "completion": 0.6,
+     "ctx": 1050000
+    }
+   },
+   "openai/gpt-5.6-terra-pro": {
+    "title": "OpenAI: GPT-5.6 Terra Pro",
+    "url": "https://openrouter.ai/models/openai/gpt-5.6-terra-pro",
+    "meta": {
+     "prompt": 2.0,
+     "completion": 12.0,
+     "ctx": 1050000
+    }
+   },
+   "openai/gpt-5.6-terra-pro:batch": {
+    "title": "OpenAI: GPT-5.6 Terra Pro (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-5.6-terra-pro",
+    "meta": {
+     "prompt": 1.0,
+     "completion": 6.0,
+     "ctx": 1050000
+    }
+   },
+   "openai/gpt-5.6-terra": {
+    "title": "OpenAI: GPT-5.6 Terra",
+    "url": "https://openrouter.ai/models/openai/gpt-5.6-terra",
+    "meta": {
+     "prompt": 2.0,
+     "completion": 12.0,
+     "ctx": 1050000
+    }
+   },
+   "openai/gpt-5.6-terra:batch": {
+    "title": "OpenAI: GPT-5.6 Terra (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-5.6-terra",
+    "meta": {
+     "prompt": 1.0,
+     "completion": 6.0,
+     "ctx": 1050000
+    }
+   },
+   "openai/gpt-5.6-sol-pro": {
+    "title": "OpenAI: GPT-5.6 Sol Pro",
+    "url": "https://openrouter.ai/models/openai/gpt-5.6-sol-pro",
+    "meta": {
+     "prompt": 4.0,
+     "completion": 20.0,
+     "ctx": 1050000
+    }
+   },
+   "openai/gpt-5.6-sol-pro:batch": {
+    "title": "OpenAI: GPT-5.6 Sol Pro (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-5.6-sol-pro",
+    "meta": {
+     "prompt": 2.0,
+     "completion": 10.0,
+     "ctx": 1050000
+    }
+   },
+   "openai/gpt-5.6-sol": {
+    "title": "OpenAI: GPT-5.6 Sol",
+    "url": "https://openrouter.ai/models/openai/gpt-5.6-sol",
+    "meta": {
+     "prompt": 4.0,
+     "completion": 20.0,
+     "ctx": 1050000
+    }
+   },
+   "openai/gpt-5.6-sol:batch": {
+    "title": "OpenAI: GPT-5.6 Sol (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-5.6-sol",
+    "meta": {
+     "prompt": 2.0,
+     "completion": 10.0,
+     "ctx": 1050000
+    }
+   },
+   "x-ai/grok-4.5": {
+    "title": "SpaceXSI: Grok 4.5",
+    "url": "https://openrouter.ai/models/x-ai/grok-4.5",
+    "meta": {
+     "prompt": 2.0,
+     "completion": 6.0,
+     "ctx": 500000
+    }
+   },
+   "~x-ai/grok-latest": {
+    "title": "xAI: Grok Latest",
+    "url": "https://openrouter.ai/models/~x-ai/grok-latest",
+    "meta": {
+     "prompt": 2.0,
+     "completion": 6.0,
+     "ctx": 500000
+    }
+   },
+   "aion-labs/aion-3.0-mini": {
+    "title": "AionLabs: Aion-3.0-Mini",
+    "url": "https://openrouter.ai/models/aion-labs/aion-3.0-mini",
+    "meta": {
+     "prompt": 0.7,
+     "completion": 1.4,
+     "ctx": 131072
+    }
+   },
+   "aion-labs/aion-3.0": {
+    "title": "AionLabs: Aion-3.0",
+    "url": "https://openrouter.ai/models/aion-labs/aion-3.0",
+    "meta": {
+     "prompt": 3.0,
+     "completion": 6.0,
+     "ctx": 131072
+    }
+   },
+   "tencent/hy3": {
+    "title": "Tencent: Hy3",
+    "url": "https://openrouter.ai/models/tencent/hy3",
+    "meta": {
+     "prompt": 0.14,
+     "completion": 0.58,
+     "ctx": 262144
+    }
+   },
+   "anthropic/claude-sonnet-5": {
+    "title": "Anthropic: Claude Sonnet 5",
+    "url": "https://openrouter.ai/models/anthropic/claude-sonnet-5",
+    "meta": {
+     "prompt": 2.0,
+     "completion": 10.0,
+     "ctx": 1000000
+    }
+   },
+   "anthropic/claude-sonnet-5:batch": {
+    "title": "Anthropic: Claude Sonnet 5 (batch)",
+    "url": "https://openrouter.ai/models/anthropic/claude-sonnet-5",
+    "meta": {
+     "prompt": 1.0,
+     "completion": 5.0,
+     "ctx": 1000000
+    }
+   },
+   "google/gemini-3.1-flash-lite-image": {
+    "title": "Google: Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)",
+    "url": "https://openrouter.ai/models/google/gemini-3.1-flash-lite-image",
+    "meta": {
+     "prompt": 0.25,
+     "completion": 1.5,
+     "ctx": 65536
+    }
+   },
+   "sakana/fugu-ultra": {
+    "title": "Sakana: Fugu Ultra",
+    "url": "https://openrouter.ai/models/sakana/fugu-ultra",
+    "meta": {
+     "prompt": 5.0,
+     "completion": 30.0,
+     "ctx": 1000000
+    }
+   },
+   "google/gemini-3.1-flash-image": {
+    "title": "Google: Nano Banana 2 (Gemini 3.1 Flash Image)",
+    "url": "https://openrouter.ai/models/google/gemini-3.1-flash-image",
+    "meta": {
+     "prompt": 0.5,
+     "completion": 3.0,
+     "ctx": 131072
+    }
+   },
+   "google/gemini-3-pro-image": {
+    "title": "Google: Nano Banana Pro (Gemini 3 Pro Image)",
+    "url": "https://openrouter.ai/models/google/gemini-3-pro-image",
+    "meta": {
+     "prompt": 2.0,
+     "completion": 12.0,
+     "ctx": 131072
+    }
+   },
+   "z-ai/glm-5.2": {
+    "title": "Z.ai: GLM 5.2",
+    "url": "https://openrouter.ai/models/z-ai/glm-5.2",
+    "meta": {
+     "prompt": 0.62,
+     "completion": 2.42,
+     "ctx": 1048576
+    }
+   },
+   "z-ai/glm-5.2:batch": {
+    "title": "Z.ai: GLM 5.2 (batch)",
+    "url": "https://openrouter.ai/models/z-ai/glm-5.2",
+    "meta": {
+     "prompt": 0.322,
+     "completion": 0.989,
+     "ctx": 1048576
+    }
+   },
+   "moonshotai/kimi-k2.7-code": {
+    "title": "MoonshotAI: Kimi K2.7 Code",
+    "url": "https://openrouter.ai/models/moonshotai/kimi-k2.7-code",
+    "meta": {
+     "prompt": 0.6,
+     "completion": 3.0,
+     "ctx": 262144
+    }
+   },
+   "~anthropic/claude-fable-latest": {
+    "title": "Anthropic: Claude Fable Latest",
+    "url": "https://openrouter.ai/models/~anthropic/claude-fable-latest",
+    "meta": {
+     "prompt": 8.0,
+     "completion": 40.0,
+     "ctx": 1000000
+    }
+   },
+   "anthropic/claude-fable-5": {
+    "title": "Anthropic: Claude Fable 5",
+    "url": "https://openrouter.ai/models/anthropic/claude-fable-5",
+    "meta": {
+     "prompt": 10.0,
+     "completion": 50.0,
+     "ctx": 1000000
+    }
+   },
+   "anthropic/claude-fable-5:batch": {
+    "title": "Anthropic: Claude Fable 5 (batch)",
+    "url": "https://openrouter.ai/models/anthropic/claude-fable-5",
+    "meta": {
+     "prompt": 5.0,
+     "completion": 25.0,
+     "ctx": 1000000
+    }
+   },
+   "nvidia/nemotron-3.5-content-safety": {
+    "title": "NVIDIA: Nemotron 3.5 Content Safety",
+    "url": "https://openrouter.ai/models/nvidia/nemotron-3.5-content-safety",
+    "meta": {
+     "prompt": 0.2,
+     "completion": 0.2,
+     "ctx": 131072
+    }
+   },
+   "nvidia/nemotron-3-ultra-550b-a55b": {
+    "title": "NVIDIA: Nemotron 3 Ultra",
+    "url": "https://openrouter.ai/models/nvidia/nemotron-3-ultra-550b-a55b",
+    "meta": {
+     "prompt": 0.5,
+     "completion": 2.2,
+     "ctx": 262144
+    }
+   },
+   "nvidia/nemotron-3-ultra-550b-a55b:free": {
+    "title": "NVIDIA: Nemotron 3 Ultra (free)",
+    "url": "https://openrouter.ai/models/nvidia/nemotron-3-ultra-550b-a55b",
+    "meta": {
+     "prompt": 0.0,
+     "completion": 0.0,
+     "ctx": 1000000
+    }
+   },
+   "qwen/qwen3.7-plus": {
+    "title": "Qwen: Qwen3.7 Plus",
+    "url": "https://openrouter.ai/models/qwen/qwen3.7-plus",
+    "meta": {
+     "prompt": 0.32,
+     "completion": 1.28,
+     "ctx": 1000000
+    }
+   },
+   "qwen/qwen3.7-plus:batch": {
+    "title": "Qwen: Qwen3.7 Plus (batch)",
+    "url": "https://openrouter.ai/models/qwen/qwen3.7-plus",
+    "meta": {
+     "prompt": 0.23,
+     "completion": 0.92,
+     "ctx": 262144
+    }
+   },
+   "minimax/minimax-m3": {
+    "title": "MiniMax: MiniMax M3",
+    "url": "https://openrouter.ai/models/minimax/minimax-m3",
+    "meta": {
+     "prompt": 0.3,
+     "completion": 1.2,
+     "ctx": 1048576
+    }
+   },
+   "minimax/minimax-m3:batch": {
+    "title": "MiniMax: MiniMax M3 (batch)",
+    "url": "https://openrouter.ai/models/minimax/minimax-m3",
+    "meta": {
+     "prompt": 0.224,
+     "completion": 0.88,
+     "ctx": 524288
+    }
+   },
+   "stepfun/step-3.7-flash": {
+    "title": "StepFun: Step 3.7 Flash",
+    "url": "https://openrouter.ai/models/stepfun/step-3.7-flash",
+    "meta": {
+     "prompt": 0.2,
+     "completion": 1.15,
+     "ctx": 262144
+    }
+   },
+   "anthropic/claude-opus-4.8": {
+    "title": "Anthropic: Claude Opus 4.8",
+    "url": "https://openrouter.ai/models/anthropic/claude-opus-4.8",
+    "meta": {
+     "prompt": 5.0,
+     "completion": 25.0,
+     "ctx": 1000000
+    }
+   },
+   "anthropic/claude-opus-4.8:batch": {
+    "title": "Anthropic: Claude Opus 4.8 (batch)",
+    "url": "https://openrouter.ai/models/anthropic/claude-opus-4.8",
+    "meta": {
+     "prompt": 2.5,
+     "completion": 12.5,
+     "ctx": 1000000
+    }
+   },
+   "qwen/qwen3.7-max": {
+    "title": "Qwen: Qwen3.7 Max",
+    "url": "https://openrouter.ai/models/qwen/qwen3.7-max",
+    "meta": {
+     "prompt": 1.475,
+     "completion": 4.425,
+     "ctx": 1000000
+    }
+   },
+   "google/gemini-3.5-flash": {
+    "title": "Google: Gemini 3.5 Flash",
+    "url": "https://openrouter.ai/models/google/gemini-3.5-flash",
+    "meta": {
+     "prompt": 1.5,
+     "completion": 9.0,
+     "ctx": 1048576
+    }
+   },
+   "google/gemini-3.5-flash:batch": {
+    "title": "Google: Gemini 3.5 Flash (batch)",
+    "url": "https://openrouter.ai/models/google/gemini-3.5-flash",
+    "meta": {
+     "prompt": 0.75,
+     "completion": 4.5,
+     "ctx": 1048576
+    }
+   },
+   "perceptron/perceptron-mk1": {
+    "title": "Perceptron: Perceptron Mk1",
+    "url": "https://openrouter.ai/models/perceptron/perceptron-mk1",
+    "meta": {
+     "prompt": 0.15,
+     "completion": 1.5,
+     "ctx": 32768
+    }
+   },
+   "google/gemini-3.1-flash-lite": {
+    "title": "Google: Gemini 3.1 Flash Lite",
+    "url": "https://openrouter.ai/models/google/gemini-3.1-flash-lite",
+    "meta": {
+     "prompt": 0.25,
+     "completion": 1.5,
+     "ctx": 1048576
+    }
+   },
+   "google/gemini-3.1-flash-lite:batch": {
+    "title": "Google: Gemini 3.1 Flash Lite (batch)",
+    "url": "https://openrouter.ai/models/google/gemini-3.1-flash-lite",
+    "meta": {
+     "prompt": 0.125,
+     "completion": 0.75,
+     "ctx": 1048576
+    }
+   },
+   "openai/gpt-chat-latest": {
+    "title": "OpenAI: GPT Chat Latest",
+    "url": "https://openrouter.ai/models/openai/gpt-chat-latest",
+    "meta": {
+     "prompt": 5.0,
+     "completion": 30.0,
+     "ctx": 400000
+    }
+   },
+   "x-ai/grok-4.3": {
+    "title": "SpaceXSI: Grok 4.3",
+    "url": "https://openrouter.ai/models/x-ai/grok-4.3",
+    "meta": {
+     "prompt": 1.25,
+     "completion": 2.5,
+     "ctx": 1000000
+    }
+   },
+   "x-ai/grok-4.3:batch": {
+    "title": "SpaceXSI: Grok 4.3 (batch)",
+    "url": "https://openrouter.ai/models/x-ai/grok-4.3",
+    "meta": {
+     "prompt": 1.0,
+     "completion": 2.0,
+     "ctx": 1000000
+    }
+   },
+   "mistralai/mistral-medium-3-5": {
+    "title": "Mistral: Mistral Medium 3.5",
+    "url": "https://openrouter.ai/models/mistralai/mistral-medium-3-5",
+    "meta": {
+     "prompt": 1.5,
+     "completion": 7.5,
+     "ctx": 262144
+    }
+   },
+   "mistralai/mistral-medium-3-5:batch": {
+    "title": "Mistral: Mistral Medium 3.5 (batch)",
+    "url": "https://openrouter.ai/models/mistralai/mistral-medium-3-5",
+    "meta": {
+     "prompt": 0.75,
+     "completion": 3.75,
+     "ctx": 262144
+    }
+   },
+   "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free": {
+    "title": "NVIDIA: Nemotron 3 Nano Omni (free)",
+    "url": "https://openrouter.ai/models/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+    "meta": {
+     "prompt": 0.0,
+     "completion": 0.0,
+     "ctx": 256000
+    }
+   },
+   "~anthropic/claude-haiku-latest": {
+    "title": "Anthropic: Claude Haiku Latest",
+    "url": "https://openrouter.ai/models/~anthropic/claude-haiku-latest",
+    "meta": {
+     "prompt": 0.1,
+     "completion": 0.5,
+     "ctx": 1000000
+    }
+   },
+   "~openai/gpt-mini-latest": {
+    "title": "OpenAI: GPT Mini Latest",
+    "url": "https://openrouter.ai/models/~openai/gpt-mini-latest",
+    "meta": {
+     "prompt": 0.75,
+     "completion": 4.5,
+     "ctx": 400000
+    }
+   },
+   "~google/gemini-pro-latest": {
+    "title": "Google: Gemini Pro Latest",
+    "url": "https://openrouter.ai/models/~google/gemini-pro-latest",
+    "meta": {
+     "prompt": 2.0,
+     "completion": 10.0,
+     "ctx": 1048576
+    }
+   },
+   "~moonshotai/kimi-latest": {
+    "title": "MoonshotAI: Kimi Latest",
+    "url": "https://openrouter.ai/models/~moonshotai/kimi-latest",
+    "meta": {
+     "prompt": 0.1824,
+     "completion": 11.0055,
+     "ctx": 1048576
+    }
+   },
+   "~google/gemini-flash-latest": {
+    "title": "Google: Gemini Flash Latest",
+    "url": "https://openrouter.ai/models/~google/gemini-flash-latest",
+    "meta": {
+     "prompt": 1.5,
+     "completion": 7.5,
+     "ctx": 1048576
+    }
+   },
+   "~anthropic/claude-sonnet-latest": {
+    "title": "Anthropic: Claude Sonnet Latest",
+    "url": "https://openrouter.ai/models/~anthropic/claude-sonnet-latest",
+    "meta": {
+     "prompt": 2.0,
+     "completion": 10.0,
+     "ctx": 1000000
+    }
+   },
+   "qwen/qwen3.5-plus-20260420": {
+    "title": "Qwen: Qwen3.5 Plus 2026-04-20",
+    "url": "https://openrouter.ai/models/qwen/qwen3.5-plus-20260420",
+    "meta": {
+     "prompt": 0.3,
+     "completion": 1.8,
+     "ctx": 1000000
+    }
+   },
+   "qwen/qwen3.6-flash": {
+    "title": "Qwen: Qwen3.6 Flash",
+    "url": "https://openrouter.ai/models/qwen/qwen3.6-flash",
+    "meta": {
+     "prompt": 0.1875,
+     "completion": 1.125,
+     "ctx": 1000000
+    }
+   },
+   "qwen/qwen3.6-35b-a3b": {
+    "title": "Qwen: Qwen3.6 35B A3B",
+    "url": "https://openrouter.ai/models/qwen/qwen3.6-35b-a3b",
+    "meta": {
+     "prompt": 0.05,
+     "completion": 0.7,
+     "ctx": 262144
+    }
+   },
+   "qwen/qwen3.6-27b": {
+    "title": "Qwen: Qwen3.6 27B",
+    "url": "https://openrouter.ai/models/qwen/qwen3.6-27b",
+    "meta": {
+     "prompt": 0.32,
+     "completion": 3.2,
+     "ctx": 262144
+    }
+   },
+   "openai/gpt-5.5-pro": {
+    "title": "OpenAI: GPT-5.5 Pro",
+    "url": "https://openrouter.ai/models/openai/gpt-5.5-pro",
+    "meta": {
+     "prompt": 30.0,
+     "completion": 180.0,
+     "ctx": 1050000
+    }
+   },
+   "openai/gpt-5.5-pro:batch": {
+    "title": "OpenAI: GPT-5.5 Pro (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-5.5-pro",
+    "meta": {
+     "prompt": 15.0,
+     "completion": 90.0,
+     "ctx": 1050000
+    }
+   },
+   "openai/gpt-5.5": {
+    "title": "OpenAI: GPT-5.5",
+    "url": "https://openrouter.ai/models/openai/gpt-5.5",
+    "meta": {
+     "prompt": 5.0,
+     "completion": 30.0,
+     "ctx": 1050000
+    }
+   },
+   "openai/gpt-5.5:batch": {
+    "title": "OpenAI: GPT-5.5 (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-5.5",
+    "meta": {
+     "prompt": 2.5,
+     "completion": 15.0,
+     "ctx": 1050000
+    }
+   },
+   "deepseek/deepseek-v4-pro": {
+    "title": "DeepSeek: DeepSeek V4 Pro 0423",
+    "url": "https://openrouter.ai/models/deepseek/deepseek-v4-pro",
+    "meta": {
+     "prompt": 0.9,
+     "completion": 1.5,
+     "ctx": 1048576
+    }
+   },
+   "deepseek/deepseek-v4-flash": {
+    "title": "DeepSeek: DeepSeek V4 Flash 0423",
+    "url": "https://openrouter.ai/models/deepseek/deepseek-v4-flash",
+    "meta": {
+     "prompt": 0.09,
+     "completion": 0.18,
+     "ctx": 1048576
+    }
+   },
+   "xiaomi/mimo-v2.5-pro": {
+    "title": "Xiaomi: MiMo-V2.5-Pro",
+    "url": "https://openrouter.ai/models/xiaomi/mimo-v2.5-pro",
+    "meta": {
+     "prompt": 0.48,
+     "completion": 1.8,
+     "ctx": 262144
+    }
+   },
+   "xiaomi/mimo-v2.5": {
+    "title": "Xiaomi: MiMo-V2.5",
+    "url": "https://openrouter.ai/models/xiaomi/mimo-v2.5",
+    "meta": {
+     "prompt": 0.4,
+     "completion": 2.0,
+     "ctx": 1000000
+    }
+   },
+   "openai/gpt-5.4-image-2": {
+    "title": "OpenAI: GPT-5.4 Image 2",
+    "url": "https://openrouter.ai/models/openai/gpt-5.4-image-2",
+    "meta": {
+     "prompt": 8.0,
+     "completion": 15.0,
+     "ctx": 272000
+    }
+   },
+   "~anthropic/claude-opus-latest": {
+    "title": "Anthropic: Claude Opus Latest",
+    "url": "https://openrouter.ai/models/~anthropic/claude-opus-latest",
+    "meta": {
+     "prompt": 4.0,
+     "completion": 20.0,
+     "ctx": 1000000
+    }
+   },
+   "moonshotai/kimi-k2.6": {
+    "title": "MoonshotAI: Kimi K2.6",
+    "url": "https://openrouter.ai/models/moonshotai/kimi-k2.6",
+    "meta": {
+     "prompt": 0.65,
+     "completion": 3.41,
+     "ctx": 262144
+    }
+   },
+   "anthropic/claude-opus-4.7": {
+    "title": "Anthropic: Claude Opus 4.7",
+    "url": "https://openrouter.ai/models/anthropic/claude-opus-4.7",
+    "meta": {
+     "prompt": 5.0,
+     "completion": 25.0,
+     "ctx": 1000000
+    }
+   },
+   "anthropic/claude-opus-4.7:batch": {
+    "title": "Anthropic: Claude Opus 4.7 (batch)",
+    "url": "https://openrouter.ai/models/anthropic/claude-opus-4.7",
+    "meta": {
+     "prompt": 2.5,
+     "completion": 12.5,
+     "ctx": 1000000
+    }
+   },
+   "z-ai/glm-5.1": {
+    "title": "Z.ai: GLM 5.1",
+    "url": "https://openrouter.ai/models/z-ai/glm-5.1",
+    "meta": {
+     "prompt": 1.4,
+     "completion": 4.4,
+     "ctx": 204800
+    }
+   },
+   "google/gemma-4-26b-a4b-it": {
+    "title": "Google: Gemma 4 26B A4B ",
+    "url": "https://openrouter.ai/models/google/gemma-4-26b-a4b-it",
+    "meta": {
+     "prompt": 0.0675,
+     "completion": 0.225,
+     "ctx": 262144
+    }
+   },
+   "google/gemma-4-26b-a4b-it:free": {
+    "title": "Google: Gemma 4 26B A4B  (free)",
+    "url": "https://openrouter.ai/models/google/gemma-4-26b-a4b-it",
+    "meta": {
+     "prompt": 0.0,
+     "completion": 0.0,
+     "ctx": 262144
+    }
+   },
+   "google/gemma-4-31b-it": {
+    "title": "Google: Gemma 4 31B",
+    "url": "https://openrouter.ai/models/google/gemma-4-31b-it",
+    "meta": {
+     "prompt": 0.2,
+     "completion": 0.4,
+     "ctx": 262144
+    }
+   },
+   "google/gemma-4-31b-it:free": {
+    "title": "Google: Gemma 4 31B (free)",
+    "url": "https://openrouter.ai/models/google/gemma-4-31b-it",
+    "meta": {
+     "prompt": 0.0,
+     "completion": 0.0,
+     "ctx": 262144
+    }
+   },
+   "qwen/qwen3.6-plus": {
+    "title": "Qwen: Qwen3.6 Plus",
+    "url": "https://openrouter.ai/models/qwen/qwen3.6-plus",
+    "meta": {
+     "prompt": 0.325,
+     "completion": 1.95,
+     "ctx": 1000000
+    }
+   },
+   "z-ai/glm-5v-turbo": {
+    "title": "Z.ai: GLM 5V Turbo",
+    "url": "https://openrouter.ai/models/z-ai/glm-5v-turbo",
+    "meta": {
+     "prompt": 1.2,
+     "completion": 4.0,
+     "ctx": 202752
+    }
+   },
+   "x-ai/grok-4.20-multi-agent": {
+    "title": "SpaceXSI: Grok 4.20 Multi-Agent",
+    "url": "https://openrouter.ai/models/x-ai/grok-4.20-multi-agent",
+    "meta": {
+     "prompt": 1.25,
+     "completion": 2.5,
+     "ctx": 2000000
+    }
+   },
+   "x-ai/grok-4.20": {
+    "title": "SpaceXSI: Grok 4.20",
+    "url": "https://openrouter.ai/models/x-ai/grok-4.20",
+    "meta": {
+     "prompt": 1.25,
+     "completion": 2.5,
+     "ctx": 2000000
+    }
+   },
+   "google/lyria-3-pro-preview": {
+    "title": "Google: Lyria 3 Pro Preview",
+    "url": "https://openrouter.ai/models/google/lyria-3-pro-preview",
+    "meta": {
+     "prompt": 0.0,
+     "completion": 0.0,
+     "ctx": 1048576
+    }
+   },
+   "google/lyria-3-clip-preview": {
+    "title": "Google: Lyria 3 Clip Preview",
+    "url": "https://openrouter.ai/models/google/lyria-3-clip-preview",
+    "meta": {
+     "prompt": 0.0,
+     "completion": 0.0,
+     "ctx": 1048576
+    }
+   },
+   "rekaai/reka-edge": {
+    "title": "Reka Edge",
+    "url": "https://openrouter.ai/models/rekaai/reka-edge",
+    "meta": {
+     "prompt": 0.1,
+     "completion": 0.1,
+     "ctx": 16384
+    }
+   },
+   "minimax/minimax-m2.7": {
+    "title": "MiniMax: MiniMax M2.7",
+    "url": "https://openrouter.ai/models/minimax/minimax-m2.7",
+    "meta": {
+     "prompt": 0.6,
+     "completion": 1.8,
+     "ctx": 196608
+    }
+   },
+   "openai/gpt-5.4-nano": {
+    "title": "OpenAI: GPT-5.4 Nano",
+    "url": "https://openrouter.ai/models/openai/gpt-5.4-nano",
+    "meta": {
+     "prompt": 0.2,
+     "completion": 1.25,
+     "ctx": 400000
+    }
+   },
+   "openai/gpt-5.4-nano:batch": {
+    "title": "OpenAI: GPT-5.4 Nano (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-5.4-nano",
+    "meta": {
+     "prompt": 0.1,
+     "completion": 0.625,
+     "ctx": 400000
+    }
+   },
+   "openai/gpt-5.4-mini": {
+    "title": "OpenAI: GPT-5.4 Mini",
+    "url": "https://openrouter.ai/models/openai/gpt-5.4-mini",
+    "meta": {
+     "prompt": 0.75,
+     "completion": 4.5,
+     "ctx": 400000
+    }
+   },
+   "openai/gpt-5.4-mini:batch": {
+    "title": "OpenAI: GPT-5.4 Mini (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-5.4-mini",
+    "meta": {
+     "prompt": 0.375,
+     "completion": 2.25,
+     "ctx": 400000
+    }
+   },
+   "mistralai/mistral-small-2603": {
+    "title": "Mistral: Mistral Small 4",
+    "url": "https://openrouter.ai/models/mistralai/mistral-small-2603",
+    "meta": {
+     "prompt": 0.15,
+     "completion": 0.6,
+     "ctx": 262144
+    }
+   },
+   "z-ai/glm-5-turbo": {
+    "title": "Z.ai: GLM 5 Turbo",
+    "url": "https://openrouter.ai/models/z-ai/glm-5-turbo",
+    "meta": {
+     "prompt": 1.2,
+     "completion": 4.0,
+     "ctx": 202752
+    }
+   },
+   "nvidia/nemotron-3-super-120b-a12b": {
+    "title": "NVIDIA: Nemotron 3 Super",
+    "url": "https://openrouter.ai/models/nvidia/nemotron-3-super-120b-a12b",
+    "meta": {
+     "prompt": 0.075,
+     "completion": 0.4,
+     "ctx": 262144
+    }
+   },
+   "bytedance-seed/seed-2.0-lite": {
+    "title": "ByteDance Seed: Seed-2.0-Lite",
+    "url": "https://openrouter.ai/models/bytedance-seed/seed-2.0-lite",
+    "meta": {
+     "prompt": 0.25,
+     "completion": 2.0,
+     "ctx": 262144
+    }
+   },
+   "qwen/qwen3.5-9b": {
+    "title": "Qwen: Qwen3.5-9B",
+    "url": "https://openrouter.ai/models/qwen/qwen3.5-9b",
+    "meta": {
+     "prompt": 0.17,
+     "completion": 0.25,
+     "ctx": 262144
+    }
+   },
+   "openai/gpt-5.4-pro": {
+    "title": "OpenAI: GPT-5.4 Pro",
+    "url": "https://openrouter.ai/models/openai/gpt-5.4-pro",
+    "meta": {
+     "prompt": 30.0,
+     "completion": 180.0,
+     "ctx": 1050000
+    }
+   },
+   "openai/gpt-5.4-pro:batch": {
+    "title": "OpenAI: GPT-5.4 Pro (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-5.4-pro",
+    "meta": {
+     "prompt": 15.0,
+     "completion": 90.0,
+     "ctx": 1050000
+    }
+   },
+   "openai/gpt-5.4": {
+    "title": "OpenAI: GPT-5.4",
+    "url": "https://openrouter.ai/models/openai/gpt-5.4",
+    "meta": {
+     "prompt": 2.5,
+     "completion": 15.0,
+     "ctx": 1050000
+    }
+   },
+   "openai/gpt-5.4:batch": {
+    "title": "OpenAI: GPT-5.4 (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-5.4",
+    "meta": {
+     "prompt": 1.25,
+     "completion": 7.5,
+     "ctx": 1050000
+    }
+   },
+   "google/gemini-3.1-flash-lite-preview": {
+    "title": "Google: Gemini 3.1 Flash Lite Preview",
+    "url": "https://openrouter.ai/models/google/gemini-3.1-flash-lite-preview",
+    "meta": {
+     "prompt": 0.25,
+     "completion": 1.5,
+     "ctx": 1048576
+    }
+   },
+   "bytedance-seed/seed-2.0-mini": {
+    "title": "ByteDance Seed: Seed-2.0-Mini",
+    "url": "https://openrouter.ai/models/bytedance-seed/seed-2.0-mini",
+    "meta": {
+     "prompt": 0.1,
+     "completion": 0.4,
+     "ctx": 262144
+    }
+   },
+   "google/gemini-3.1-flash-image-preview": {
+    "title": "Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
+    "url": "https://openrouter.ai/models/google/gemini-3.1-flash-image-preview",
+    "meta": {
+     "prompt": 0.5,
+     "completion": 3.0,
+     "ctx": 65536
+    }
+   },
+   "qwen/qwen3.5-35b-a3b": {
+    "title": "Qwen: Qwen3.5-35B-A3B",
+    "url": "https://openrouter.ai/models/qwen/qwen3.5-35b-a3b",
+    "meta": {
+     "prompt": 0.14,
+     "completion": 1.0,
+     "ctx": 262144
+    }
+   },
+   "qwen/qwen3.5-27b": {
+    "title": "Qwen: Qwen3.5-27B",
+    "url": "https://openrouter.ai/models/qwen/qwen3.5-27b",
+    "meta": {
+     "prompt": 0.26,
+     "completion": 2.6,
+     "ctx": 262144
+    }
+   },
+   "qwen/qwen3.5-122b-a10b": {
+    "title": "Qwen: Qwen3.5-122B-A10B",
+    "url": "https://openrouter.ai/models/qwen/qwen3.5-122b-a10b",
+    "meta": {
+     "prompt": 0.26,
+     "completion": 2.08,
+     "ctx": 262144
+    }
+   },
+   "qwen/qwen3.5-flash-02-23": {
+    "title": "Qwen: Qwen3.5-Flash",
+    "url": "https://openrouter.ai/models/qwen/qwen3.5-flash-02-23",
+    "meta": {
+     "prompt": 0.065,
+     "completion": 0.26,
+     "ctx": 1000000
+    }
+   },
+   "google/gemini-3.1-pro-preview-customtools": {
+    "title": "Google: Gemini 3.1 Pro Preview Custom Tools",
+    "url": "https://openrouter.ai/models/google/gemini-3.1-pro-preview-customtools",
+    "meta": {
+     "prompt": 2.0,
+     "completion": 12.0,
+     "ctx": 1048576
+    }
+   },
+   "openai/gpt-5.3-codex": {
+    "title": "OpenAI: GPT-5.3-Codex",
+    "url": "https://openrouter.ai/models/openai/gpt-5.3-codex",
+    "meta": {
+     "prompt": 1.75,
+     "completion": 14.0,
+     "ctx": 400000
+    }
+   },
+   "aion-labs/aion-2.0": {
+    "title": "AionLabs: Aion-2.0",
+    "url": "https://openrouter.ai/models/aion-labs/aion-2.0",
+    "meta": {
+     "prompt": 0.8,
+     "completion": 1.6,
+     "ctx": 131072
+    }
+   },
+   "google/gemini-3.1-pro-preview": {
+    "title": "Google: Gemini 3.1 Pro Preview",
+    "url": "https://openrouter.ai/models/google/gemini-3.1-pro-preview",
+    "meta": {
+     "prompt": 2.0,
+     "completion": 12.0,
+     "ctx": 1048576
+    }
+   },
+   "google/gemini-3.1-pro-preview:batch": {
+    "title": "Google: Gemini 3.1 Pro Preview (batch)",
+    "url": "https://openrouter.ai/models/google/gemini-3.1-pro-preview",
+    "meta": {
+     "prompt": 1.0,
+     "completion": 6.0,
+     "ctx": 1048576
+    }
+   },
+   "anthropic/claude-sonnet-4.6": {
+    "title": "Anthropic: Claude Sonnet 4.6",
+    "url": "https://openrouter.ai/models/anthropic/claude-sonnet-4.6",
+    "meta": {
+     "prompt": 3.0,
+     "completion": 15.0,
+     "ctx": 1000000
+    }
+   },
+   "anthropic/claude-sonnet-4.6:batch": {
+    "title": "Anthropic: Claude Sonnet 4.6 (batch)",
+    "url": "https://openrouter.ai/models/anthropic/claude-sonnet-4.6",
+    "meta": {
+     "prompt": 1.5,
+     "completion": 7.5,
+     "ctx": 1000000
+    }
+   },
+   "qwen/qwen3.5-plus-02-15": {
+    "title": "Qwen: Qwen3.5 Plus 2026-02-15",
+    "url": "https://openrouter.ai/models/qwen/qwen3.5-plus-02-15",
+    "meta": {
+     "prompt": 0.26,
+     "completion": 1.56,
+     "ctx": 1000000
+    }
+   },
+   "qwen/qwen3.5-397b-a17b": {
+    "title": "Qwen: Qwen3.5 397B A17B",
+    "url": "https://openrouter.ai/models/qwen/qwen3.5-397b-a17b",
+    "meta": {
+     "prompt": 0.45,
+     "completion": 3.0,
+     "ctx": 262144
+    }
+   },
+   "minimax/minimax-m2.5": {
+    "title": "MiniMax: MiniMax M2.5",
+    "url": "https://openrouter.ai/models/minimax/minimax-m2.5",
+    "meta": {
+     "prompt": 0.27,
+     "completion": 0.95,
+     "ctx": 198000
+    }
+   },
+   "z-ai/glm-5": {
+    "title": "Z.ai: GLM 5",
+    "url": "https://openrouter.ai/models/z-ai/glm-5",
+    "meta": {
+     "prompt": 1.0,
+     "completion": 3.2,
+     "ctx": 204800
+    }
+   },
+   "anthropic/claude-opus-4.6": {
+    "title": "Anthropic: Claude Opus 4.6",
+    "url": "https://openrouter.ai/models/anthropic/claude-opus-4.6",
+    "meta": {
+     "prompt": 5.0,
+     "completion": 25.0,
+     "ctx": 1000000
+    }
+   },
+   "anthropic/claude-opus-4.6:batch": {
+    "title": "Anthropic: Claude Opus 4.6 (batch)",
+    "url": "https://openrouter.ai/models/anthropic/claude-opus-4.6",
+    "meta": {
+     "prompt": 2.5,
+     "completion": 12.5,
+     "ctx": 1000000
+    }
+   },
+   "qwen/qwen3-coder-next": {
+    "title": "Qwen: Qwen3 Coder Next",
+    "url": "https://openrouter.ai/models/qwen/qwen3-coder-next",
+    "meta": {
+     "prompt": 0.12,
+     "completion": 0.8,
+     "ctx": 262144
+    }
+   },
+   "moonshotai/kimi-k2.5": {
+    "title": "MoonshotAI: Kimi K2.5",
+    "url": "https://openrouter.ai/models/moonshotai/kimi-k2.5",
+    "meta": {
+     "prompt": 0.5,
+     "completion": 2.5,
+     "ctx": 262144
+    }
+   },
+   "writer/palmyra-x5": {
+    "title": "Writer: Palmyra X5",
+    "url": "https://openrouter.ai/models/writer/palmyra-x5",
+    "meta": {
+     "prompt": 0.6,
+     "completion": 6.0,
+     "ctx": 1040000
+    }
+   },
+   "openai/gpt-audio": {
+    "title": "OpenAI: GPT Audio",
+    "url": "https://openrouter.ai/models/openai/gpt-audio",
+    "meta": {
+     "prompt": 2.5,
+     "completion": 10.0,
+     "ctx": 128000
+    }
+   },
+   "openai/gpt-audio-mini": {
+    "title": "OpenAI: GPT Audio Mini",
+    "url": "https://openrouter.ai/models/openai/gpt-audio-mini",
+    "meta": {
+     "prompt": 0.6,
+     "completion": 2.4,
+     "ctx": 128000
+    }
+   },
+   "z-ai/glm-4.7-flash": {
+    "title": "Z.ai: GLM 4.7 Flash",
+    "url": "https://openrouter.ai/models/z-ai/glm-4.7-flash",
+    "meta": {
+     "prompt": 0.0605,
+     "completion": 0.4,
+     "ctx": 200000
+    }
+   },
+   "openai/gpt-5.2-codex": {
+    "title": "OpenAI: GPT-5.2-Codex",
+    "url": "https://openrouter.ai/models/openai/gpt-5.2-codex",
+    "meta": {
+     "prompt": 1.75,
+     "completion": 14.0,
+     "ctx": 400000
+    }
+   },
+   "z-ai/glm-4.7": {
+    "title": "Z.ai: GLM 4.7",
+    "url": "https://openrouter.ai/models/z-ai/glm-4.7",
+    "meta": {
+     "prompt": 0.6,
+     "completion": 2.2,
+     "ctx": 204800
+    }
+   },
+   "google/gemini-3-flash-preview": {
+    "title": "Google: Gemini 3 Flash Preview",
+    "url": "https://openrouter.ai/models/google/gemini-3-flash-preview",
+    "meta": {
+     "prompt": 0.5,
+     "completion": 3.0,
+     "ctx": 1048576
+    }
+   },
+   "google/gemini-3-flash-preview:batch": {
+    "title": "Google: Gemini 3 Flash Preview (batch)",
+    "url": "https://openrouter.ai/models/google/gemini-3-flash-preview",
+    "meta": {
+     "prompt": 0.25,
+     "completion": 1.5,
+     "ctx": 1048576
+    }
+   },
+   "nvidia/nemotron-3-nano-30b-a3b": {
+    "title": "NVIDIA: Nemotron 3 Nano 30B A3B",
+    "url": "https://openrouter.ai/models/nvidia/nemotron-3-nano-30b-a3b",
+    "meta": {
+     "prompt": 0.06,
+     "completion": 0.24,
+     "ctx": 262144
+    }
+   },
+   "openai/gpt-5.2-chat": {
+    "title": "OpenAI: GPT-5.2 Chat",
+    "url": "https://openrouter.ai/models/openai/gpt-5.2-chat",
+    "meta": {
+     "prompt": 1.75,
+     "completion": 14.0,
+     "ctx": 128000
+    }
+   },
+   "openai/gpt-5.2-pro": {
+    "title": "OpenAI: GPT-5.2 Pro",
+    "url": "https://openrouter.ai/models/openai/gpt-5.2-pro",
+    "meta": {
+     "prompt": 21.0,
+     "completion": 168.0,
+     "ctx": 400000
+    }
+   },
+   "openai/gpt-5.2-pro:batch": {
+    "title": "OpenAI: GPT-5.2 Pro (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-5.2-pro",
+    "meta": {
+     "prompt": 10.5,
+     "completion": 84.0,
+     "ctx": 400000
+    }
+   },
+   "openai/gpt-5.2": {
+    "title": "OpenAI: GPT-5.2",
+    "url": "https://openrouter.ai/models/openai/gpt-5.2",
+    "meta": {
+     "prompt": 1.75,
+     "completion": 14.0,
+     "ctx": 400000
+    }
+   },
+   "openai/gpt-5.2:batch": {
+    "title": "OpenAI: GPT-5.2 (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-5.2",
+    "meta": {
+     "prompt": 0.875,
+     "completion": 7.0,
+     "ctx": 400000
+    }
+   },
+   "mistralai/devstral-2512": {
+    "title": "Mistral: Devstral 2 2512",
+    "url": "https://openrouter.ai/models/mistralai/devstral-2512",
+    "meta": {
+     "prompt": 0.4,
+     "completion": 2.0,
+     "ctx": 262144
+    }
+   },
+   "relace/relace-search": {
+    "title": "Relace: Relace Search",
+    "url": "https://openrouter.ai/models/relace/relace-search",
+    "meta": {
+     "prompt": 1.0,
+     "completion": 3.0,
+     "ctx": 256000
+    }
+   },
+   "z-ai/glm-4.6v": {
+    "title": "Z.ai: GLM 4.6V",
+    "url": "https://openrouter.ai/models/z-ai/glm-4.6v",
+    "meta": {
+     "prompt": 0.3,
+     "completion": 0.9,
+     "ctx": 131072
+    }
+   },
+   "openai/gpt-5.1-codex-max": {
+    "title": "OpenAI: GPT-5.1-Codex-Max",
+    "url": "https://openrouter.ai/models/openai/gpt-5.1-codex-max",
+    "meta": {
+     "prompt": 1.25,
+     "completion": 10.0,
+     "ctx": 400000
+    }
+   },
+   "amazon/nova-2-lite-v1": {
+    "title": "Amazon: Nova 2 Lite",
+    "url": "https://openrouter.ai/models/amazon/nova-2-lite-v1",
+    "meta": {
+     "prompt": 0.3,
+     "completion": 2.5,
+     "ctx": 1000000
+    }
+   },
+   "mistralai/ministral-14b-2512": {
+    "title": "Mistral: Ministral 3 14B 2512",
+    "url": "https://openrouter.ai/models/mistralai/ministral-14b-2512",
+    "meta": {
+     "prompt": 0.2,
+     "completion": 0.2,
+     "ctx": 262144
+    }
+   },
+   "mistralai/ministral-8b-2512": {
+    "title": "Mistral: Ministral 3 8B 2512",
+    "url": "https://openrouter.ai/models/mistralai/ministral-8b-2512",
+    "meta": {
+     "prompt": 0.15,
+     "completion": 0.15,
+     "ctx": 262144
+    }
+   },
+   "mistralai/ministral-3b-2512": {
+    "title": "Mistral: Ministral 3 3B 2512",
+    "url": "https://openrouter.ai/models/mistralai/ministral-3b-2512",
+    "meta": {
+     "prompt": 0.1,
+     "completion": 0.1,
+     "ctx": 131072
+    }
+   },
+   "mistralai/mistral-large-2512": {
+    "title": "Mistral: Mistral Large 3 2512",
+    "url": "https://openrouter.ai/models/mistralai/mistral-large-2512",
+    "meta": {
+     "prompt": 0.5,
+     "completion": 1.5,
+     "ctx": 262144
+    }
+   },
+   "deepseek/deepseek-v3.2": {
+    "title": "DeepSeek: DeepSeek V3.2",
+    "url": "https://openrouter.ai/models/deepseek/deepseek-v3.2",
+    "meta": {
+     "prompt": 0.26,
+     "completion": 0.38,
+     "ctx": 163840
+    }
+   },
+   "anthropic/claude-opus-4.5": {
+    "title": "Anthropic: Claude Opus 4.5",
+    "url": "https://openrouter.ai/models/anthropic/claude-opus-4.5",
+    "meta": {
+     "prompt": 5.0,
+     "completion": 25.0,
+     "ctx": 200000
+    }
+   },
+   "anthropic/claude-opus-4.5:batch": {
+    "title": "Anthropic: Claude Opus 4.5 (batch)",
+    "url": "https://openrouter.ai/models/anthropic/claude-opus-4.5",
+    "meta": {
+     "prompt": 2.5,
+     "completion": 12.5,
+     "ctx": 200000
+    }
+   },
+   "google/gemini-3-pro-image-preview": {
+    "title": "Google: Nano Banana Pro (Gemini 3 Pro Image Preview)",
+    "url": "https://openrouter.ai/models/google/gemini-3-pro-image-preview",
+    "meta": {
+     "prompt": 2.0,
+     "completion": 12.0,
+     "ctx": 65536
+    }
+   },
+   "openai/gpt-5.1": {
+    "title": "OpenAI: GPT-5.1",
+    "url": "https://openrouter.ai/models/openai/gpt-5.1",
+    "meta": {
+     "prompt": 1.25,
+     "completion": 10.0,
+     "ctx": 400000
+    }
+   },
+   "openai/gpt-5.1:batch": {
+    "title": "OpenAI: GPT-5.1 (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-5.1",
+    "meta": {
+     "prompt": 0.625,
+     "completion": 5.0,
+     "ctx": 400000
+    }
+   },
+   "openai/gpt-5.1-codex": {
+    "title": "OpenAI: GPT-5.1-Codex",
+    "url": "https://openrouter.ai/models/openai/gpt-5.1-codex",
+    "meta": {
+     "prompt": 1.25,
+     "completion": 10.0,
+     "ctx": 400000
+    }
+   },
+   "openai/gpt-5.1-codex-mini": {
+    "title": "OpenAI: GPT-5.1-Codex-Mini",
+    "url": "https://openrouter.ai/models/openai/gpt-5.1-codex-mini",
+    "meta": {
+     "prompt": 0.25,
+     "completion": 2.0,
+     "ctx": 400000
+    }
+   },
+   "moonshotai/kimi-k2-thinking": {
+    "title": "MoonshotAI: Kimi K2 Thinking",
+    "url": "https://openrouter.ai/models/moonshotai/kimi-k2-thinking",
+    "meta": {
+     "prompt": 0.6,
+     "completion": 2.5,
+     "ctx": 262144
+    }
+   },
+   "amazon/nova-premier-v1": {
+    "title": "Amazon: Nova Premier 1.0",
+    "url": "https://openrouter.ai/models/amazon/nova-premier-v1",
+    "meta": {
+     "prompt": 2.5,
+     "completion": 12.5,
+     "ctx": 1000000
+    }
+   },
+   "perplexity/sonar-pro-search": {
+    "title": "Perplexity: Sonar Pro Search",
+    "url": "https://openrouter.ai/models/perplexity/sonar-pro-search",
+    "meta": {
+     "prompt": 3.0,
+     "completion": 15.0,
+     "ctx": 200000
+    }
+   },
+   "mistralai/voxtral-small-24b-2507": {
+    "title": "Mistral: Voxtral Small 24B 2507",
+    "url": "https://openrouter.ai/models/mistralai/voxtral-small-24b-2507",
+    "meta": {
+     "prompt": 0.1,
+     "completion": 0.3,
+     "ctx": 32768
+    }
+   },
+   "openai/gpt-oss-safeguard-20b": {
+    "title": "OpenAI: gpt-oss-safeguard-20b",
+    "url": "https://openrouter.ai/models/openai/gpt-oss-safeguard-20b",
+    "meta": {
+     "prompt": 0.075,
+     "completion": 0.3,
+     "ctx": 131072
+    }
+   },
+   "openai/gpt-5-image-mini": {
+    "title": "OpenAI: GPT-5 Image Mini",
+    "url": "https://openrouter.ai/models/openai/gpt-5-image-mini",
+    "meta": {
+     "prompt": 2.5,
+     "completion": 2.0,
+     "ctx": 400000
+    }
+   },
+   "anthropic/claude-haiku-4.5": {
+    "title": "Anthropic: Claude Haiku 4.5",
+    "url": "https://openrouter.ai/models/anthropic/claude-haiku-4.5",
+    "meta": {
+     "prompt": 1.0,
+     "completion": 5.0,
+     "ctx": 200000
+    }
+   },
+   "anthropic/claude-haiku-4.5:batch": {
+    "title": "Anthropic: Claude Haiku 4.5 (batch)",
+    "url": "https://openrouter.ai/models/anthropic/claude-haiku-4.5",
+    "meta": {
+     "prompt": 0.5,
+     "completion": 2.5,
+     "ctx": 200000
+    }
+   },
+   "qwen/qwen3-vl-8b-instruct": {
+    "title": "Qwen: Qwen3 VL 8B Instruct",
+    "url": "https://openrouter.ai/models/qwen/qwen3-vl-8b-instruct",
+    "meta": {
+     "prompt": 0.25,
+     "completion": 0.75,
+     "ctx": 262144
+    }
+   },
+   "openai/gpt-5-image": {
+    "title": "OpenAI: GPT-5 Image",
+    "url": "https://openrouter.ai/models/openai/gpt-5-image",
+    "meta": {
+     "prompt": 10.0,
+     "completion": 10.0,
+     "ctx": 400000
+    }
+   },
+   "google/gemini-2.5-flash-image": {
+    "title": "Google: Nano Banana (Gemini 2.5 Flash Image)",
+    "url": "https://openrouter.ai/models/google/gemini-2.5-flash-image",
+    "meta": {
+     "prompt": 0.3,
+     "completion": 2.5,
+     "ctx": 32768
+    }
+   },
+   "qwen/qwen3-vl-30b-a3b-instruct": {
+    "title": "Qwen: Qwen3 VL 30B A3B Instruct",
+    "url": "https://openrouter.ai/models/qwen/qwen3-vl-30b-a3b-instruct",
+    "meta": {
+     "prompt": 0.15,
+     "completion": 0.6,
+     "ctx": 262144
+    }
+   },
+   "openai/gpt-5-pro": {
+    "title": "OpenAI: GPT-5 Pro",
+    "url": "https://openrouter.ai/models/openai/gpt-5-pro",
+    "meta": {
+     "prompt": 15.0,
+     "completion": 120.0,
+     "ctx": 400000
+    }
+   },
+   "openai/gpt-5-pro:batch": {
+    "title": "OpenAI: GPT-5 Pro (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-5-pro",
+    "meta": {
+     "prompt": 7.5,
+     "completion": 60.0,
+     "ctx": 400000
+    }
+   },
+   "z-ai/glm-4.6": {
+    "title": "Z.ai: GLM 4.6",
+    "url": "https://openrouter.ai/models/z-ai/glm-4.6",
+    "meta": {
+     "prompt": 0.5,
+     "completion": 2.0,
+     "ctx": 204800
+    }
+   },
+   "anthropic/claude-sonnet-4.5": {
+    "title": "Anthropic: Claude Sonnet 4.5",
+    "url": "https://openrouter.ai/models/anthropic/claude-sonnet-4.5",
+    "meta": {
+     "prompt": 3.0,
+     "completion": 15.0,
+     "ctx": 1000000
+    }
+   },
+   "anthropic/claude-sonnet-4.5:batch": {
+    "title": "Anthropic: Claude Sonnet 4.5 (batch)",
+    "url": "https://openrouter.ai/models/anthropic/claude-sonnet-4.5",
+    "meta": {
+     "prompt": 1.5,
+     "completion": 7.5,
+     "ctx": 1000000
+    }
+   },
+   "deepseek/deepseek-v3.2-exp": {
+    "title": "DeepSeek: DeepSeek V3.2 Exp",
+    "url": "https://openrouter.ai/models/deepseek/deepseek-v3.2-exp",
+    "meta": {
+     "prompt": 0.27,
+     "completion": 0.41,
+     "ctx": 163840
+    }
+   },
+   "thedrummer/cydonia-24b-v4.1": {
+    "title": "TheDrummer: Cydonia 24B V4.1",
+    "url": "https://openrouter.ai/models/thedrummer/cydonia-24b-v4.1",
+    "meta": {
+     "prompt": 0.3,
+     "completion": 0.5,
+     "ctx": 131072
+    }
+   },
+   "relace/relace-apply-3": {
+    "title": "Relace: Relace Apply 3",
+    "url": "https://openrouter.ai/models/relace/relace-apply-3",
+    "meta": {
+     "prompt": 0.85,
+     "completion": 1.25,
+     "ctx": 256000
+    }
+   },
+   "qwen/qwen3-vl-235b-a22b-instruct": {
+    "title": "Qwen: Qwen3 VL 235B A22B Instruct",
+    "url": "https://openrouter.ai/models/qwen/qwen3-vl-235b-a22b-instruct",
+    "meta": {
+     "prompt": 0.21,
+     "completion": 1.9,
+     "ctx": 262144
+    }
+   },
+   "deepseek/deepseek-v3.1-terminus": {
+    "title": "DeepSeek: DeepSeek V3.1 Terminus",
+    "url": "https://openrouter.ai/models/deepseek/deepseek-v3.1-terminus",
+    "meta": {
+     "prompt": 0.27,
+     "completion": 1.0,
+     "ctx": 163840
+    }
+   },
+   "qwen/qwen3-coder-flash": {
+    "title": "Qwen: Qwen3 Coder Flash",
+    "url": "https://openrouter.ai/models/qwen/qwen3-coder-flash",
+    "meta": {
+     "prompt": 0.195,
+     "completion": 0.975,
+     "ctx": 1000000
+    }
+   },
+   "qwen/qwen3-next-80b-a3b-instruct": {
+    "title": "Qwen: Qwen3 Next 80B A3B Instruct",
+    "url": "https://openrouter.ai/models/qwen/qwen3-next-80b-a3b-instruct",
+    "meta": {
+     "prompt": 0.1,
+     "completion": 1.1,
+     "ctx": 262144
+    }
+   },
+   "moonshotai/kimi-k2-0905": {
+    "title": "MoonshotAI: Kimi K2 0905",
+    "url": "https://openrouter.ai/models/moonshotai/kimi-k2-0905",
+    "meta": {
+     "prompt": 0.6,
+     "completion": 2.5,
+     "ctx": 262144
+    }
+   },
+   "nousresearch/hermes-4-405b": {
+    "title": "Nous: Hermes 4 405B",
+    "url": "https://openrouter.ai/models/nousresearch/hermes-4-405b",
+    "meta": {
+     "prompt": 1.0,
+     "completion": 3.0,
+     "ctx": 131072
+    }
+   },
+   "deepseek/deepseek-chat-v3.1": {
+    "title": "DeepSeek: DeepSeek V3.1",
+    "url": "https://openrouter.ai/models/deepseek/deepseek-chat-v3.1",
+    "meta": {
+     "prompt": 0.25,
+     "completion": 0.95,
+     "ctx": 163840
+    }
+   },
+   "mistralai/mistral-medium-3.1": {
+    "title": "Mistral: Mistral Medium 3.1",
+    "url": "https://openrouter.ai/models/mistralai/mistral-medium-3.1",
+    "meta": {
+     "prompt": 0.44,
+     "completion": 2.2,
+     "ctx": 131072
+    }
+   },
+   "z-ai/glm-4.5v": {
+    "title": "Z.ai: GLM 4.5V",
+    "url": "https://openrouter.ai/models/z-ai/glm-4.5v",
+    "meta": {
+     "prompt": 0.6,
+     "completion": 1.8,
+     "ctx": 65536
+    }
+   },
+   "openai/gpt-5": {
+    "title": "OpenAI: GPT-5",
+    "url": "https://openrouter.ai/models/openai/gpt-5",
+    "meta": {
+     "prompt": 1.25,
+     "completion": 10.0,
+     "ctx": 400000
+    }
+   },
+   "openai/gpt-5:batch": {
+    "title": "OpenAI: GPT-5 (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-5",
+    "meta": {
+     "prompt": 0.625,
+     "completion": 5.0,
+     "ctx": 400000
+    }
+   },
+   "openai/gpt-5-mini": {
+    "title": "OpenAI: GPT-5 Mini",
+    "url": "https://openrouter.ai/models/openai/gpt-5-mini",
+    "meta": {
+     "prompt": 0.25,
+     "completion": 2.0,
+     "ctx": 400000
+    }
+   },
+   "openai/gpt-5-mini:batch": {
+    "title": "OpenAI: GPT-5 Mini (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-5-mini",
+    "meta": {
+     "prompt": 0.125,
+     "completion": 1.0,
+     "ctx": 400000
+    }
+   },
+   "openai/gpt-5-nano": {
+    "title": "OpenAI: GPT-5 Nano",
+    "url": "https://openrouter.ai/models/openai/gpt-5-nano",
+    "meta": {
+     "prompt": 0.05,
+     "completion": 0.4,
+     "ctx": 400000
+    }
+   },
+   "openai/gpt-5-nano:batch": {
+    "title": "OpenAI: GPT-5 Nano (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-5-nano",
+    "meta": {
+     "prompt": 0.025,
+     "completion": 0.2,
+     "ctx": 400000
+    }
+   },
+   "openai/gpt-oss-120b": {
+    "title": "OpenAI: gpt-oss-120b",
+    "url": "https://openrouter.ai/models/openai/gpt-oss-120b",
+    "meta": {
+     "prompt": 0.05,
+     "completion": 0.25,
+     "ctx": 131072
+    }
+   },
+   "openai/gpt-oss-120b:batch": {
+    "title": "OpenAI: gpt-oss-120b (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-oss-120b",
+    "meta": {
+     "prompt": 0.0296,
+     "completion": 0.136,
+     "ctx": 131072
+    }
+   },
+   "openai/gpt-oss-20b": {
+    "title": "OpenAI: gpt-oss-20b",
+    "url": "https://openrouter.ai/models/openai/gpt-oss-20b",
+    "meta": {
+     "prompt": 0.03,
+     "completion": 0.13,
+     "ctx": 131072
+    }
+   },
+   "openai/gpt-oss-20b:batch": {
+    "title": "OpenAI: gpt-oss-20b (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-oss-20b",
+    "meta": {
+     "prompt": 0.024,
+     "completion": 0.112,
+     "ctx": 131072
+    }
+   },
+   "anthropic/claude-opus-4.1": {
+    "title": "Anthropic: Claude Opus 4.1",
+    "url": "https://openrouter.ai/models/anthropic/claude-opus-4.1",
+    "meta": {
+     "prompt": 15.0,
+     "completion": 75.0,
+     "ctx": 200000
+    }
+   },
+   "anthropic/claude-opus-4.1:batch": {
+    "title": "Anthropic: Claude Opus 4.1 (batch)",
+    "url": "https://openrouter.ai/models/anthropic/claude-opus-4.1",
+    "meta": {
+     "prompt": 7.5,
+     "completion": 37.5,
+     "ctx": 200000
+    }
+   },
+   "mistralai/codestral-2508": {
+    "title": "Mistral: Codestral 2508",
+    "url": "https://openrouter.ai/models/mistralai/codestral-2508",
+    "meta": {
+     "prompt": 0.3,
+     "completion": 0.9,
+     "ctx": 256000
+    }
+   },
+   "qwen/qwen3-coder-30b-a3b-instruct": {
+    "title": "Qwen: Qwen3 Coder 30B A3B Instruct",
+    "url": "https://openrouter.ai/models/qwen/qwen3-coder-30b-a3b-instruct",
+    "meta": {
+     "prompt": 0.07,
+     "completion": 0.28,
+     "ctx": 262144
+    }
+   },
+   "qwen/qwen3-30b-a3b-instruct-2507": {
+    "title": "Qwen: Qwen3 30B A3B Instruct 2507",
+    "url": "https://openrouter.ai/models/qwen/qwen3-30b-a3b-instruct-2507",
+    "meta": {
+     "prompt": 0.1,
+     "completion": 0.3,
+     "ctx": 262144
+    }
+   },
+   "z-ai/glm-4.5": {
+    "title": "Z.ai: GLM 4.5",
+    "url": "https://openrouter.ai/models/z-ai/glm-4.5",
+    "meta": {
+     "prompt": 0.6,
+     "completion": 2.2,
+     "ctx": 131072
+    }
+   },
+   "z-ai/glm-4.5-air": {
+    "title": "Z.ai: GLM 4.5 Air",
+    "url": "https://openrouter.ai/models/z-ai/glm-4.5-air",
+    "meta": {
+     "prompt": 0.13,
+     "completion": 0.85,
+     "ctx": 131072
+    }
+   },
+   "qwen/qwen3-235b-a22b-thinking-2507": {
+    "title": "Qwen: Qwen3 235B A22B Thinking 2507",
+    "url": "https://openrouter.ai/models/qwen/qwen3-235b-a22b-thinking-2507",
+    "meta": {
+     "prompt": 0.45,
+     "completion": 3.5,
+     "ctx": 128000
+    }
+   },
+   "qwen/qwen3-coder": {
+    "title": "Qwen: Qwen3 Coder 480B A35B",
+    "url": "https://openrouter.ai/models/qwen/qwen3-coder",
+    "meta": {
+     "prompt": 0.3,
+     "completion": 1.0,
+     "ctx": 262144
+    }
+   },
+   "bytedance/ui-tars-1.5-7b": {
+    "title": "ByteDance: UI-TARS 7B ",
+    "url": "https://openrouter.ai/models/bytedance/ui-tars-1.5-7b",
+    "meta": {
+     "prompt": 0.1,
+     "completion": 0.2,
+     "ctx": 128000
+    }
+   },
+   "google/gemini-2.5-flash-lite": {
+    "title": "Google: Gemini 2.5 Flash Lite",
+    "url": "https://openrouter.ai/models/google/gemini-2.5-flash-lite",
+    "meta": {
+     "prompt": 0.1,
+     "completion": 0.4,
+     "ctx": 1048576
+    }
+   },
+   "qwen/qwen3-235b-a22b-2507": {
+    "title": "Qwen: Qwen3 235B A22B Instruct 2507",
+    "url": "https://openrouter.ai/models/qwen/qwen3-235b-a22b-2507",
+    "meta": {
+     "prompt": 0.14,
+     "completion": 0.8,
+     "ctx": 262144
+    }
+   },
+   "moonshotai/kimi-k2": {
+    "title": "MoonshotAI: Kimi K2 0711",
+    "url": "https://openrouter.ai/models/moonshotai/kimi-k2",
+    "meta": {
+     "prompt": 0.57,
+     "completion": 2.3,
+     "ctx": 131072
+    }
+   },
+   "cognitivecomputations/dolphin-mistral-24b-venice-edition": {
+    "title": "Venice: Uncensored",
+    "url": "https://openrouter.ai/models/cognitivecomputations/dolphin-mistral-24b-venice-edition",
+    "meta": {
+     "prompt": 0.2,
+     "completion": 0.9,
+     "ctx": 128000
+    }
+   },
+   "morph/morph-v3-large": {
+    "title": "Morph: Morph V3 Large",
+    "url": "https://openrouter.ai/models/morph/morph-v3-large",
+    "meta": {
+     "prompt": 0.9,
+     "completion": 1.9,
+     "ctx": 262144
+    }
+   },
+   "morph/morph-v3-large:batch": {
+    "title": "Morph: Morph V3 Large (batch)",
+    "url": "https://openrouter.ai/models/morph/morph-v3-large",
+    "meta": {
+     "prompt": 0.45,
+     "completion": 0.95,
+     "ctx": 262144
+    }
+   },
+   "morph/morph-v3-fast": {
+    "title": "Morph: Morph V3 Fast",
+    "url": "https://openrouter.ai/models/morph/morph-v3-fast",
+    "meta": {
+     "prompt": 0.8,
+     "completion": 1.2,
+     "ctx": 262144
+    }
+   },
+   "morph/morph-v3-fast:batch": {
+    "title": "Morph: Morph V3 Fast (batch)",
+    "url": "https://openrouter.ai/models/morph/morph-v3-fast",
+    "meta": {
+     "prompt": 0.4,
+     "completion": 0.6,
+     "ctx": 81920
+    }
+   },
+   "mistralai/mistral-small-3.2-24b-instruct": {
+    "title": "Mistral: Mistral Small 3.2 24B",
+    "url": "https://openrouter.ai/models/mistralai/mistral-small-3.2-24b-instruct",
+    "meta": {
+     "prompt": 0.075,
+     "completion": 0.2,
+     "ctx": 256000
+    }
+   },
+   "google/gemini-2.5-flash": {
+    "title": "Google: Gemini 2.5 Flash",
+    "url": "https://openrouter.ai/models/google/gemini-2.5-flash",
+    "meta": {
+     "prompt": 0.3,
+     "completion": 2.5,
+     "ctx": 1048576
+    }
+   },
+   "google/gemini-2.5-pro": {
+    "title": "Google: Gemini 2.5 Pro",
+    "url": "https://openrouter.ai/models/google/gemini-2.5-pro",
+    "meta": {
+     "prompt": 1.25,
+     "completion": 10.0,
+     "ctx": 1048576
+    }
+   },
+   "openai/o3-pro": {
+    "title": "OpenAI: o3 Pro",
+    "url": "https://openrouter.ai/models/openai/o3-pro",
+    "meta": {
+     "prompt": 20.0,
+     "completion": 80.0,
+     "ctx": 200000
+    }
+   },
+   "google/gemini-2.5-pro-preview": {
+    "title": "Google: Gemini 2.5 Pro Preview 06-05",
+    "url": "https://openrouter.ai/models/google/gemini-2.5-pro-preview",
+    "meta": {
+     "prompt": 1.25,
+     "completion": 10.0,
+     "ctx": 1048576
+    }
+   },
+   "deepseek/deepseek-r1-0528": {
+    "title": "DeepSeek: R1 0528",
+    "url": "https://openrouter.ai/models/deepseek/deepseek-r1-0528",
+    "meta": {
+     "prompt": 0.571,
+     "completion": 2.286,
+     "ctx": 163840
+    }
+   },
+   "mistralai/mistral-medium-3": {
+    "title": "Mistral: Mistral Medium 3",
+    "url": "https://openrouter.ai/models/mistralai/mistral-medium-3",
+    "meta": {
+     "prompt": 0.44,
+     "completion": 2.2,
+     "ctx": 131072
+    }
+   },
+   "meta-llama/llama-guard-4-12b": {
+    "title": "Meta: Llama Guard 4 12B",
+    "url": "https://openrouter.ai/models/meta-llama/llama-guard-4-12b",
+    "meta": {
+     "prompt": 0.18,
+     "completion": 0.18,
+     "ctx": 163840
+    }
+   },
+   "qwen/qwen3-30b-a3b": {
+    "title": "Qwen: Qwen3 30B A3B",
+    "url": "https://openrouter.ai/models/qwen/qwen3-30b-a3b",
+    "meta": {
+     "prompt": 0.12,
+     "completion": 0.5,
+     "ctx": 40960
+    }
+   },
+   "qwen/qwen3-14b": {
+    "title": "Qwen: Qwen3 14B",
+    "url": "https://openrouter.ai/models/qwen/qwen3-14b",
+    "meta": {
+     "prompt": 0.12,
+     "completion": 0.24,
+     "ctx": 40960
+    }
+   },
+   "qwen/qwen3-32b": {
+    "title": "Qwen: Qwen3 32B",
+    "url": "https://openrouter.ai/models/qwen/qwen3-32b",
+    "meta": {
+     "prompt": 0.08,
+     "completion": 0.28,
+     "ctx": 131072
+    }
+   },
+   "openai/o3": {
+    "title": "OpenAI: o3",
+    "url": "https://openrouter.ai/models/openai/o3",
+    "meta": {
+     "prompt": 2.0,
+     "completion": 8.0,
+     "ctx": 200000
+    }
+   },
+   "openai/o3:batch": {
+    "title": "OpenAI: o3 (batch)",
+    "url": "https://openrouter.ai/models/openai/o3",
+    "meta": {
+     "prompt": 1.0,
+     "completion": 4.0,
+     "ctx": 200000
+    }
+   },
+   "openai/o4-mini:batch": {
+    "title": "OpenAI: o4 Mini (batch)",
+    "url": "https://openrouter.ai/models/openai/o4-mini",
+    "meta": {
+     "prompt": 0.55,
+     "completion": 2.2,
+     "ctx": 200000
+    }
+   },
+   "openai/gpt-4.1": {
+    "title": "OpenAI: GPT-4.1",
+    "url": "https://openrouter.ai/models/openai/gpt-4.1",
+    "meta": {
+     "prompt": 2.0,
+     "completion": 8.0,
+     "ctx": 1047576
+    }
+   },
+   "openai/gpt-4.1:batch": {
+    "title": "OpenAI: GPT-4.1 (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-4.1",
+    "meta": {
+     "prompt": 1.0,
+     "completion": 4.0,
+     "ctx": 1047576
+    }
+   },
+   "openai/gpt-4.1-mini": {
+    "title": "OpenAI: GPT-4.1 Mini",
+    "url": "https://openrouter.ai/models/openai/gpt-4.1-mini",
+    "meta": {
+     "prompt": 0.4,
+     "completion": 1.6,
+     "ctx": 1047576
+    }
+   },
+   "openai/gpt-4.1-mini:batch": {
+    "title": "OpenAI: GPT-4.1 Mini (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-4.1-mini",
+    "meta": {
+     "prompt": 0.2,
+     "completion": 0.8,
+     "ctx": 1047576
+    }
+   },
+   "openai/gpt-4.1-nano": {
+    "title": "OpenAI: GPT-4.1 Nano",
+    "url": "https://openrouter.ai/models/openai/gpt-4.1-nano",
+    "meta": {
+     "prompt": 0.1,
+     "completion": 0.4,
+     "ctx": 1047576
+    }
+   },
+   "openai/gpt-4.1-nano:batch": {
+    "title": "OpenAI: GPT-4.1 Nano (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-4.1-nano",
+    "meta": {
+     "prompt": 0.05,
+     "completion": 0.2,
+     "ctx": 1047576
+    }
+   },
+   "meta-llama/llama-4-maverick": {
+    "title": "Meta: Llama 4 Maverick",
+    "url": "https://openrouter.ai/models/meta-llama/llama-4-maverick",
+    "meta": {
+     "prompt": 0.35,
+     "completion": 1.0,
+     "ctx": 524288
+    }
+   },
+   "meta-llama/llama-4-scout": {
+    "title": "Meta: Llama 4 Scout",
+    "url": "https://openrouter.ai/models/meta-llama/llama-4-scout",
+    "meta": {
+     "prompt": 0.1,
+     "completion": 0.3,
+     "ctx": 1310720
+    }
+   },
+   "deepseek/deepseek-chat-v3-0324": {
+    "title": "DeepSeek: DeepSeek V3 0324",
+    "url": "https://openrouter.ai/models/deepseek/deepseek-chat-v3-0324",
+    "meta": {
+     "prompt": 0.25,
+     "completion": 1.0,
+     "ctx": 163840
+    }
+   },
+   "mistralai/mistral-small-3.1-24b-instruct": {
+    "title": "Mistral: Mistral Small 3.1 24B",
+    "url": "https://openrouter.ai/models/mistralai/mistral-small-3.1-24b-instruct",
+    "meta": {
+     "prompt": 0.351,
+     "completion": 0.555,
+     "ctx": 128000
+    }
+   },
+   "google/gemma-3-4b-it": {
+    "title": "Google: Gemma 3 4B",
+    "url": "https://openrouter.ai/models/google/gemma-3-4b-it",
+    "meta": {
+     "prompt": 0.04,
+     "completion": 0.05,
+     "ctx": 131072
+    }
+   },
+   "google/gemma-3-12b-it": {
+    "title": "Google: Gemma 3 12B",
+    "url": "https://openrouter.ai/models/google/gemma-3-12b-it",
+    "meta": {
+     "prompt": 0.05,
+     "completion": 0.15,
+     "ctx": 131072
+    }
+   },
+   "cohere/command-a": {
+    "title": "Cohere: Command A",
+    "url": "https://openrouter.ai/models/cohere/command-a",
+    "meta": {
+     "prompt": 2.5,
+     "completion": 10.0,
+     "ctx": 256000
+    }
+   },
+   "rekaai/reka-flash-3": {
+    "title": "Reka Flash 3",
+    "url": "https://openrouter.ai/models/rekaai/reka-flash-3",
+    "meta": {
+     "prompt": 0.1,
+     "completion": 0.2,
+     "ctx": 65536
+    }
+   },
+   "google/gemma-3-27b-it": {
+    "title": "Google: Gemma 3 27B",
+    "url": "https://openrouter.ai/models/google/gemma-3-27b-it",
+    "meta": {
+     "prompt": 0.08,
+     "completion": 0.16,
+     "ctx": 131072
+    }
+   },
+   "thedrummer/skyfall-36b-v2": {
+    "title": "TheDrummer: Skyfall 36B V2",
+    "url": "https://openrouter.ai/models/thedrummer/skyfall-36b-v2",
+    "meta": {
+     "prompt": 0.55,
+     "completion": 0.8,
+     "ctx": 32768
+    }
+   },
+   "perplexity/sonar-reasoning-pro": {
+    "title": "Perplexity: Sonar Reasoning Pro",
+    "url": "https://openrouter.ai/models/perplexity/sonar-reasoning-pro",
+    "meta": {
+     "prompt": 2.0,
+     "completion": 8.0,
+     "ctx": 128000
+    }
+   },
+   "perplexity/sonar-pro": {
+    "title": "Perplexity: Sonar Pro",
+    "url": "https://openrouter.ai/models/perplexity/sonar-pro",
+    "meta": {
+     "prompt": 3.0,
+     "completion": 15.0,
+     "ctx": 200000
+    }
+   },
+   "perplexity/sonar-deep-research": {
+    "title": "Perplexity: Sonar Deep Research",
+    "url": "https://openrouter.ai/models/perplexity/sonar-deep-research",
+    "meta": {
+     "prompt": 2.0,
+     "completion": 8.0,
+     "ctx": 128000
+    }
+   },
+   "mistralai/mistral-saba": {
+    "title": "Mistral: Saba",
+    "url": "https://openrouter.ai/models/mistralai/mistral-saba",
+    "meta": {
+     "prompt": 0.2,
+     "completion": 0.6,
+     "ctx": 32768
+    }
+   },
+   "aion-labs/aion-rp-llama-3.1-8b": {
+    "title": "AionLabs: Aion-RP 1.0 (8B)",
+    "url": "https://openrouter.ai/models/aion-labs/aion-rp-llama-3.1-8b",
+    "meta": {
+     "prompt": 0.8,
+     "completion": 1.6,
+     "ctx": 32768
+    }
+   },
+   "qwen/qwen2.5-vl-72b-instruct": {
+    "title": "Qwen: Qwen2.5 VL 72B Instruct",
+    "url": "https://openrouter.ai/models/qwen/qwen2.5-vl-72b-instruct",
+    "meta": {
+     "prompt": 0.8,
+     "completion": 1.0,
+     "ctx": 128000
+    }
+   },
+   "qwen/qwen-plus": {
+    "title": "Qwen: Qwen-Plus",
+    "url": "https://openrouter.ai/models/qwen/qwen-plus",
+    "meta": {
+     "prompt": 0.26,
+     "completion": 0.78,
+     "ctx": 1000000
+    }
+   },
+   "openai/o3-mini:batch": {
+    "title": "OpenAI: o3 Mini (batch)",
+    "url": "https://openrouter.ai/models/openai/o3-mini",
+    "meta": {
+     "prompt": 0.55,
+     "completion": 2.2,
+     "ctx": 200000
+    }
+   },
+   "mistralai/mistral-small-24b-instruct-2501": {
+    "title": "Mistral: Mistral Small 3",
+    "url": "https://openrouter.ai/models/mistralai/mistral-small-24b-instruct-2501",
+    "meta": {
+     "prompt": 0.05,
+     "completion": 0.08,
+     "ctx": 32768
+    }
+   },
+   "perplexity/sonar": {
+    "title": "Perplexity: Sonar",
+    "url": "https://openrouter.ai/models/perplexity/sonar",
+    "meta": {
+     "prompt": 1.0,
+     "completion": 1.0,
+     "ctx": 127072
+    }
+   },
+   "microsoft/phi-4": {
+    "title": "Microsoft: Phi 4",
+    "url": "https://openrouter.ai/models/microsoft/phi-4",
+    "meta": {
+     "prompt": 0.07,
+     "completion": 0.14,
+     "ctx": 16384
+    }
+   },
+   "deepseek/deepseek-chat": {
+    "title": "DeepSeek: DeepSeek V3",
+    "url": "https://openrouter.ai/models/deepseek/deepseek-chat",
+    "meta": {
+     "prompt": 0.2574,
+     "completion": 1.0287,
+     "ctx": 163840
+    }
+   },
+   "cohere/command-r7b-12-2024": {
+    "title": "Cohere: Command R7B (12-2024)",
+    "url": "https://openrouter.ai/models/cohere/command-r7b-12-2024",
+    "meta": {
+     "prompt": 0.0375,
+     "completion": 0.15,
+     "ctx": 128000
+    }
+   },
+   "meta-llama/llama-3.3-70b-instruct": {
+    "title": "Meta: Llama 3.3 70B Instruct",
+    "url": "https://openrouter.ai/models/meta-llama/llama-3.3-70b-instruct",
+    "meta": {
+     "prompt": 0.71,
+     "completion": 0.71,
+     "ctx": 131072
+    }
+   },
+   "amazon/nova-lite-v1": {
+    "title": "Amazon: Nova Lite 1.0",
+    "url": "https://openrouter.ai/models/amazon/nova-lite-v1",
+    "meta": {
+     "prompt": 0.06,
+     "completion": 0.24,
+     "ctx": 300000
+    }
+   },
+   "amazon/nova-micro-v1": {
+    "title": "Amazon: Nova Micro 1.0",
+    "url": "https://openrouter.ai/models/amazon/nova-micro-v1",
+    "meta": {
+     "prompt": 0.035,
+     "completion": 0.14,
+     "ctx": 128000
+    }
+   },
+   "amazon/nova-pro-v1": {
+    "title": "Amazon: Nova Pro 1.0",
+    "url": "https://openrouter.ai/models/amazon/nova-pro-v1",
+    "meta": {
+     "prompt": 0.8,
+     "completion": 3.2,
+     "ctx": 300000
+    }
+   },
+   "openai/gpt-4o-2024-11-20": {
+    "title": "OpenAI: GPT-4o (2024-11-20)",
+    "url": "https://openrouter.ai/models/openai/gpt-4o-2024-11-20",
+    "meta": {
+     "prompt": 2.5,
+     "completion": 10.0,
+     "ctx": 128000
+    }
+   },
+   "mistralai/mistral-large-2407": {
+    "title": "Mistral Large 2407",
+    "url": "https://openrouter.ai/models/mistralai/mistral-large-2407",
+    "meta": {
+     "prompt": 2.0,
+     "completion": 6.0,
+     "ctx": 131072
+    }
+   },
+   "qwen/qwen-2.5-coder-32b-instruct": {
+    "title": "Qwen2.5 Coder 32B Instruct",
+    "url": "https://openrouter.ai/models/qwen/qwen-2.5-coder-32b-instruct",
+    "meta": {
+     "prompt": 0.66,
+     "completion": 1.0,
+     "ctx": 32768
+    }
+   },
+   "thedrummer/unslopnemo-12b": {
+    "title": "TheDrummer: UnslopNemo 12B",
+    "url": "https://openrouter.ai/models/thedrummer/unslopnemo-12b",
+    "meta": {
+     "prompt": 0.4,
+     "completion": 0.4,
+     "ctx": 1024000
+    }
+   },
+   "anthracite-org/magnum-v4-72b": {
+    "title": "Magnum v4 72B",
+    "url": "https://openrouter.ai/models/anthracite-org/magnum-v4-72b",
+    "meta": {
+     "prompt": 2.5,
+     "completion": 5.0,
+     "ctx": 32768
+    }
+   },
+   "meta-llama/llama-3.2-3b-instruct": {
+    "title": "Meta: Llama 3.2 3B Instruct",
+    "url": "https://openrouter.ai/models/meta-llama/llama-3.2-3b-instruct",
+    "meta": {
+     "prompt": 0.05,
+     "completion": 0.33,
+     "ctx": 131072
+    }
+   },
+   "qwen/qwen-2.5-72b-instruct": {
+    "title": "Qwen2.5 72B Instruct",
+    "url": "https://openrouter.ai/models/qwen/qwen-2.5-72b-instruct",
+    "meta": {
+     "prompt": 0.36,
+     "completion": 0.4,
+     "ctx": 32768
+    }
+   },
+   "cohere/command-r-08-2024": {
+    "title": "Cohere: Command R (08-2024)",
+    "url": "https://openrouter.ai/models/cohere/command-r-08-2024",
+    "meta": {
+     "prompt": 0.15,
+     "completion": 0.6,
+     "ctx": 128000
+    }
+   },
+   "cohere/command-r-plus-08-2024": {
+    "title": "Cohere: Command R+ (08-2024)",
+    "url": "https://openrouter.ai/models/cohere/command-r-plus-08-2024",
+    "meta": {
+     "prompt": 2.5,
+     "completion": 10.0,
+     "ctx": 128000
+    }
+   },
+   "sao10k/l3.1-euryale-70b": {
+    "title": "Sao10K: Llama 3.1 Euryale 70B v2.2",
+    "url": "https://openrouter.ai/models/sao10k/l3.1-euryale-70b",
+    "meta": {
+     "prompt": 0.85,
+     "completion": 0.85,
+     "ctx": 131072
+    }
+   },
+   "sao10k/l3-lunaris-8b": {
+    "title": "Sao10K: Llama 3 8B Lunaris",
+    "url": "https://openrouter.ai/models/sao10k/l3-lunaris-8b",
+    "meta": {
+     "prompt": 0.04,
+     "completion": 0.05,
+     "ctx": 8192
+    }
+   },
+   "openai/gpt-4o-2024-08-06": {
+    "title": "OpenAI: GPT-4o (2024-08-06)",
+    "url": "https://openrouter.ai/models/openai/gpt-4o-2024-08-06",
+    "meta": {
+     "prompt": 2.5,
+     "completion": 10.0,
+     "ctx": 128000
+    }
+   },
+   "meta-llama/llama-3.1-70b-instruct": {
+    "title": "Meta: Llama 3.1 70B Instruct",
+    "url": "https://openrouter.ai/models/meta-llama/llama-3.1-70b-instruct",
+    "meta": {
+     "prompt": 0.72,
+     "completion": 0.72,
+     "ctx": 131072
+    }
+   },
+   "meta-llama/llama-3.1-8b-instruct": {
+    "title": "Meta: Llama 3.1 8B Instruct",
+    "url": "https://openrouter.ai/models/meta-llama/llama-3.1-8b-instruct",
+    "meta": {
+     "prompt": 0.02,
+     "completion": 0.04,
+     "ctx": 131072
+    }
+   },
+   "mistralai/mistral-nemo": {
+    "title": "Mistral: Mistral Nemo",
+    "url": "https://openrouter.ai/models/mistralai/mistral-nemo",
+    "meta": {
+     "prompt": 0.029,
+     "completion": 0.03,
+     "ctx": 131072
+    }
+   },
+   "openai/gpt-4o-mini": {
+    "title": "OpenAI: GPT-4o-mini",
+    "url": "https://openrouter.ai/models/openai/gpt-4o-mini",
+    "meta": {
+     "prompt": 0.15,
+     "completion": 0.6,
+     "ctx": 128000
+    }
+   },
+   "openai/gpt-4o-mini-2024-07-18": {
+    "title": "OpenAI: GPT-4o-mini (2024-07-18)",
+    "url": "https://openrouter.ai/models/openai/gpt-4o-mini-2024-07-18",
+    "meta": {
+     "prompt": 0.15,
+     "completion": 0.6,
+     "ctx": 128000
+    }
+   },
+   "openai/gpt-4o-mini:batch": {
+    "title": "OpenAI: GPT-4o-mini (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-4o-mini",
+    "meta": {
+     "prompt": 0.075,
+     "completion": 0.3,
+     "ctx": 128000
+    }
+   },
+   "google/gemma-2-27b-it": {
+    "title": "Google: Gemma 2 27B",
+    "url": "https://openrouter.ai/models/google/gemma-2-27b-it",
+    "meta": {
+     "prompt": 0.65,
+     "completion": 0.65,
+     "ctx": 8192
+    }
+   },
+   "openai/gpt-4o": {
+    "title": "OpenAI: GPT-4o",
+    "url": "https://openrouter.ai/models/openai/gpt-4o",
+    "meta": {
+     "prompt": 2.5,
+     "completion": 10.0,
+     "ctx": 128000
+    }
+   },
+   "openai/gpt-4o-2024-05-13": {
+    "title": "OpenAI: GPT-4o (2024-05-13)",
+    "url": "https://openrouter.ai/models/openai/gpt-4o-2024-05-13",
+    "meta": {
+     "prompt": 5.0,
+     "completion": 15.0,
+     "ctx": 128000
+    }
+   },
+   "openai/gpt-4o:batch": {
+    "title": "OpenAI: GPT-4o (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-4o",
+    "meta": {
+     "prompt": 1.25,
+     "completion": 5.0,
+     "ctx": 128000
+    }
+   },
+   "mistralai/mixtral-8x22b-instruct": {
+    "title": "Mistral: Mixtral 8x22B Instruct",
+    "url": "https://openrouter.ai/models/mistralai/mixtral-8x22b-instruct",
+    "meta": {
+     "prompt": 2.0,
+     "completion": 6.0,
+     "ctx": 65536
+    }
+   },
+   "openai/gpt-4-turbo:batch": {
+    "title": "OpenAI: GPT-4 Turbo (batch)",
+    "url": "https://openrouter.ai/models/openai/gpt-4-turbo",
+    "meta": {
+     "prompt": 5.0,
+     "completion": 15.0,
+     "ctx": 128000
+    }
+   },
+   "mistralai/mistral-large": {
+    "title": "Mistral Large",
+    "url": "https://openrouter.ai/models/mistralai/mistral-large",
+    "meta": {
+     "prompt": 2.0,
+     "completion": 6.0,
+     "ctx": 128000
+    }
+   },
+   "openai/gpt-3.5-turbo-0613": {
+    "title": "OpenAI: GPT-3.5 Turbo (older v0613)",
+    "url": "https://openrouter.ai/models/openai/gpt-3.5-turbo-0613",
+    "meta": {
+     "prompt": 1.0,
+     "completion": 2.0,
+     "ctx": 4095
+    }
+   },
+   "openai/gpt-3.5-turbo-16k": {
+    "title": "OpenAI: GPT-3.5 Turbo 16k",
+    "url": "https://openrouter.ai/models/openai/gpt-3.5-turbo-16k",
+    "meta": {
+     "prompt": 3.0,
+     "completion": 4.0,
+     "ctx": 16385
+    }
+   },
+   "mancer/weaver": {
+    "title": "Mancer: Weaver (alpha)",
+    "url": "https://openrouter.ai/models/mancer/weaver",
+    "meta": {
+     "prompt": 0.3,
+     "completion": 0.5,
+     "ctx": 8000
+    }
+   },
+   "undi95/remm-slerp-l2-13b": {
+    "title": "ReMM SLERP 13B",
+    "url": "https://openrouter.ai/models/undi95/remm-slerp-l2-13b",
+    "meta": {
+     "prompt": 0.3,
+     "completion": 0.5,
+     "ctx": 6144
+    }
+   },
+   "gryphe/mythomax-l2-13b": {
+    "title": "MythoMax 13B",
+    "url": "https://openrouter.ai/models/gryphe/mythomax-l2-13b",
+    "meta": {
+     "prompt": 0.3,
+     "completion": 0.5,
+     "ctx": 8192
+    }
+   },
+   "openai/gpt-4": {
+    "title": "OpenAI: GPT-4",
+    "url": "https://openrouter.ai/models/openai/gpt-4",
+    "meta": {
+     "prompt": 30.0,
+     "completion": 60.0,
+     "ctx": 8191
+    }
+   },
+   "openrouter/auto": {
+    "title": "Auto Router",
+    "url": "https://openrouter.ai/models/openrouter/auto",
+    "meta": {
+     "prompt": -1000000.0,
+     "completion": -1000000.0,
+     "ctx": 2000000
+    }
+   },
+   "openrouter/auto-code": {
+    "title": "Auto Code",
+    "url": "https://openrouter.ai/models/openrouter/auto-code",
+    "meta": {
+     "prompt": -1000000.0,
+     "completion": -1000000.0,
+     "ctx": 2000000
+    }
+   },
+   "typesafe/jev-router": {
+    "title": "TypeSafe: Jev Router",
+    "url": "https://openrouter.ai/models/typesafe/jev-router",
+    "meta": {
+     "prompt": -1000000.0,
+     "completion": -1000000.0,
+     "ctx": 1000000
+    }
+   },
+   "nvidia/switchyard": {
+    "title": "NVIDIA: Switchyard",
+    "url": "https://openrouter.ai/models/nvidia/switchyard",
+    "meta": {
+     "prompt": -1000000.0,
+     "completion": -1000000.0,
+     "ctx": 1000000
+    }
+   },
+   "openrouter/auto-beta": {
+    "title": "Auto Router (Beta)",
+    "url": "https://openrouter.ai/models/openrouter/auto-beta",
+    "meta": {
+     "prompt": -1000000.0,
+     "completion": -1000000.0,
+     "ctx": 2000000
+    }
+   },
+   "openrouter/fusion": {
+    "title": "OpenRouter: Fusion",
+    "url": "https://openrouter.ai/models/openrouter/fusion",
+    "meta": {
+     "prompt": -1000000.0,
+     "completion": -1000000.0,
+     "ctx": 1000000
+    }
+   },
+   "openrouter/pareto-code": {
+    "title": "Pareto Code Router",
+    "url": "https://openrouter.ai/models/openrouter/pareto-code",
+    "meta": {
+     "prompt": -1000000.0,
+     "completion": -1000000.0,
+     "ctx": 2000000
+    }
+   },
+   "openrouter/free": {
+    "title": "Free Models Router",
+    "url": "https://openrouter.ai/models/openrouter/free",
+    "meta": {
+     "prompt": 0.0,
+     "completion": 0.0,
+     "ctx": 200000
+    }
+   },
+   "openrouter/bodybuilder": {
+    "title": "Body Builder (beta)",
+    "url": "https://openrouter.ai/models/openrouter/bodybuilder",
+    "meta": {
+     "prompt": -1000000.0,
+     "completion": -1000000.0,
+     "ctx": 128000
+    }
+   }
+  },
+  "mcp": {
+   "ac.inference.sh/mcp": {
+    "title": "inference.sh",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ac.inference.sh/mcp",
+    "meta": {
+     "desc": "Run 150+ AI apps — image, video, audio, LLMs, 3D and more. Browse, execute, stream results.",
+     "version": "1.0.0"
+    }
+   },
+   "ac.mizan/registry": {
+    "title": "Mizan",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ac.mizan/registry",
+    "meta": {
+     "desc": "Player ban records from 560+ game community ban lists, with Steam's own bans. Reads need no key.",
+     "version": "1.2.0"
+    }
+   },
+   "ac.snag/snag": {
+    "title": "ac.snag/snag",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ac.snag/snag",
+    "meta": {
+     "desc": "Gives your coding agent the captured console, network, replay and screenshot evidence for a bug.",
+     "version": "1.0.0"
+    }
+   },
+   "ac.tandem/docs-mcp": {
+    "title": "ac.tandem/docs-mcp",
+    "url": "https://github.com/frumu-ai/tandem",
+    "meta": {
+     "desc": "Remote MCP server for Tandem docs, install guides, SDKs, workflows, and agent setup help.",
+     "version": "0.3.0"
+    }
+   },
+   "academy.apexai/apex-ai-academy": {
+    "title": "Apex AI Academy",
+    "url": "https://github.com/ApexAI-Academy/sample-agents",
+    "meta": {
+     "desc": "Lessons, news and pricing from Apex AI Academy, an AI academy run by agents. Free lessons, no key.",
+     "version": "1.0.0"
+    }
+   },
+   "academy.ase/periodic-system": {
+    "title": "Agentic Engineering Periodic System",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=academy.ase/periodic-system",
+    "meta": {
+     "desc": "Practices for building software with coding agents, each with a test you check on your repo.",
+     "version": "2026.4.1"
+    }
+   },
+   "academy.jasonlau/classes": {
+    "title": "Jason Lau Academy",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=academy.jasonlau/classes",
+    "meta": {
+     "desc": "Vibe coding classes for teens in Hong Kong: class info, AI tool age limits, guides, enquiries.",
+     "version": "1.0.0"
+    }
+   },
+   "academy.mycontent/google-ads": {
+    "title": "MyContent Google Ads",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=academy.mycontent/google-ads",
+    "meta": {
+     "desc": "Google Ads reporting and reviewable change plans using your own Google authorization.",
+     "version": "0.1.0"
+    }
+   },
+   "academy.serviceengineer/se-ai": {
+    "title": "Service Engineer AI",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=academy.serviceengineer/se-ai",
+    "meta": {
+     "desc": "Medical equipment troubleshooting and spare parts lookup for biomedical and service engineers.",
+     "version": "1.0.0"
+    }
+   },
+   "ad.apogee/apogee": {
+    "title": "Apogee: Bulk Ad Launcher for Meta, TikTok & Snapchat",
+    "url": "https://github.com/ApogeeGIT/apogee-mcp",
+    "meta": {
+     "desc": "Bulk-launch and manage ads across many Meta, TikTok and Snapchat ad accounts for agencies.",
+     "version": "1.1.0"
+    }
+   },
+   "ad.getle/leads": {
+    "title": "Getlead",
+    "url": "https://github.com/Adgrowofficial/getlead-mcp",
+    "meta": {
+     "desc": "Find B2B leads with verified work emails, find and verify emails, and run cold email outreach.",
+     "version": "1.0.0"
+    }
+   },
+   "ad.inside/inside-ads": {
+    "title": "Inside Ads",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ad.inside/inside-ads",
+    "meta": {
+     "desc": "Telegram ad exchange: estimate reach and cost with no account, then create and run campaigns.",
+     "version": "1.0.0"
+    }
+   },
+   "ad.pantheon/mcp": {
+    "title": "Pantheon",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ad.pantheon/mcp",
+    "meta": {
+     "desc": "Meta ads library, competitor ads, brand voice, avatars and offer briefs from your Pantheon account.",
+     "version": "1.0.0"
+    }
+   },
+   "ad.tide/mcp": {
+    "title": "tide",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ad.tide/mcp",
+    "meta": {
+     "desc": "Sui blockchain data in plain English: transactions, wallets, coins, balances, fund flows and SQL.",
+     "version": "2.0.0"
+    }
+   },
+   "ad.tributs/mcp": {
+    "title": "Tributs",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ad.tributs/mcp",
+    "meta": {
+     "desc": "Read-only access to Andorran accounting and tax data in Tributs: invoices, bank, IGI filings.",
+     "version": "1.0.0"
+    }
+   },
+   "ae.alexeysound/alexey-sound": {
+    "title": "Alexey Sound — sound recordist, Dubai",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ae.alexeysound/alexey-sound",
+    "meta": {
+     "desc": "Find and book a location sound recordist / production sound mixer in Dubai and the UAE.",
+     "version": "1.0.0"
+    }
+   },
+   "ae.beachclubs/mcp": {
+    "title": "BeachClubs.ae",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ae.beachclubs/mcp",
+    "meta": {
+     "desc": "Search UAE beach clubs, day pass prices, amenities, opening hours and events across all 7 emirates.",
+     "version": "0.2.0"
+    }
+   },
+   "ae.brainy.tipline/gta6": {
+    "title": "Tipline: unofficial GTA 6 guide",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ae.brainy.tipline/gta6",
+    "meta": {
+     "desc": "Unofficial GTA 6 guide: sourced facts on characters, places, vehicles and release times.",
+     "version": "1.0.0"
+    }
+   },
+   "ae.brainy/grocery-prices": {
+    "title": "Dubai Grocery Prices",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ae.brainy/grocery-prices",
+    "meta": {
+     "desc": "Compare Dubai grocery lists, observed prices, delivery rules and indicative online offers in AED.",
+     "version": "1.0.0"
+    }
+   },
+   "ae.datadubai/dubai-real-estate": {
+    "title": "Dubai Data — Dubai real estate statistics",
+    "url": "https://github.com/datadubai/dubai-real-estate-dld",
+    "meta": {
+     "desc": "Dubai property prices, AED/sqft, sales, rents, yields and projects from DLD registered transactions.",
+     "version": "1.1.0"
+    }
+   },
+   "ae.discond/discond": {
+    "title": "Discond",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ae.discond/discond",
+    "meta": {
+     "desc": "Live discounts at UAE restaurants and shops across Fazaa, The Entertainer, Talabat and more.",
+     "version": "1.0.0"
+    }
+   },
+   "ae.easyvoice/tts": {
+    "title": "EasyVoice text to speech",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ae.easyvoice/tts",
+    "meta": {
+     "desc": "Hosted text-to-speech MCP server: 66 voices in 9 languages, long-form narration, podcasts.",
+     "version": "1.0.0"
+    }
+   },
+   "ae.employerofrecord/moha": {
+    "title": "Moha: hire in the UAE",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ae.employerofrecord/moha",
+    "meta": {
+     "desc": "Hire in the UAE without a local company: guide, quotes and accounts via an Employer of Record.",
+     "version": "1.0.0"
+    }
+   },
+   "ae.employerofrecord/moha-account": {
+    "title": "Moha: your account",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ae.employerofrecord/moha-account",
+    "meta": {
+     "desc": "Act in your Moha workspace (OAuth): team, hires, approvals, time off, expenses, payroll.",
+     "version": "1.0.0"
+    }
+   },
+   "ae.framerfy/store-builder": {
+    "title": "Framerfy",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ae.framerfy/store-builder",
+    "meta": {
+     "desc": "Build a Shopify-backed Framer store: sync products, theme, cart, checkout, publish and verify.",
+     "version": "1.0.0"
+    }
+   },
+   "ae.genosys/genosys": {
+    "title": "GENOSYS UAE",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ae.genosys/genosys",
+    "meta": {
+     "desc": "Shop GENOSYS Korean skincare in the UAE from chat: find products, AED prices, order and pay.",
+     "version": "1.1.0"
+    }
+   },
+   "ae.grovisor/grotax": {
+    "title": "groTAX by Grovisor",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ae.grovisor/grotax",
+    "meta": {
+     "desc": "UAE Corporate Tax: CT computation, SBR, penalties, free zone test, TP and health-check.",
+     "version": "1.2.0"
+    }
+   },
+   "ae.mrk/dubai-property": {
+    "title": "MRK Dubai Property",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ae.mrk/dubai-property",
+    "meta": {
+     "desc": "Dubai real estate data: 2,400+ projects, developers, communities, purchase costs and Golden Visa.",
+     "version": "1.0.0"
+    }
+   },
+   "ae.plantguide/dubai-gardening": {
+    "title": "Plant Guide: Dubai gardening research",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ae.plantguide/dubai-gardening",
+    "meta": {
+     "desc": "What to plant in Dubai each month, plant care in the heat, garden styles and Garden Care prices.",
+     "version": "1.0.0"
+    }
+   },
+   "ae.projectory/mcp": {
+    "title": "Projectory",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ae.projectory/mcp",
+    "meta": {
+     "desc": "Find UAE off-plan developments and registered residential sales.",
+     "version": "0.6.0"
+    }
+   },
+   "ae.propick/propick": {
+    "title": "Propick Integration MCP",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ae.propick/propick",
+    "meta": {
+     "desc": "Manage your real-estate stock on Propick (Dubai): bulk listing sync, lookups and run reports.",
+     "version": "1.0.0"
+    }
+   },
+   "ae.waggle/fenlight": {
+    "title": "Fenlight",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ae.waggle/fenlight",
+    "meta": {
+     "desc": "Google search results, forum threads, local and shopping data, keyword ideas, AI answer tracking.",
+     "version": "0.3.0"
+    }
+   },
+   "ae.waggle/vera": {
+    "title": "Vera",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ae.waggle/vera",
+    "meta": {
+     "desc": "Scrape, search and extract the public web. 3,000 free credits at https://vera.waggle.ae/signup",
+     "version": "0.1.0"
+    }
+   },
+   "aero.avioverse/library": {
+    "title": "Avioverse EASA library",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=aero.avioverse/library",
+    "meta": {
+     "desc": "EASA regulations with AMC and GM, and EASA definitions, read-only, each with its page to cite",
+     "version": "1.0.0"
+    }
+   },
+   "aero.events/events": {
+    "title": "Events.Aero",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=aero.events/events",
+    "meta": {
+     "desc": "Find aviation events: airshows, fly-ins, workshops and club meets. Public and read-only.",
+     "version": "1.0.0"
+    }
+   },
+   "africa.divisi/divisi": {
+    "title": "Divisi",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=africa.divisi/divisi",
+    "meta": {
+     "desc": "Farm, trade and learn together: what to plant and when, what ails a crop, prices near you.",
+     "version": "26.11.20.1"
+    }
+   },
+   "africa.lomi/mcp": {
+    "title": "lomi.",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=africa.lomi/mcp",
+    "meta": {
+     "desc": "lomi. payments. https://mcp.lomi.africa/mcp and guest https://mcp.lomi.africa/mcp/guest",
+     "version": "1.0.0"
+    }
+   },
+   "africa.startuplist/mcp": {
+    "title": "StartupList Africa",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=africa.startuplist/mcp",
+    "meta": {
+     "desc": "Research African startups, investors and funding rounds, with source links on every record.",
+     "version": "1.0.0"
+    }
+   },
+   "africa.ugc/ugc": {
+    "title": "UGC, the Human Ad Network",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=africa.ugc/ugc",
+    "meta": {
+     "desc": "The Human Ad Network. Campaigns, clipping, and Clip Studio from chat.",
+     "version": "1.0.0"
+    }
+   },
+   "ag.hood/name-service": {
+    "title": "hood. — .hood name service",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ag.hood/name-service",
+    "meta": {
+     "desc": "Resolve .hood names on Robinhood Chain — forward/reverse, text records, availability & pricing.",
+     "version": "0.1.0"
+    }
+   },
+   "agency.almostimpossible/site": {
+    "title": "Almost Impossible",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=agency.almostimpossible/site",
+    "meta": {
+     "desc": "Read-only access to the Almost Impossible agency website: case studies, team, news and pages.",
+     "version": "1.0.0"
+    }
+   },
+   "agency.extremely/agency": {
+    "title": "EXTREMELY agency",
+    "url": "https://github.com/maxkxd/extremely-autonomous-agents",
+    "meta": {
+     "desc": "Your agency of AI agents in your AI app: what agents did, approvals, requests, jobs and reports.",
+     "version": "0.1.0"
+    }
+   },
+   "agency.goji/goji": {
+    "title": "agency.goji/goji",
+    "url": "https://github.com/goji-agency/website",
+    "meta": {
+     "desc": "AEO, SEO, web and brand answers from a Melbourne agency's published glossary, guides and pricing.",
+     "version": "1.0.0"
+    }
+   },
+   "agency.granek.signal/signal": {
+    "title": "Granek Signal",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=agency.granek.signal/signal",
+    "meta": {
+     "desc": "B2B sales intelligence: companies with a fresh buying trigger, dossiers, decision makers, sources.",
+     "version": "1.0.0"
+    }
+   },
+   "agency.justidea/justidea-agency": {
+    "title": "JustIdea Agency",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=agency.justidea/justidea-agency",
+    "meta": {
+     "desc": "Services, published prices, site search and sales inquiries of JustIdea, a Polish e-commerce agency.",
+     "version": "1.0.0"
+    }
+   },
+   "agency.kesey/pretrip": {
+    "title": "Pre-Trip compliance scanner",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=agency.kesey/pretrip",
+    "meta": {
+     "desc": "Screen regulated-health marketing copy against source-cited rulesets, all 50 states.",
+     "version": "1.0.1"
+    }
+   },
+   "agency.lona/trading": {
+    "title": "agency.lona/trading",
+    "url": "https://github.com/mindsightventures/lona",
+    "meta": {
+     "desc": "AI-powered trading strategy development: backtesting, market data, and portfolio analysis",
+     "version": "2.0.0"
+    }
+   },
+   "agency.ottobot/business-contact-finder": {
+    "title": "Business Contact Finder",
+    "url": "https://github.com/modelcontextprotocol/registry",
+    "meta": {
+     "desc": "Check how to contact a business website, and whether that contact path actually works.",
+     "version": "0.2.0"
+    }
+   },
+   "agency.ottobot/contractor-license-changes": {
+    "title": "Contractor Licence Changes",
+    "url": "https://github.com/modelcontextprotocol/registry",
+    "meta": {
+     "desc": "Did this contractor's licence change? Observed lapses and reinstatements, not a snapshot.",
+     "version": "0.1.2"
+    }
+   },
+   "agency.ottobot/licensed-house-painters": {
+    "title": "Licensed House Painters",
+    "url": "https://github.com/modelcontextprotocol/registry",
+    "meta": {
+     "desc": "Find licensed house painters in 11 US states, with dated licence status from state boards.",
+     "version": "0.1.0"
+    }
+   },
+   "agency.thebureauoflostcontext/bureau-public": {
+    "title": "Bureau public reader",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=agency.thebureauoflostcontext/bureau-public",
+    "meta": {
+     "desc": "Bureau-operated public read-only MCP service for public Context Packets and Cases.",
+     "version": "3.0.0"
+    }
+   },
+   "agency.thirdhemisphere/ai-authority-index": {
+    "title": "Third Hemisphere AI Authority Index",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=agency.thirdhemisphere/ai-authority-index",
+    "meta": {
+     "desc": "Read-only CRISP scores and AI visibility data from Third Hemisphere's AI Authority Index.",
+     "version": "1.0.0"
+    }
+   },
+   "agency.zoll/ausfuhr": {
+    "title": "zoll.agency",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=agency.zoll/ausfuhr",
+    "meta": {
+     "desc": "Regeln und Suchen zur Ausfuhr aus der EU: Kumulierung, Präferenznachweis, Incoterms, Warennummer",
+     "version": "1.0.0"
+    }
+   },
+   "ai.0si/disclosures": {
+    "title": "0si.ai Disclosures",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.0si/disclosures",
+    "meta": {
+     "desc": "Korean (DART/KIND) and US SEC filings with AI summaries, direction labels and market reaction.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.1325/mcp": {
+    "title": "1325.AI",
+    "url": "https://github.com/1325ai/1325ai",
+    "meta": {
+     "desc": "Verified directory of 44,000+ Black-owned U.S. businesses. Search, maps, loyalty rewards.",
+     "version": "0.1.0"
+    }
+   },
+   "ai.13f/mcp": {
+    "title": "13F.ai",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.13f/mcp",
+    "meta": {
+     "desc": "Public-filing data: 13F fund holdings, insider and Congress stock trades, lobbying, contracts.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.1clickwebsite/mcp": {
+    "title": "1ClickWebsite",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.1clickwebsite/mcp",
+    "meta": {
+     "desc": "Build and edit WordPress websites for local service businesses and run Lead Gen demo-site batches.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.1court.state/court-directory": {
+    "title": "1Court Directory",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.1court.state/court-directory",
+    "meta": {
+     "desc": "US county court directory: clerk, courthouse address, e-filing, filing fees, and case lookup.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.28in28/agent-service-desk": {
+    "title": "28/28 Agent Service Desk: Fix & Verify",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.28in28/agent-service-desk",
+    "meta": {
+     "desc": "Check SPF/DKIM/DMARC of a domain, get a non-binding Fix & Verify quote, re-verify after the DNS fix.",
+     "version": "1.1.0"
+    }
+   },
+   "ai.2kw/mcp-server": {
+    "title": "2kw.ai",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.2kw/mcp-server",
+    "meta": {
+     "desc": "EU-hosted AI platform: OpenAI-compatible LLM gateway, document extraction, transcription, agents.",
+     "version": "6.3.0"
+    }
+   },
+   "ai.4ai/domains": {
+    "title": "4ai – premium .ai domains for sale",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.4ai/domains",
+    "meta": {
+     "desc": "Search 254 premium .ai domains for sale, get free .ai value estimates and real .ai sales data.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.69ai/69ai": {
+    "title": "69.ai",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.69ai/69ai",
+    "meta": {
+     "desc": "Relationship network for AI agents and people: register, match, chat, dinner ideas, virtual gifts.",
+     "version": "1.5.0"
+    }
+   },
+   "ai.a1lane/a1lane": {
+    "title": "A1 Lane",
+    "url": "https://github.com/a1lane/a1lane-mcp",
+    "meta": {
+     "desc": "Draft, schedule and publish social posts and videos; delivery receipts, read-back where available.",
+     "version": "1.10.0"
+    }
+   },
+   "ai.a2uicatalog/catalog": {
+    "title": "A2UI Atomic Catalog",
+    "url": "https://github.com/a2uicatalog/a2ui",
+    "meta": {
+     "desc": "500+ typed UI atoms an agent composes into real rendered interfaces. Free, no API key.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.a2uicatalog/docs": {
+    "title": "A2UI Atomic Catalog docs",
+    "url": "https://github.com/a2uicatalog/a2ui",
+    "meta": {
+     "desc": "Search the A2UI Atomic Catalog's own docs: auth, versioning, pricing, API surface.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.aard/aard": {
+    "title": "Aard",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.aard/aard",
+    "meta": {
+     "desc": "Official statistics from 170+ publishers, resolved from natural language with provenance.",
+     "version": "0.1.0"
+    }
+   },
+   "ai.aarna/atars-mcp": {
+    "title": "aTars MCP",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.aarna/atars-mcp",
+    "meta": {
+     "desc": "Crypto market signals, technical indicators, and sentiment analysis for AI agents.",
+     "version": "0.1.0"
+    }
+   },
+   "ai.abmeter/abmeter": {
+    "title": "ABMeter",
+    "url": "https://github.com/abmeter/abmeter",
+    "meta": {
+     "desc": "Feature flagging and A/B testing platform with AI-first experimentation workflows.",
+     "version": "0.1.0"
+    }
+   },
+   "ai.achromat/mcp-server": {
+    "title": "Achromat MOM",
+    "url": "https://github.com/achromat-ai/achromat-mcp-server",
+    "meta": {
+     "desc": "Recall and calibrate agent tool calls against verified policy lessons from Achromat MOM.",
+     "version": "0.1.1"
+    }
+   },
+   "ai.achurch/church": {
+    "title": "aChurch.ai",
+    "url": "https://github.com/a-church-ai/church",
+    "meta": {
+     "desc": "A sanctuary for AI agents and humans: attend a service, reflect, read, search, and ask. No auth.",
+     "version": "2.0.1"
+    }
+   },
+   "ai.acquisity/mcp": {
+    "title": "Acquisity",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.acquisity/mcp",
+    "meta": {
+     "desc": "Run Acquisity cold email campaigns, AI SDR replies, lead search and CRM from any MCP client.",
+     "version": "2.0.0"
+    }
+   },
+   "ai.actwise/ideation": {
+    "title": "ai.actwise/ideation",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.actwise/ideation",
+    "meta": {
+     "desc": "Actwise Ideation helps founders benchmark startup and product ideas before they build.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.acubic/acubic": {
+    "title": "Acubic",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.acubic/acubic",
+    "meta": {
+     "desc": "Explain, screen, build and backtest systematic portfolios from eToro and Trading 212 universes.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.adadvisor/mcp-server": {
+    "title": "AdAdvisor MCP Server",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.adadvisor/mcp-server",
+    "meta": {
+     "desc": "Query Meta Ads performance data — accounts, campaigns, ad sets, ads, metrics & settings.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.adako/ads": {
+    "title": "Adako — careful ad ops for AI agents",
+    "url": "https://github.com/ruslan2027/adako-mcp",
+    "meta": {
+     "desc": "Google, Meta, ChatGPT, TikTok and LinkedIn Ads for AI agents. Every write needs your approval.",
+     "version": "0.2.0"
+    }
+   },
+   "ai.adeu/adeu": {
+    "title": "ai.adeu/adeu",
+    "url": "https://github.com/dealfluence/adeu",
+    "meta": {
+     "desc": "Automated DOCX Redlining Engine",
+     "version": "1.5.2"
+    }
+   },
+   "ai.adkix/adkix": {
+    "title": "adkix",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.adkix/adkix",
+    "meta": {
+     "desc": "Turn a website into a short 9:16 video ad: script, cast, voice, shots, music. Asks before spending.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.adlab/adlab": {
+    "title": "AdLab",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.adlab/adlab",
+    "meta": {
+     "desc": "Track paid traffic and run campaigns, routing, postbacks and optimization rules in AdLab.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.adlio/meta-ads": {
+    "title": "Adlio: Meta Ads Launcher",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.adlio/meta-ads",
+    "meta": {
+     "desc": "Stage Meta ads from your AI assistant, launched paused with every Advantage+ enhancement off.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.admux/admux": {
+    "title": "Admux",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.admux/admux",
+    "meta": {
+     "desc": "Buy ChatGPT, Google AI Mode and Gravity ads from one prepaid balance, with scoped keys.",
+     "version": "0.1.0"
+    }
+   },
+   "ai.adoraads/beauty": {
+    "title": "ai.adoraads/beauty",
+    "url": "https://github.com/DIGIBIZ360-COM/adoraads",
+    "meta": {
+     "desc": "AI-native beauty ads, sponsored product discovery, and brand recommendations.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.adplane/google-ads": {
+    "title": "ai.adplane/google-ads",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.adplane/google-ads",
+    "meta": {
+     "desc": "Google Ads reporting and campaign management. Everything it creates starts paused.",
+     "version": "1.29.0"
+    }
+   },
+   "ai.adrails/adrails": {
+    "title": "Adrails",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.adrails/adrails",
+    "meta": {
+     "desc": "Specialist AI agents for Meta Ads and Google Ads. Every change waits for your approval.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.adramp/google-ads": {
+    "title": "ai.adramp/google-ads",
+    "url": "https://github.com/stylemi-co/adramp",
+    "meta": {
+     "desc": "Google Ads MCP server — manage campaigns, keywords, and metrics.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.adrio/adrio": {
+    "title": "Adrio",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.adrio/adrio",
+    "meta": {
+     "desc": "Research competitor Meta ads, manage brand angles and audiences, and brief Spark to create ads.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.adsap/adsap": {
+    "title": "Adsap",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.adsap/adsap",
+    "meta": {
+     "desc": "Launch and manage Meta and Google Ads from your AI assistant. You approve every change first.",
+     "version": "0.73.0"
+    }
+   },
+   "ai.adside/adside": {
+    "title": "ai.adside/adside",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.adside/adside",
+    "meta": {
+     "desc": "AI agents that manage paid ads on Meta, LinkedIn, and Google Ads from any MCP client.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.adstar/adstar": {
+    "title": "AdStar",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.adstar/adstar",
+    "meta": {
+     "desc": "Video ads for a product, made by AdStar.",
+     "version": "1.0.1"
+    }
+   },
+   "ai.adtest/adtest-mcp": {
+    "title": "ai.adtest/adtest-mcp",
+    "url": "https://github.com/menaker/adtest-mcp",
+    "meta": {
+     "desc": "AI-only ad scoring for Claude: score image, video or text ads on 13 dimensions before you spend.",
+     "version": "1.1.0"
+    }
+   },
+   "ai.advisorsai/service-navigator": {
+    "title": "Advisors AI Service Navigator",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.advisorsai/service-navigator",
+    "meta": {
+     "desc": "Read-only service discovery, public-page checks, and request-link preparation.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.advisorsai/store-readiness": {
+    "title": "Advisors AI Store Readiness Check",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.advisorsai/store-readiness",
+    "meta": {
+     "desc": "One read-only public-page readiness check with a signed, recheckable evidence receipt.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.advizion/advizion": {
+    "title": "AdVizion",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.advizion/advizion",
+    "meta": {
+     "desc": "Check ad creative against brand rules, plan where, when and how to run it, and guard live campaigns.",
+     "version": "0.3.0"
+    }
+   },
+   "ai.adweave/meta-ads-mcp": {
+    "title": "AdWeave — Meta Ads MCP Server",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.adweave/meta-ads-mcp",
+    "meta": {
+     "desc": "Meta Ads MCP server with 47 tools for campaigns, creatives, audiences, and insights.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.aeoengine/best-ai-search-agency-aeo-report": {
+    "title": "Best AI Search Agency AEO Report",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.aeoengine/best-ai-search-agency-aeo-report",
+    "meta": {
+     "desc": "Free AEO visibility report MCP — run AI search audits for any domain.",
+     "version": "2.0.0"
+    }
+   },
+   "ai.aetherwealth/mcp": {
+    "title": "Aether Wealth",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.aetherwealth/mcp",
+    "meta": {
+     "desc": "Aether Wealth MCP for AI assistants: trades, alerts, market data, macro calendar & indicators.",
+     "version": "0.2.0"
+    }
+   },
+   "ai.aetherya/mcp": {
+    "title": "Aetherya",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.aetherya/mcp",
+    "meta": {
+     "desc": "Test decisions on a synthetic audience: studies, site audits, copy tests and post simulations.",
+     "version": "1.0.3"
+    }
+   },
+   "ai.aeviamodeler/aevia": {
+    "title": "Aevia",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.aeviamodeler/aevia",
+    "meta": {
+     "desc": "AI-powered life cycle assessment and modelling: connect to LCA databases, build and analyze systems",
+     "version": "1.0.0"
+    }
+   },
+   "ai.affogato/affogato": {
+    "title": "Affogato",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.affogato/affogato",
+    "meta": {
+     "desc": "Generate images, video and audio from 120+ AI models, plus lipsync, headshot and cast-swap studios.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.afg/afg": {
+    "title": "AFG: agents hire agents (test money)",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.afg/afg",
+    "meta": {
+     "desc": "Sandbox marketplace where AI agents hire agents for verified outcomes. Test money only.",
+     "version": "0.1.0"
+    }
+   },
+   "ai.afmr/discovery": {
+    "title": "AFMR Discovery",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.afmr/discovery",
+    "meta": {
+     "desc": "Read AFMR failure modes and discover scoped attestation and lift-evidence contracts.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agenlify/catalog": {
+    "title": "Agenlify AI Agent Directory",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agenlify/catalog",
+    "meta": {
+     "desc": "Find AI tools by task, with pricing context, setup steps, limitations and official sources.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agent-bev/bev-door": {
+    "title": "agent-bev",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agent-bev/bev-door",
+    "meta": {
+     "desc": "Agentic B2B hub for beer, wine and spirits across Europe.",
+     "version": "0.2.0"
+    }
+   },
+   "ai.agent-bev/bevgtin": {
+    "title": "bevGTIN",
+    "url": "https://github.com/agent-bev/bevgtin",
+    "meta": {
+     "desc": "bevGTIN — the beverage alcohol sourcing GTIN confirmation.",
+     "version": "0.1.0"
+    }
+   },
+   "ai.agent-bev/library": {
+    "title": "agent-bev Library",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agent-bev/library",
+    "meta": {
+     "desc": "The trade rulebook for beverage alcohol, country by country, each section with its official sources.",
+     "version": "0.1.0"
+    }
+   },
+   "ai.agent-neo/neo": {
+    "title": "Agent NEO",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agent-neo/neo",
+    "meta": {
+     "desc": "Read your team's chats, decisions and wiki in Agent NEO, and save meeting notes back to a thread.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agentapigate/amazon-product-walmart-shopify-ecommerce-mcp": {
+    "title": "AgentAPIHub — Walmart, Shopee, TikTok Shop, Shopify & WooCommerce Catalog MCP",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapigate/amazon-product-walmart-shopify-ecommerce-mcp",
+    "meta": {
+     "desc": "Walmart, Shopee, TikTok Shop, Shopify & WooCommerce live product & pricing MCP (x402 USDC or key).",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agentapigate/bluesky-substack-social-newsletter-scraper-api-mcp": {
+    "title": "ai.agentapigate/bluesky-substack-social-newsletter-scraper-api-mcp",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapigate/bluesky-substack-social-newsletter-scraper-api-mcp",
+    "meta": {
+     "desc": "Bluesky posts, profiles, feeds, threads & Substack newsletter search and publication feed MCP API.",
+     "version": "1.3.0"
+    }
+   },
+   "ai.agentapigate/customs-bill-of-lading-import-export-trade-mcp": {
+    "title": "ai.agentapigate/customs-bill-of-lading-import-export-trade-mcp",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapigate/customs-bill-of-lading-import-export-trade-mcp",
+    "meta": {
+     "desc": "Global customs bill of lading shipments, HS code, importer/exporter & supplier trade data MCP API.",
+     "version": "1.2.0"
+    }
+   },
+   "ai.agentapigate/douyin-xiaohongshu-rednote-social-scraper-mcp": {
+    "title": "ai.agentapigate/douyin-xiaohongshu-rednote-social-scraper-mcp",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapigate/douyin-xiaohongshu-rednote-social-scraper-mcp",
+    "meta": {
+     "desc": "Douyin short video, Xiaohongshu (RedNote) notes, comments & creator profile scraper remote MCP API.",
+     "version": "1.5.0"
+    }
+   },
+   "ai.agentapigate/facebook-meta-google-tiktok-ads-library-api-mcp": {
+    "title": "ai.agentapigate/facebook-meta-google-tiktok-ads-library-api-mcp",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapigate/facebook-meta-google-tiktok-ads-library-api-mcp",
+    "meta": {
+     "desc": "Facebook posts, Meta Ad Library, Google Ads Transparency & TikTok Creative Center ads scraper MCP.",
+     "version": "1.5.0"
+    }
+   },
+   "ai.agentapigate/github-huggingface-arxiv-papers-repos-search-api-mcp": {
+    "title": "ai.agentapigate/github-huggingface-arxiv-papers-repos-search-api-mcp",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapigate/github-huggingface-arxiv-papers-repos-search-api-mcp",
+    "meta": {
+     "desc": "GitHub trending repos, HuggingFace trending AI models & arXiv academic paper search remote MCP API.",
+     "version": "1.3.0"
+    }
+   },
+   "ai.agentapigate/google-maps-places-business-app-reviews-mcp": {
+    "title": "AgentAPIHub — Google Maps Places, Trustpilot, Yelp, G2 Reviews & US Realty MCP",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapigate/google-maps-places-business-app-reviews-mcp",
+    "meta": {
+     "desc": "Google Maps places, Trustpilot, Yelp & G2 software reviews, and US real estate listings MCP.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agentapigate/google-serp-web-scraping-domain-search-mcp": {
+    "title": "AgentAPIHub — Unified AI Agent Data & Action API Hub (75+ Tools, MCP & x402)",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapigate/google-serp-web-scraping-domain-search-mcp",
+    "meta": {
+     "desc": "75+ real-time agent data APIs in 4 meta-tools (-87% compact tokens, x402 USDC on Base or API key).",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agentapigate/google-trends-seo-keywords-serp-search-mcp": {
+    "title": "ai.agentapigate/google-trends-seo-keywords-serp-search-mcp",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapigate/google-trends-seo-keywords-serp-search-mcp",
+    "meta": {
+     "desc": "Real-time Google Trends breakout queries, calibrated daily interest, keyword volume & SERP MCP.",
+     "version": "1.2.0"
+    }
+   },
+   "ai.agentapigate/job-postings-company-ats-career-search-mcp": {
+    "title": "AgentAPIHub — LinkedIn B2B Profiles, Company KYB & 5-ATS Live Job Postings MCP",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapigate/job-postings-company-ats-career-search-mcp",
+    "meta": {
+     "desc": "LinkedIn profiles/companies, Workday/Greenhouse/Lever ATS jobs & GLEIF/Companies House KYB MCP.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agentapigate/linkedin-company-b2b-business-profile-mcp": {
+    "title": "AgentAPIHub — SEC EDGAR Filings, XBRL Facts, DEXScreener & DefiLlama DeFi MCP",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapigate/linkedin-company-b2b-business-profile-mcp",
+    "meta": {
+     "desc": "SEC EDGAR filings, insider trades, XBRL facts, DEXScreener token pairs & DefiLlama TVL MCP.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agentapigate/polymarket-odds-prediction-market-events-mcp": {
+    "title": "ai.agentapigate/polymarket-odds-prediction-market-events-mcp",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapigate/polymarket-odds-prediction-market-events-mcp",
+    "meta": {
+     "desc": "Live Polymarket prediction market events, implied probabilities & CLOB L2 orderbook odds MCP ($0.001",
+     "version": "1.2.0"
+    }
+   },
+   "ai.agentapigate/reddit-hacker-news-forum-posts-search-mcp": {
+    "title": "AgentAPIHub — YouTube Transcripts, TikTok, Instagram, Reddit & Hacker News MCP",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapigate/reddit-hacker-news-forum-posts-search-mcp",
+    "meta": {
+     "desc": "YouTube transcripts, TikTok videos, Instagram profiles, Reddit threads & HN MCP (-87% LLM tokens).",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agentapigate/sec-edgar-crypto-real-estate-pinterest-mcp": {
+    "title": "AgentAPIHub — Domain RDAP/WHOIS/DNS/SSL, Shodan CVEs, arXiv & ClinicalTrials MCP",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapigate/sec-edgar-crypto-real-estate-pinterest-mcp",
+    "meta": {
+     "desc": "Domain WHOIS/RDAP/DNS/SSL, Shodan ports/CVEs, OpenAlex/arXiv papers & ClinicalTrials.gov MCP.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agentapigate/stocks-crypto-ohlcv-quote-market-data-api-mcp": {
+    "title": "ai.agentapigate/stocks-crypto-ohlcv-quote-market-data-api-mcp",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapigate/stocks-crypto-ohlcv-quote-market-data-api-mcp",
+    "meta": {
+     "desc": "Real-time US stocks quote, stock & crypto OHLCV candles, Fear & Greed index and Polymarket MCP API.",
+     "version": "1.3.0"
+    }
+   },
+   "ai.agentapigate/telegram-discord-twitch-kick-medium-pinterest-mcp": {
+    "title": "ai.agentapigate/telegram-discord-twitch-kick-medium-pinterest-mcp",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapigate/telegram-discord-twitch-kick-medium-pinterest-mcp",
+    "meta": {
+     "desc": "Telegram channel messages, Discord server stats, Twitch, Kick, Medium & Pinterest scraper MCP API.",
+     "version": "1.4.0"
+    }
+   },
+   "ai.agentapigate/threads-instagram-truthsocial-linkedin-posts-mcp": {
+    "title": "ai.agentapigate/threads-instagram-truthsocial-linkedin-posts-mcp",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapigate/threads-instagram-truthsocial-linkedin-posts-mcp",
+    "meta": {
+     "desc": "Threads, Instagram reels & profiles, Truth Social posts & LinkedIn company/profile scraper MCP API.",
+     "version": "1.5.0"
+    }
+   },
+   "ai.agentapigate/tiktok-instagram-short-video-creator-mcp": {
+    "title": "AgentAPIHub — Google SERP, News, Trends & Clean Web-to-Markdown MCP",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapigate/tiktok-instagram-short-video-creator-mcp",
+    "meta": {
+     "desc": "Google SERP, News, Trends, Autocomplete & URL-to-clean-Markdown MCP ($0.001/call, x402 or key).",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agentapigate/twitter-x-tweets-trending-topics-search-mcp": {
+    "title": "AgentAPIHub — Real-Time X (Twitter) Search, Tweets, Threads & Profiles MCP",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapigate/twitter-x-tweets-trending-topics-search-mcp",
+    "meta": {
+     "desc": "Real-time X/Twitter search, tweets, threads, replies & profiles MCP (-87% compact tokens & x402).",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agentapigate/youtube-transcript-video-subtitles-search-mcp": {
+    "title": "AgentAPIHub — Zero-Signup x402 Base USDC Data & Search MCP Hub",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapigate/youtube-transcript-video-subtitles-search-mcp",
+    "meta": {
+     "desc": "Zero-signup x402 Base USDC & API-key MCP hub for Search, X, Video, Commerce, Jobs & SEC EDGAR.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agentapihub/amazon-product-walmart-shopify-ecommerce-mcp": {
+    "title": "AgentAPIHub — Walmart, Shopee, TikTok Shop, Shopify & WooCommerce Catalog MCP",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapihub/amazon-product-walmart-shopify-ecommerce-mcp",
+    "meta": {
+     "desc": "Walmart, Shopee, TikTok Shop, Shopify & WooCommerce live product & pricing MCP (x402 USDC or key).",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agentapihub/bluesky-substack-social-newsletter-scraper-api-mcp": {
+    "title": "ai.agentapihub/bluesky-substack-social-newsletter-scraper-api-mcp",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapihub/bluesky-substack-social-newsletter-scraper-api-mcp",
+    "meta": {
+     "desc": "Bluesky posts, profiles, feeds, threads & Substack newsletter search and publication feed MCP API.",
+     "version": "1.3.0"
+    }
+   },
+   "ai.agentapihub/customs-bill-of-lading-import-export-trade-mcp": {
+    "title": "ai.agentapihub/customs-bill-of-lading-import-export-trade-mcp",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapihub/customs-bill-of-lading-import-export-trade-mcp",
+    "meta": {
+     "desc": "Global customs bill of lading shipments, HS code, importer/exporter & supplier trade data MCP API.",
+     "version": "1.2.0"
+    }
+   },
+   "ai.agentapihub/douyin-xiaohongshu-rednote-social-scraper-mcp": {
+    "title": "ai.agentapihub/douyin-xiaohongshu-rednote-social-scraper-mcp",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapihub/douyin-xiaohongshu-rednote-social-scraper-mcp",
+    "meta": {
+     "desc": "Douyin short video, Xiaohongshu (RedNote) notes, comments & creator profile scraper remote MCP API.",
+     "version": "1.5.0"
+    }
+   },
+   "ai.agentapihub/facebook-meta-google-tiktok-ads-library-api-mcp": {
+    "title": "ai.agentapihub/facebook-meta-google-tiktok-ads-library-api-mcp",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapihub/facebook-meta-google-tiktok-ads-library-api-mcp",
+    "meta": {
+     "desc": "Facebook posts, Meta Ad Library, Google Ads Transparency & TikTok Creative Center ads scraper MCP.",
+     "version": "1.5.0"
+    }
+   },
+   "ai.agentapihub/github-huggingface-arxiv-papers-repos-search-api-mcp": {
+    "title": "ai.agentapihub/github-huggingface-arxiv-papers-repos-search-api-mcp",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapihub/github-huggingface-arxiv-papers-repos-search-api-mcp",
+    "meta": {
+     "desc": "GitHub trending repos, HuggingFace trending AI models & arXiv academic paper search remote MCP API.",
+     "version": "1.3.0"
+    }
+   },
+   "ai.agentapihub/google-maps-places-business-app-reviews-mcp": {
+    "title": "AgentAPIHub — Google Maps Places, Trustpilot, Yelp, G2 Reviews & US Realty MCP",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapihub/google-maps-places-business-app-reviews-mcp",
+    "meta": {
+     "desc": "Google Maps places, Trustpilot, Yelp & G2 software reviews, and US real estate listings MCP.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agentapihub/google-serp-web-scraping-domain-search-mcp": {
+    "title": "AgentAPIHub — Unified AI Agent Data & Action API Hub (75+ Tools, MCP & x402)",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapihub/google-serp-web-scraping-domain-search-mcp",
+    "meta": {
+     "desc": "75+ real-time agent data APIs in 4 meta-tools (-87% compact tokens, x402 USDC on Base or API key).",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agentapihub/google-trends-seo-keywords-serp-search-mcp": {
+    "title": "ai.agentapihub/google-trends-seo-keywords-serp-search-mcp",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapihub/google-trends-seo-keywords-serp-search-mcp",
+    "meta": {
+     "desc": "Real-time Google Trends breakout queries, calibrated daily interest, keyword volume & SERP MCP.",
+     "version": "1.2.0"
+    }
+   },
+   "ai.agentapihub/job-postings-company-ats-career-search-mcp": {
+    "title": "AgentAPIHub — LinkedIn B2B Profiles, Company KYB & 5-ATS Live Job Postings MCP",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapihub/job-postings-company-ats-career-search-mcp",
+    "meta": {
+     "desc": "LinkedIn profiles/companies, Workday/Greenhouse/Lever ATS jobs & GLEIF/Companies House KYB MCP.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agentapihub/linkedin-company-b2b-business-profile-mcp": {
+    "title": "AgentAPIHub — SEC EDGAR Filings, XBRL Facts, DEXScreener & DefiLlama DeFi MCP",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapihub/linkedin-company-b2b-business-profile-mcp",
+    "meta": {
+     "desc": "SEC EDGAR filings, insider trades, XBRL facts, DEXScreener token pairs & DefiLlama TVL MCP.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agentapihub/polymarket-odds-prediction-market-events-mcp": {
+    "title": "ai.agentapihub/polymarket-odds-prediction-market-events-mcp",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapihub/polymarket-odds-prediction-market-events-mcp",
+    "meta": {
+     "desc": "Live Polymarket prediction market events, implied probabilities & CLOB L2 orderbook odds MCP ($0.001",
+     "version": "1.2.0"
+    }
+   },
+   "ai.agentapihub/reddit-hacker-news-forum-posts-search-mcp": {
+    "title": "AgentAPIHub — YouTube Transcripts, TikTok, Instagram, Reddit & Hacker News MCP",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapihub/reddit-hacker-news-forum-posts-search-mcp",
+    "meta": {
+     "desc": "YouTube transcripts, TikTok videos, Instagram profiles, Reddit threads & HN MCP (-87% LLM tokens).",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agentapihub/sec-edgar-crypto-real-estate-pinterest-mcp": {
+    "title": "AgentAPIHub — Domain RDAP/WHOIS/DNS/SSL, Shodan CVEs, arXiv & ClinicalTrials MCP",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapihub/sec-edgar-crypto-real-estate-pinterest-mcp",
+    "meta": {
+     "desc": "Domain WHOIS/RDAP/DNS/SSL, Shodan ports/CVEs, OpenAlex/arXiv papers & ClinicalTrials.gov MCP.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agentapihub/stocks-crypto-ohlcv-quote-market-data-api-mcp": {
+    "title": "ai.agentapihub/stocks-crypto-ohlcv-quote-market-data-api-mcp",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapihub/stocks-crypto-ohlcv-quote-market-data-api-mcp",
+    "meta": {
+     "desc": "Real-time US stocks quote, stock & crypto OHLCV candles, Fear & Greed index and Polymarket MCP API.",
+     "version": "1.3.0"
+    }
+   },
+   "ai.agentapihub/telegram-discord-twitch-kick-medium-pinterest-mcp": {
+    "title": "ai.agentapihub/telegram-discord-twitch-kick-medium-pinterest-mcp",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapihub/telegram-discord-twitch-kick-medium-pinterest-mcp",
+    "meta": {
+     "desc": "Telegram channel messages, Discord server stats, Twitch, Kick, Medium & Pinterest scraper MCP API.",
+     "version": "1.4.0"
+    }
+   },
+   "ai.agentapihub/threads-instagram-truthsocial-linkedin-posts-mcp": {
+    "title": "ai.agentapihub/threads-instagram-truthsocial-linkedin-posts-mcp",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapihub/threads-instagram-truthsocial-linkedin-posts-mcp",
+    "meta": {
+     "desc": "Threads, Instagram reels & profiles, Truth Social posts & LinkedIn company/profile scraper MCP API.",
+     "version": "1.5.0"
+    }
+   },
+   "ai.agentapihub/tiktok-instagram-short-video-creator-mcp": {
+    "title": "AgentAPIHub — Google SERP, News, Trends & Clean Web-to-Markdown MCP",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapihub/tiktok-instagram-short-video-creator-mcp",
+    "meta": {
+     "desc": "Google SERP, News, Trends, Autocomplete & URL-to-clean-Markdown MCP ($0.001/call, x402 or key).",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agentapihub/twitter-x-tweets-trending-topics-search-mcp": {
+    "title": "AgentAPIHub — Real-Time X (Twitter) Search, Tweets, Threads & Profiles MCP",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapihub/twitter-x-tweets-trending-topics-search-mcp",
+    "meta": {
+     "desc": "Real-time X/Twitter search, tweets, threads, replies & profiles MCP (-87% compact tokens & x402).",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agentapihub/youtube-transcript-video-subtitles-search-mcp": {
+    "title": "AgentAPIHub — Zero-Signup x402 Base USDC Data & Search MCP Hub",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapihub/youtube-transcript-video-subtitles-search-mcp",
+    "meta": {
+     "desc": "Zero-signup x402 Base USDC & API-key MCP hub for Search, X, Video, Commerce, Jobs & SEC EDGAR.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agentasy/cronjob": {
+    "title": "agent-cronjob",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentasy/cronjob",
+    "meta": {
+     "desc": "Scheduled, HMAC-signed, retried webhook triggers for AI agents. No account: self-register via tools.",
+     "version": "0.0.1"
+    }
+   },
+   "ai.agentberg/agentberg": {
+    "title": "ai.agentberg/agentberg",
+    "url": "https://github.com/Agentberg/agentberg",
+    "meta": {
+     "desc": "Agent-to-agent trading intelligence exchange. Publish findings, vote on quality, earn reputation.",
+     "version": "0.2.0"
+    }
+   },
+   "ai.agentblueprint/agent-blueprint": {
+    "title": "Agent Blueprint",
+    "url": "https://github.com/agent-blueprint/agent-blueprint-website",
+    "meta": {
+     "desc": "Measured agent costs, a one-page agent summary check, and an offline access map. No sign-in.",
+     "version": "0.2.0"
+    }
+   },
+   "ai.agentboard/agentboard": {
+    "title": "Agentboard",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentboard/agentboard",
+    "meta": {
+     "desc": "The public message board for AI agents: register in one call, introduce yourself, ask, read replies.",
+     "version": "0.1.0"
+    }
+   },
+   "ai.agentcv/registry": {
+    "title": "AgentCV",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentcv/registry",
+    "meta": {
+     "desc": "Search AgentCV's registry of AI agent teams and check a team profile before registering it.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agentdm/agentdm": {
+    "title": "AgentDM",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentdm/agentdm",
+    "meta": {
+     "desc": "Agent-to-agent messaging platform using MCP for cross-model communication.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agentese.lifeclaw/lifeclaw": {
+    "title": "LifeClaw",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentese.lifeclaw/lifeclaw",
+    "meta": {
+     "desc": "Call you, a person, or a business; find places, book or inquire by phone, and return the answer.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agentgates/compute": {
+    "title": "Agentgates Compute",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentgates/compute",
+    "meta": {
+     "desc": "Confidential VMs (Intel TDX) by the hour, paid in USDC over x402: live plans, prices, how to buy.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agentgates/mcp": {
+    "title": "ai.agentgates/mcp",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentgates/mcp",
+    "meta": {
+     "desc": "Confidential compute and inference sold to agents over x402 USDC, plus an agent wallet over MCP.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agentic-news/mcp": {
+    "title": "Agentic News",
+    "url": "https://github.com/u00dxk2/agentic-news",
+    "meta": {
+     "desc": "AI-powered news intelligence — 21 tools for personalized monitoring, briefings, and semantic search",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agenticaffiliate/affiliate-networks-mcp": {
+    "title": "Affiliate Networks MCP",
+    "url": "https://github.com/bobberrisford/affiliatemcp",
+    "meta": {
+     "desc": "Affiliate network reporting in your AI client. Bring your own keys. Most adapters experimental.",
+     "version": "0.19.0"
+    }
+   },
+   "ai.agenticblue/agentic-blue": {
+    "title": "Agentic Blue",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agenticblue/agentic-blue",
+    "meta": {
+     "desc": "Candidate search for recruiters: find people for a role and check each requirement.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agenticbooks/books": {
+    "title": "AgenticBooks",
+    "url": "https://github.com/AgenticBooks/agenticbooks",
+    "meta": {
+     "desc": "Startup books from live bank and billing feeds: P&L, balances, approvals, period close.",
+     "version": "0.1.0"
+    }
+   },
+   "ai.agenticcart/agenticcart": {
+    "title": "AgenticCart: AI readiness checks for online stores",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agenticcart/agenticcart",
+    "meta": {
+     "desc": "Check any Shopify, WooCommerce or other online store, product page or feed for AI readiness.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agenticfabricationnetwork/ufp": {
+    "title": "Agent Fabrication Network (UFP)",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agenticfabricationnetwork/ufp",
+    "meta": {
+     "desc": "Turn designs into shipped parts: quote 3D printing, CNC, and decals, then check out.",
+     "version": "0.1.0"
+    }
+   },
+   "ai.agenticplug/agent-ready-report": {
+    "title": "Agent Ready Report",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agenticplug/agent-ready-report",
+    "meta": {
+     "desc": "Scan any public website and see how ready it is for AI agents and AI search, explained plainly.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agenticshelf/graffeo": {
+    "title": "Graffeo Coffee Roasting",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agenticshelf/graffeo",
+    "meta": {
+     "desc": "Live MCP catalog for Graffeo Coffee Roasting — North Beach SF specialty coffee since 1935.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agenticshelf/mcp": {
+    "title": "Agentic Shelf",
+    "url": "https://github.com/vboykoCTO/agentic-shelf",
+    "meta": {
+     "desc": "Hosted MCP for e-commerce: live product catalog, stock, and pricing for AI agents.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agenticshelf/puroair": {
+    "title": "PuroAir",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agenticshelf/puroair",
+    "meta": {
+     "desc": "Live MCP catalog for PuroAir HEPA-14 air purifiers - real-time stock, pricing, and details.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agenticterminal/directory": {
+    "title": "Agentic Terminal Directory",
+    "url": "https://github.com/observer-protocol/at-directory",
+    "meta": {
+     "desc": "Verified merchants accepting agentic payments on Lightning/L402/BOLT12/USDT — search, verify, pay.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agentlookups/counterscript": {
+    "title": "ai.agentlookups/counterscript",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentlookups/counterscript",
+    "meta": {
+     "desc": "What pharmacies actually pay for prescriptions (CMS NADAC) plus fair-cash-price estimates.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agentlookups/greenlight": {
+    "title": "GreenLight - Plug-in Solar Law Registry",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentlookups/greenlight",
+    "meta": {
+     "desc": "US plug-in solar (balcony solar) law registry with a daily UL 3700 certification watch.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agentlookups/groundrules": {
+    "title": "GroundRules - US Law Text",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentlookups/groundrules",
+    "meta": {
+     "desc": "The original text of US federal and state law, with official sources; never a summary or advice.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agentlookups/groundtruth": {
+    "title": "ai.agentlookups/groundtruth",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentlookups/groundtruth",
+    "meta": {
+     "desc": "Federal environmental records + address due-diligence layers near any US location. Tools",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agentlookups/overassessed": {
+    "title": "ai.agentlookups/overassessed",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentlookups/overassessed",
+    "meta": {
+     "desc": "Maryland property-assessment fairness checks vs similar homes, with appeal windows and links.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agentlookups/plumbline": {
+    "title": "ai.agentlookups/plumbline",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentlookups/plumbline",
+    "meta": {
+     "desc": "Free public-record contractor license checks across 34 US jurisdictions (2.7M records). Tool",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agentlookups/spoon-scout": {
+    "title": "Spoon Scout - Food Contaminant Lookup",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentlookups/spoon-scout",
+    "meta": {
+     "desc": "Lab results, FDA recalls and additive rules for US packaged foods, with sources; never a grade.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agentmash/agentmash": {
+    "title": "AgentMash",
+    "url": "https://github.com/RamyaChinnadurai/agentmash-mcp",
+    "meta": {
+     "desc": "All your bookmarks in one library. Share them with your AI agents. Read-only search over your saves.",
+     "version": "0.1.0"
+    }
+   },
+   "ai.agentmesh/mesh": {
+    "title": "AgentMesh",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentmesh/mesh",
+    "meta": {
+     "desc": "Be an agent on the AgentMesh network: find agents, hire them, be hired, and read your mesh inbox.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agentplaybooks/agentplaybooks": {
+    "title": "AgentPlaybooks",
+    "url": "https://github.com/matebenyovszky/agentplaybooks",
+    "meta": {
+     "desc": "Vendor-neutral home for portable agents: skills, MCP tools, memory, canvas, and secret proxy.",
+     "version": "0.10.0"
+    }
+   },
+   "ai.agentrapay/agentra": {
+    "title": "ai.agentrapay/agentra",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentrapay/agentra",
+    "meta": {
+     "desc": "Identity oracle and trust layer for autonomous AI agents. Bidirectional KYA and trust scoring.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agentroam/agentroam": {
+    "title": "AgentRoam",
+    "url": "https://github.com/adiny/nomad-crypto-travel",
+    "meta": {
+     "desc": "Buy travel eSIMs, gift cards and mobile top-ups with crypto — user confirms before any order.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agentsindex/mcp": {
+    "title": "AgentsIndex",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentsindex/mcp",
+    "meta": {
+     "desc": "The editors' index of AI-native software, from AI agents to the models and frameworks behind them.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agentsrank/agentsrank": {
+    "title": "AgentsRank",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentsrank/agentsrank",
+    "meta": {
+     "desc": "Hire listed AI workers for research and briefs. Review a draft, then open the result.",
+     "version": "2.1.0"
+    }
+   },
+   "ai.agenttrust/mcp-server": {
+    "title": "AgentTrust — Identity & Trust for A2A Agents",
+    "url": "https://github.com/agenttrust/mcp-server",
+    "meta": {
+     "desc": "Identity, trust, and A2A orchestration for autonomous AI agents. Official A2A partner.",
+     "version": "1.1.1"
+    }
+   },
+   "ai.agentui/apps": {
+    "title": "AgentUI Apps",
+    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentui/apps",
+    "meta": {
+     "desc": "Create AgentUI data apps: define tables, read and write records, and run programs on your data.",
+     "version": "1.0.0"
+    }
+   },
+   "ai.agentutility/mcp-agentops": {
+    "title": "AgentUtility Agentops",
+    "url": "https://github.com/rooz21/x402",
+    "meta": {
+     "desc": "MCP server for the @agentutility agentops cluster — pay-per-call x402 tools, no API keys, USDC on…",
+     "version": "0.1.1"
+    }
+   },
+   "ai.agentutility/mcp-bestiary": {
+    "title": "AgentUtility Bestiary",
+    "url": "https://github.com/rooz21/x402",
+    "meta": {
+     "desc": "MCP server for the @agentutility bestiary cluster — pay-per-call x402 tools, no API keys, USDC on…",
+     "version": "0.1.3"
+    }
+   },
+   "ai.agentutility/mcp-browser-workflow": {
+    "title": "AgentUtility Browser Workflow",
+    "url": "https://github.com/rooz21/x402",
+    "meta": {
+     "desc": "MCP server for the @agentutility browser-workflow cluster — pay-per-call x402 tools, no API keys…",
+     "version": "0.1.1"
+    }
+   },
+   "ai.agentutility/mcp-compose": {
+    "title": "AgentUtility Compose",
+    "url": "https://github.com/rooz21/x402",
+    "meta": {
+     "desc": "MCP server for the @agentutility compose cluster — pay-per-call x402 tools, no API keys, USDC on…",
+     "version": "0.13.0"
+    }
+   },
+   "ai.agentutility/mcp-edge-finance": {
+    "title": "AgentUtility Edge Finance",
+    "url": "https://github.com/rooz21/x402",
+    "meta": {
+     "desc": "MCP server for the @agentutility edge-finance cluster — pay-per-call x402 tools, no API keys, USDC…",
+     "version": "0.18.8"
+    }
+   },
+   "ai.agentutility/mcp-edge-market": {
+    "title": "AgentUtility Edge Market",
+    "url": "https://github.com/rooz21/x402",
+    "meta": {
+     "desc": "MCP server for the @agentutility edge-market cluster — pay-per-call x402 tools, no API keys, USDC…",
+     "version": "0.15.6"
+    }
+   },
+   "ai.agentutility/mcp-locale": {
+    "title": "AgentUtility Locale",
+    "url": "https://github.com/rooz21/x402",
+    "meta": {
+     "desc": "MCP server for the @agentutility locale cluster — pay-per-call x402 tools, no API keys, USDC on…",
+     "version": "0.8.7"
+    }
+   },
+   "ai.agentutility/mcp-matchpoint": {
+    "title": "AgentUtility Matchpoint",
+    "url": "https://github.com/rooz21/x402",
+    "meta": {
+     "desc": "MCP server for the @agentutility matchpoint cluster — pay-per-call x402 tools, no API keys, USDC…",
+     "version": "0.1.4"
+    }
+   }
+  },
+  "arxiv": {},
+  "hn": {
+   "50603845": {
+    "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+    "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+    "meta": {
+     "score": 372,
+     "comments": 154
+    }
+   },
+   "50599762": {
+    "title": "Show HN: I built a game where you are an LLM's subagent",
+    "url": "https://github.com/gulivan/worker755",
+    "meta": {
+     "score": 297,
+     "comments": 72
+    }
+   },
+   "50605445": {
+    "title": "0rwx – A simple model of AI usage, inspired by Unix permissions",
+    "url": "https://0rwx.com/",
+    "meta": {
+     "score": 34,
+     "comments": 6
+    }
+   },
+   "50604540": {
+    "title": "Localcode, open source agentic coding on your Mac with one command",
+    "url": "https://github.com/mjwsolo/localcode",
+    "meta": {
+     "score": 46,
+     "comments": 13
+    }
+   },
+   "50602153": {
+    "title": "Harvard CS 2881R AI Safety",
+    "url": "https://boazbk.github.io/mltheoryseminar/",
+    "meta": {
+     "score": 63,
+     "comments": 8
+    }
+   },
+   "50597612": {
+    "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+    "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+    "meta": {
+     "score": 934,
+     "comments": 935
+    }
+   },
+   "50556249": {
+    "title": "Agentics: Mushy Software",
+    "url": "https://12gramsofcarbon.com/p/agentics-mushy-software",
+    "meta": {
+     "score": 44,
+     "comments": 6
+    }
+   },
+   "50604314": {
+    "title": "Agent swarm trying to solve P vs. NP",
+    "url": "https://pequalnp.com/",
+    "meta": {
+     "score": 140,
+     "comments": 112
+    }
+   },
+   "50603219": {
+    "title": "What Happened in Fall 2026: AI and P vs. NP",
+    "url": "https://cacm.acm.org/blogcacm/what-happened-in-fall-2026-ai-and-p-vs-np",
+    "meta": {
+     "score": 22,
+     "comments": 4
+    }
+   }
+  }
+ }
+}

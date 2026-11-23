@@ -1,0 +1,37 @@
+{
+  "_comment": "监控源配置。keep=0 表示保留全量；单源失败不会中断整次抓取。",
+  "sources": [
+    {
+      "id": "openrouter",
+      "name": "模型与定价",
+      "desc": "OpenRouter 上的在售模型：新增、下架、价格与上下文长度变化",
+      "enabled": true,
+      "keep": 0,
+      "report_gone": true
+    },
+    {
+      "id": "mcp",
+      "name": "MCP 服务器",
+      "desc": "官方 Model Context Protocol 注册表里新出现的服务器",
+      "enabled": true,
+      "keep": 400,
+      "report_gone": false
+    },
+    {
+      "id": "arxiv",
+      "name": "AI 论文",
+      "desc": "arXiv cs.AI / cs.CL 最新提交",
+      "enabled": true,
+      "keep": 60,
+      "report_gone": false
+    },
+    {
+      "id": "hn",
+      "name": "社区热帖",
+      "desc": "Hacker News 首页中含 AI 相关关键词的帖子",
+      "enabled": true,
+      "keep": 40,
+      "report_gone": false
+    }
+  ]
+}

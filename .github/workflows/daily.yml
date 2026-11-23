@@ -1,0 +1,59 @@
+name: daily-collect
+
+on:
+  schedule:
+    # UTC 23:00 = 北京时间次日 07:00
+    - cron: "0 23 * * *"
+  # 留一个手动按钮，方便补跑或临时抓一次
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-collect
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 抓取并计算差异
+        run: python3 scripts/collect.py
+
+      - name: 渲染页面
+        run: python3 scripts/render.py
+
+      - name: 提交数据
+        run: |
+          git config user.name "monitor-bot"
+          git config user.email "monitor-bot@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "今天没有变化，跳过提交"
+          else
+            git commit -m "data: $(date -u +%F)"
+            git push
+          fi
+
+      - name: 发布到 gh-pages
+        run: |
+          mkdir -p /tmp/pub
+          cp -r site/. /tmp/pub/
+          touch /tmp/pub/.nojekyll
+          cd /tmp/pub
+          git init -q -b gh-pages
+          git add -A
+          git -c user.name="monitor-bot" -c user.email="monitor-bot@users.noreply.github.com" \
+              commit -q -m "publish $(date -u +%FT%TZ)"
+          git remote add publish "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push -f publish gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

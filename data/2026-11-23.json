@@ -1,0 +1,60 @@
+{
+ "date": "2026-11-23",
+ "generated_at": "2026-11-23T13:54:47+08:00",
+ "baseline": true,
+ "sources": {
+  "openrouter": {
+   "new": [],
+   "changed": [],
+   "gone": [],
+   "baseline": 477,
+   "first": false
+  },
+  "mcp": {
+   "new": [],
+   "changed": [],
+   "gone": [],
+   "baseline": 189,
+   "first": false
+  },
+  "arxiv": {
+   "error": "The read operation timed out",
+   "new": [],
+   "gone": [],
+   "changed": []
+  },
+  "hn": {
+   "new": [],
+   "changed": [],
+   "gone": [],
+   "baseline": 9,
+   "first": false
+  }
+ },
+ "counts": {
+  "openrouter": {
+   "new": 0,
+   "changed": 0,
+   "gone": 0,
+   "total": 477
+  },
+  "mcp": {
+   "new": 0,
+   "changed": 0,
+   "gone": 0,
+   "total": 189
+  },
+  "arxiv": {
+   "new": 0,
+   "changed": 0,
+   "gone": 0,
+   "total": 0
+  },
+  "hn": {
+   "new": 0,
+   "changed": 0,
+   "gone": 0,
+   "total": 9
+  }
+ }
+}
