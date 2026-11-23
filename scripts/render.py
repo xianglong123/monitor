@@ -141,7 +141,9 @@ def render_day(day):
         )
 
     for sid in enabled_sources():
-        block = srcs.get(sid) or {}
+        block = srcs.get(sid)
+        if block is None:
+            continue
         meta = SOURCE_META.get(sid, {"label": sid, "hint": "", "color": "#57606a"})
         err = block.get("error")
         rows = []
@@ -195,6 +197,8 @@ def build_page(days, index):
     counts = (latest.get("counts") or {}) if latest else {}
     srcs = (latest.get("sources") or {}) if latest else {}
     for sid in enabled_sources():
+        if sid not in counts:
+            continue
         meta = SOURCE_META[sid]
         c = counts.get(sid) or {}
         err = (srcs.get(sid) or {}).get("error")
@@ -238,7 +242,7 @@ def build_page(days, index):
 
 <footer>
   <p><b>口径</b>：只存差异，不存全量。state.json 记住「上次看到的样子」，每天对比后写出当日变化，因此仓库体积不随时日膨胀。</p>
-  <p><b>数据源</b>：OpenRouter 模型接口 · Model Context Protocol 官方注册表 · arXiv cs.AI/cs.CL · Hacker News。全部为公开接口，无任何私有数据。</p>
+  <p><b>数据源</b>：OpenRouter 模型接口 · Model Context Protocol 官方注册表 · Hugging Face 每日论文 · Hacker News。全部为公开接口，无任何私有数据。</p>
   <p><b>为什么</b>：这份连续的变化序列本身就是资产——页面可以被抄走，三个月的 diff 不能。</p>
   <p class="sig">自动生成 · <a href="https://github.com/xianglong123/monitor">源码</a></p>
 </footer>
