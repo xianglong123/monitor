@@ -201,9 +201,37 @@ def fetch_hn():
     return items
 
 
+def fetch_hf():
+    """Hugging Face 每日精选论文。
+
+    arXiv 的 API 对机房 IP 限流极狠（本地和 GitHub Actions 上都稳定 429），
+    所以换成这个源：走 Cloudflare，稳定性好；内容又是「当天社区在看的论文」，
+    经过投票筛选，信噪比比 arXiv 全量新提交更高。
+    """
+    data = json.loads(get_text("https://huggingface.co/api/daily_papers?limit=40", timeout=30))
+    items = {}
+    for it in data or []:
+        paper = it.get("paper") or {}
+        pid = (paper.get("id") or it.get("slug") or "").strip()
+        if not pid:
+            continue
+        title = " ".join((it.get("title") or paper.get("title") or pid).split())
+        items[pid] = {
+            "title": title,
+            "url": "https://huggingface.co/papers/" + pid,
+            "meta": {
+                "up": it.get("upvotes"),
+                "cm": it.get("numComments"),
+                "pub": (paper.get("publishedAt") or "")[:10],
+            },
+        }
+    return items
+
+
 FETCHERS = {
     "openrouter": fetch_openrouter,
     "mcp": fetch_mcp,
+    "hf": fetch_hf,
     "arxiv": fetch_arxiv,
     "hn": fetch_hn,
 }

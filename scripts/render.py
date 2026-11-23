@@ -16,10 +16,21 @@ SHOW_DAYS = 30
 SOURCE_META = {
     "openrouter": {"label": "模型与定价", "hint": "在售模型数量、价格、上下文长度", "color": "#1f6feb"},
     "mcp": {"label": "MCP 服务器", "hint": "官方注册表里新出现的工具", "color": "#8250df"},
+    "hf": {"label": "热门论文", "hint": "Hugging Face 每日精选", "color": "#1a7f37"},
     "arxiv": {"label": "AI 论文", "hint": "cs.AI / cs.CL 最新提交", "color": "#1a7f37"},
     "hn": {"label": "社区热帖", "hint": "Hacker News 上的 AI 相关讨论", "color": "#bc4c00"},
 }
 WEEKDAYS = ["周一", "周二", "周三", "周四", "周五", "周六", "周日"]
+
+
+def enabled_sources():
+    """按 sources.json 的开关决定页面上出现哪些源，关掉的源连卡片都不显示。"""
+    cfg = load_json(os.path.join(ROOT, "sources.json"), {})
+    out = []
+    for s in cfg.get("sources", []) or []:
+        if s.get("enabled", True) and s.get("id") in SOURCE_META:
+            out.append(s["id"])
+    return out or list(SOURCE_META)
 
 
 def load_json(path, default):
@@ -68,6 +79,13 @@ def meta_brief(sid, item):
         return esc(desc[:110])
     if sid == "arxiv":
         return esc(" / ".join(m.get("cats") or [])[:60])
+    if sid == "hf":
+        bits = []
+        if m.get("up") is not None:
+            bits.append("%s 赞" % m["up"])
+        if m.get("pub"):
+            bits.append(m["pub"])
+        return " · ".join(bits)
     if sid == "hn":
         bits = []
         if m.get("score") is not None:
@@ -122,7 +140,8 @@ def render_day(day):
             '<div class="base-note">首次运行只建立基线，不把已有条目算成新增。明天的抓取才有真正的对比。</div>'
         )
 
-    for sid, block in srcs.items():
+    for sid in enabled_sources():
+        block = srcs.get(sid) or {}
         meta = SOURCE_META.get(sid, {"label": sid, "hint": "", "color": "#57606a"})
         err = block.get("error")
         rows = []
@@ -175,7 +194,8 @@ def build_page(days, index):
     cards = []
     counts = (latest.get("counts") or {}) if latest else {}
     srcs = (latest.get("sources") or {}) if latest else {}
-    for sid, meta in SOURCE_META.items():
+    for sid in enabled_sources():
+        meta = SOURCE_META[sid]
         c = counts.get(sid) or {}
         err = (srcs.get(sid) or {}).get("error")
         if err and not c.get("total"):

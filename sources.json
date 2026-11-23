@@ -18,10 +18,18 @@
       "report_gone": false
     },
     {
+      "id": "hf",
+      "name": "热门论文",
+      "desc": "Hugging Face 每日精选论文（社区投票筛选，每天约 30-40 篇）",
+      "enabled": true,
+      "keep": 60,
+      "report_gone": false
+    },
+    {
       "id": "arxiv",
       "name": "AI 论文",
-      "desc": "arXiv cs.AI / cs.CL 最新提交",
-      "enabled": true,
+      "desc": "arXiv cs.AI / cs.CL 最新提交（该接口对机房 IP 限流极狠，默认关闭）",
+      "enabled": false,
       "keep": 60,
       "report_gone": false
     },
