@@ -15,21 +15,19 @@
     "gone": 0,
     "total": 189
    },
-   "arxiv": {
+   "hf": {
     "new": 0,
     "changed": 0,
     "gone": 0,
-    "total": 0
+    "total": 40
    },
    "hn": {
     "new": 0,
-    "changed": 5,
+    "changed": 4,
     "gone": 0,
     "total": 8
    }
   },
-  "errors": [
-   "arxiv"
-  ]
+  "errors": []
  }
 ]

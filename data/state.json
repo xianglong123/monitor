@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T14:10:46+08:00",
+ "updated": "2026-11-23T14:17:27+08:00",
  "sources": {
   "openrouter": {
    "thinkingmachines/inkling-2-mini": {
@@ -5810,13 +5810,374 @@
     }
    }
   },
-  "arxiv": {},
+  "hf": {
+   "2611.27973": {
+    "title": "MemOnce: A Scalable Memory Architecture for Large Language Models",
+    "url": "https://huggingface.co/papers/2611.27973",
+    "meta": {
+     "up": null,
+     "cm": 1,
+     "pub": "2026-11-20"
+    }
+   },
+   "2611.26613": {
+    "title": "AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control",
+    "url": "https://huggingface.co/papers/2611.26613",
+    "meta": {
+     "up": null,
+     "cm": 1,
+     "pub": "2026-11-19"
+    }
+   },
+   "2611.27963": {
+    "title": "Non-penetrating World Models",
+    "url": "https://huggingface.co/papers/2611.27963",
+    "meta": {
+     "up": null,
+     "cm": 1,
+     "pub": "2026-11-20"
+    }
+   },
+   "2611.27193": {
+    "title": "cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction",
+    "url": "https://huggingface.co/papers/2611.27193",
+    "meta": {
+     "up": null,
+     "cm": 1,
+     "pub": "2026-11-20"
+    }
+   },
+   "2611.27211": {
+    "title": "Explicit Style Extraction for Personalized Long-Form Text Generation",
+    "url": "https://huggingface.co/papers/2611.27211",
+    "meta": {
+     "up": null,
+     "cm": 1,
+     "pub": "2026-11-20"
+    }
+   },
+   "2611.15449": {
+    "title": "Reading the Unreadable: Text-Aware Image Super-Resolution Needs Reasoning",
+    "url": "https://huggingface.co/papers/2611.15449",
+    "meta": {
+     "up": null,
+     "cm": 1,
+     "pub": "2026-11-11"
+    }
+   },
+   "2611.24636": {
+    "title": "Clover-35B-A3B-Preview Technical Report",
+    "url": "https://huggingface.co/papers/2611.24636",
+    "meta": {
+     "up": null,
+     "cm": 2,
+     "pub": "2026-11-18"
+    }
+   },
+   "2611.27229": {
+    "title": "Prune to Expand: Training Prompt Enhancers with Less to Imitate",
+    "url": "https://huggingface.co/papers/2611.27229",
+    "meta": {
+     "up": null,
+     "cm": 1,
+     "pub": "2026-11-20"
+    }
+   },
+   "2611.24077": {
+    "title": "AeroRSI: Recursive Self-Improvement for Aerial Vision-Language Navigation",
+    "url": "https://huggingface.co/papers/2611.24077",
+    "meta": {
+     "up": null,
+     "cm": 1,
+     "pub": "2026-11-18"
+    }
+   },
+   "2611.25773": {
+    "title": "Duopra: From Full-Duplex Conversation to Full-Duplex Agency",
+    "url": "https://huggingface.co/papers/2611.25773",
+    "meta": {
+     "up": null,
+     "cm": 1,
+     "pub": "2026-11-19"
+    }
+   },
+   "2611.21485": {
+    "title": "Lost in the Hallway: Benchmarking Persistent Spatial Memory Across Revisits",
+    "url": "https://huggingface.co/papers/2611.21485",
+    "meta": {
+     "up": null,
+     "cm": 1,
+     "pub": "2026-11-16"
+    }
+   },
+   "2611.22343": {
+    "title": "PURE: A Diagnostic Benchmark for Multi-Granularity Multimodal Identity Matching",
+    "url": "https://huggingface.co/papers/2611.22343",
+    "meta": {
+     "up": null,
+     "cm": 1,
+     "pub": "2026-11-17"
+    }
+   },
+   "2611.26232": {
+    "title": "Time Series Structure Learning with Local Causal Parent Discovery",
+    "url": "https://huggingface.co/papers/2611.26232",
+    "meta": {
+     "up": null,
+     "cm": 2,
+     "pub": "2026-11-19"
+    }
+   },
+   "2611.26239": {
+    "title": "Teaching Vision-Language-Action Models to Stop Safely",
+    "url": "https://huggingface.co/papers/2611.26239",
+    "meta": {
+     "up": null,
+     "cm": 4,
+     "pub": "2026-11-19"
+    }
+   },
+   "2611.25604": {
+    "title": "PAD: Policy-Aware Data Valuation for Autonomous Driving",
+    "url": "https://huggingface.co/papers/2611.25604",
+    "meta": {
+     "up": null,
+     "cm": 2,
+     "pub": "2026-11-19"
+    }
+   },
+   "2611.15941": {
+    "title": "Lang-SVG: Hierarchical Image Vectorization with Language Priors",
+    "url": "https://huggingface.co/papers/2611.15941",
+    "meta": {
+     "up": null,
+     "cm": 2,
+     "pub": "2026-11-11"
+    }
+   },
+   "2611.25200": {
+    "title": "Squoosh Bench: Evaluating UX-1 on 318 Historical Website A/B Tests",
+    "url": "https://huggingface.co/papers/2611.25200",
+    "meta": {
+     "up": null,
+     "cm": 2,
+     "pub": "2026-11-18"
+    }
+   },
+   "2611.26627": {
+    "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
+    "url": "https://huggingface.co/papers/2611.26627",
+    "meta": {
+     "up": null,
+     "cm": 4,
+     "pub": "2026-11-19"
+    }
+   },
+   "2611.23875": {
+    "title": "In Situ Training of Optical Neural Networks by Coding Agents",
+    "url": "https://huggingface.co/papers/2611.23875",
+    "meta": {
+     "up": null,
+     "cm": 2,
+     "pub": "2026-11-18"
+    }
+   },
+   "2611.21885": {
+    "title": "Language Models Can Rewrite Their Own Weights",
+    "url": "https://huggingface.co/papers/2611.21885",
+    "meta": {
+     "up": null,
+     "cm": 2,
+     "pub": "2026-11-16"
+    }
+   },
+   "2611.21053": {
+    "title": "System 1 agents: a method for local, reliable and fast agentic AI",
+    "url": "https://huggingface.co/papers/2611.21053",
+    "meta": {
+     "up": null,
+     "cm": 7,
+     "pub": "2026-11-16"
+    }
+   },
+   "2611.25567": {
+    "title": "Online Mistake Detection in Instruction-Conditioned Procedural Video",
+    "url": "https://huggingface.co/papers/2611.25567",
+    "meta": {
+     "up": null,
+     "cm": 3,
+     "pub": "2026-11-19"
+    }
+   },
+   "2611.26540": {
+    "title": "AURA: AUdio-dRiven streaming Avatar",
+    "url": "https://huggingface.co/papers/2611.26540",
+    "meta": {
+     "up": null,
+     "cm": 3,
+     "pub": "2026-11-19"
+    }
+   },
+   "2611.26211": {
+    "title": "SpecWM: Turning Verification into Refinement for Streaming World Models",
+    "url": "https://huggingface.co/papers/2611.26211",
+    "meta": {
+     "up": null,
+     "cm": 2,
+     "pub": "2026-11-19"
+    }
+   },
+   "2611.26511": {
+    "title": "Direct3D-V3: Latent-Free Diffusion Transformers in the Native Voxel Domain",
+    "url": "https://huggingface.co/papers/2611.26511",
+    "meta": {
+     "up": null,
+     "cm": 2,
+     "pub": "2026-11-19"
+    }
+   },
+   "2611.26450": {
+    "title": "A CPU Inside an LLM: Zero-Gradient Compilation of Exact Circuits into Pretrained Weights",
+    "url": "https://huggingface.co/papers/2611.26450",
+    "meta": {
+     "up": null,
+     "cm": 2,
+     "pub": "2026-11-19"
+    }
+   },
+   "2611.25179": {
+    "title": "Phantom Success, Silent Failure: Auditing the Success Checkers of Simulated Manipulation Benchmarks",
+    "url": "https://huggingface.co/papers/2611.25179",
+    "meta": {
+     "up": null,
+     "cm": 5,
+     "pub": "2026-11-18"
+    }
+   },
+   "2611.19499": {
+    "title": "Do Probing and Steering Favor the Same Directions Within and Across Language Models?",
+    "url": "https://huggingface.co/papers/2611.19499",
+    "meta": {
+     "up": null,
+     "cm": 3,
+     "pub": "2026-11-14"
+    }
+   },
+   "2611.26286": {
+    "title": "Twice-Told Critiques: Claim-Level Homogenization of Peer Review in the LLM Era",
+    "url": "https://huggingface.co/papers/2611.26286",
+    "meta": {
+     "up": null,
+     "cm": 2,
+     "pub": "2026-11-19"
+    }
+   },
+   "2611.26408": {
+    "title": "Training Vision Models for LLM-Driven Weight-Space Programming",
+    "url": "https://huggingface.co/papers/2611.26408",
+    "meta": {
+     "up": null,
+     "cm": 3,
+     "pub": "2026-11-19"
+    }
+   },
+   "2611.25935": {
+    "title": "TwinD: Generalizing Deepfake Detection from Blending to Entire Face Synthesis",
+    "url": "https://huggingface.co/papers/2611.25935",
+    "meta": {
+     "up": null,
+     "cm": 2,
+     "pub": "2026-11-19"
+    }
+   },
+   "2611.26073": {
+    "title": "AltRA-Test: An Alternative Annotator Test for LLM Judges Without Shared Annotators",
+    "url": "https://huggingface.co/papers/2611.26073",
+    "meta": {
+     "up": null,
+     "cm": 3,
+     "pub": "2026-11-19"
+    }
+   },
+   "2611.25279": {
+    "title": "Accord: Universal Online Metric Localization and Dense Mapping from one Camera and an IMU",
+    "url": "https://huggingface.co/papers/2611.25279",
+    "meta": {
+     "up": null,
+     "cm": 3,
+     "pub": "2026-11-18"
+    }
+   },
+   "2611.26617": {
+    "title": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
+    "url": "https://huggingface.co/papers/2611.26617",
+    "meta": {
+     "up": null,
+     "cm": 2,
+     "pub": "2026-11-19"
+    }
+   },
+   "2611.26590": {
+    "title": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
+    "url": "https://huggingface.co/papers/2611.26590",
+    "meta": {
+     "up": null,
+     "cm": 2,
+     "pub": "2026-11-19"
+    }
+   },
+   "2611.26248": {
+    "title": "TwinLab-Bench: Evaluating AI Scientists in Agentic Twins of Real Labs",
+    "url": "https://huggingface.co/papers/2611.26248",
+    "meta": {
+     "up": null,
+     "cm": 2,
+     "pub": "2026-11-19"
+    }
+   },
+   "2611.26107": {
+    "title": "HiUni: Harmonizing Understanding and Generation in Shared Visual Space",
+    "url": "https://huggingface.co/papers/2611.26107",
+    "meta": {
+     "up": null,
+     "cm": 2,
+     "pub": "2026-11-19"
+    }
+   },
+   "2611.26268": {
+    "title": "Accelerating Mixture of Block Attention via Dynamic Routing, KV-Centric Execution and Runtime Pipelining",
+    "url": "https://huggingface.co/papers/2611.26268",
+    "meta": {
+     "up": null,
+     "cm": 3,
+     "pub": "2026-11-19"
+    }
+   },
+   "2611.25005": {
+    "title": "Inhabitant: An Agent Framework for Long-Horizon Human-Scene Interaction with Spatial Control and Quantitative Feedback",
+    "url": "https://huggingface.co/papers/2611.25005",
+    "meta": {
+     "up": null,
+     "cm": 2,
+     "pub": "2026-11-18"
+    }
+   },
+   "2611.26444": {
+    "title": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
+    "url": "https://huggingface.co/papers/2611.26444",
+    "meta": {
+     "up": null,
+     "cm": 4,
+     "pub": "2026-11-19"
+    }
+   }
+  },
   "hn": {
    "50603845": {
     "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
     "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
     "meta": {
-     "score": 386,
+     "score": 390,
      "comments": 157
     }
    },
@@ -5824,8 +6185,8 @@
     "title": "Show HN: I built a game where you are an LLM's subagent",
     "url": "https://github.com/gulivan/worker755",
     "meta": {
-     "score": 301,
-     "comments": 72
+     "score": 302,
+     "comments": 74
     }
    },
    "50605445": {
@@ -5856,7 +6217,7 @@
     "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
     "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
     "meta": {
-     "score": 934,
+     "score": 935,
      "comments": 936
     }
    },
@@ -5873,7 +6234,7 @@
     "url": "https://pequalnp.com/",
     "meta": {
      "score": 140,
-     "comments": 112
+     "comments": 113
     }
    }
   }
