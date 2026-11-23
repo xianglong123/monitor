@@ -30,8 +30,9 @@ site/                   发布到 gh-pages 的静态页面
 | --- | --- | --- |
 | openrouter | 在售模型、输入/输出价格、上下文长度变化 | `openrouter.ai/api/v1/models` |
 | mcp | Model Context Protocol 官方注册表新增的服务器 | `registry.modelcontextprotocol.io` |
-| arxiv | cs.AI / cs.CL 最新提交 | `export.arxiv.org/api/query` |
+| hf | Hugging Face 每日精选论文（社区投票筛选，约 40 篇） | `huggingface.co/api/daily_papers` |
 | hn | Hacker News 首页里命中 AI 关键词的帖子 | `hacker-news.firebaseio.com` |
+| ~~arxiv~~ | cs.AI / cs.CL 最新提交 | 默认关闭，见下方限制 |
 
 价格统一换算成 **每百万 token 美元**，方便横向比较。
 
@@ -62,7 +63,8 @@ git add -A && git commit -m "init" && git push
 
 ## 已知限制
 
-- **arXiv 对 IP 限流严格**。短时间内多次请求会返回 429。每天一次的频率符合它的使用政策；如果连续失败，说明 IP 被临时拉黑，冷却几个小时会自己恢复。
+- **arXiv 默认关闭**。它的 API 对机房 IP 限流极狠：本地和 GitHub Actions 的境外 runner 上都稳定返回 429，退避重试三次仍失败。所以换成 Hugging Face 每日精选（同样能反映「今天大家在读什么论文」，且经过社区投票筛选，信噪比更高）。想再试 arXiv：把 `sources.json` 里那条的 `enabled` 改回 `true` 即可，失败也只影响它自己。
 - **MCP 注册表分页**。目前抓 3 页共 300 条，去重后约 190 条，不是全量。够看增量趋势，不适合当完整目录。
-- **HN 只取首页 45 条**。它反映的是「此刻社区在聊什么」，不是全站热搜。
+- **HN 只取首页 45 条**。它反映的是「此刻社区在聊什么」，不是全站热搜。分数和评论数每几分钟就变，所以 `IGNORE_IN_COMPARE` 里把它们排除在差异判定之外——否则每天都会刷出一堆没有信息量的「变化」。
+- **时间线只显示有变化的源**。当天没变化的源不会在时间线里出现（卡片上的总量仍然全部显示），这是故意的：页面只回答「昨天到今天我们错过了什么」。
 - 数据源都可能改接口。改版那天这个源会挂一天（页面会显示），改一下 `fetch_*` 即可，不影响其他源。
