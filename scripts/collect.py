@@ -236,6 +236,20 @@ FETCHERS = {
     "hn": fetch_hn,
 }
 
+# 这些字段只用于展示，不参与「变化」判定。
+# HN 的分数和评论数每几分钟就涨一次，算进 diff 的话每天都会刷出一堆没有信息量的「变化」。
+IGNORE_IN_COMPARE = {
+    "hn": ("score", "comments"),
+}
+
+
+def cmp_meta(sid, cur_meta, prev_meta):
+    """比较两条记录的元数据，跳过该源配置的噪声字段。"""
+    skip = IGNORE_IN_COMPARE.get(sid, ())
+    a = {k: v for k, v in (cur_meta or {}).items() if k not in skip}
+    b = {k: v for k, v in (prev_meta or {}).items() if k not in skip}
+    return a != b
+
 
 # ---------------------------------------------------------------- 主流程
 
@@ -302,7 +316,7 @@ def main():
             continue
 
         new_ids = [i for i in cur if i not in prev]
-        changed_ids = [i for i in cur if i in prev and cur[i].get("meta") != prev[i].get("meta")]
+        changed_ids = [i for i in cur if i in prev and cmp_meta(sid, cur[i].get("meta"), prev[i].get("meta"))]
         gone_ids = [i for i in prev if i not in cur] if s.get("report_gone") else []
 
         day["sources"][sid] = {
