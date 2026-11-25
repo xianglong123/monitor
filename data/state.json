@@ -1,7 +1,34 @@
 {
- "updated": "2026-11-24T14:50:11+08:00",
+ "updated": "2026-11-25T13:17:22+08:00",
  "sources": {
   "openrouter": {
+   "upstage/solar-mini-4-5": {
+    "title": "Upstage: Solar Mini 4.5 (Preview)",
+    "url": "https://openrouter.ai/models/upstage/solar-mini-4-5",
+    "meta": {
+     "prompt": 0.01,
+     "completion": 0.04,
+     "ctx": 524288
+    }
+   },
+   "upstage/solar-pro-4-contributor": {
+    "title": "Upstage: Solar Pro 4 Contributor",
+    "url": "https://openrouter.ai/models/upstage/solar-pro-4-contributor",
+    "meta": {
+     "prompt": 0.09,
+     "completion": 0.36,
+     "ctx": 524288
+    }
+   },
+   "xiaomi/mimo-v2.6-flash-mopd": {
+    "title": "Xiaomi: MiMo-V2.6-Flash-MOPD",
+    "url": "https://openrouter.ai/models/xiaomi/mimo-v2.6-flash-mopd",
+    "meta": {
+     "prompt": 0.15,
+     "completion": 0.42,
+     "ctx": 1048576
+    }
+   },
    "thinkingmachines/inkling-2-mini": {
     "title": "Thinking Machines: Inkling 2 Mini",
     "url": "https://openrouter.ai/models/thinkingmachines/inkling-2-mini",
@@ -420,8 +447,8 @@
     "title": "DeepSeek: DeepSeek V4.1 Flash 1017",
     "url": "https://openrouter.ai/models/deepseek/deepseek-v4.1-flash-1017",
     "meta": {
-     "prompt": 0.03,
-     "completion": 0.2,
+     "prompt": 0.15,
+     "completion": 0.6,
      "ctx": 1048576
     }
    },
@@ -951,8 +978,8 @@
     "title": "DeepSeek: DeepSeek Flash Latest",
     "url": "https://openrouter.ai/models/~deepseek/deepseek-flash-latest",
     "meta": {
-     "prompt": 0.03,
-     "completion": 0.2,
+     "prompt": 0.036,
+     "completion": 0.5,
      "ctx": 1048576
     }
    },
@@ -1041,8 +1068,8 @@
     "title": "DeepSeek: DeepSeek V4.1 Flash",
     "url": "https://openrouter.ai/models/deepseek/deepseek-v4.1-flash",
     "meta": {
-     "prompt": 0.0498,
-     "completion": 0.1992,
+     "prompt": 0.14,
+     "completion": 0.42,
      "ctx": 1048576
     }
    },
@@ -1221,8 +1248,8 @@
     "title": "Z.ai: GLM 5.3 Flash",
     "url": "https://openrouter.ai/models/z-ai/glm-5.3-flash",
     "meta": {
-     "prompt": 0.0356,
-     "completion": 0.0815,
+     "prompt": 0.12,
+     "completion": 0.38,
      "ctx": 1048576
     }
    },
@@ -1248,8 +1275,8 @@
     "title": "DeepSeek: DeepSeek V4 Flash Vision Exp",
     "url": "https://openrouter.ai/models/deepseek/deepseek-v4-flash-vision-exp",
     "meta": {
-     "prompt": 0.2156,
-     "completion": 0.6468,
+     "prompt": 0.44,
+     "completion": 1.32,
      "ctx": 1048576
     }
    },
@@ -1323,15 +1350,6 @@
      "prompt": 0.16,
      "completion": 2.0,
      "ctx": 262144
-    }
-   },
-   "dots-studio/dots-3-note-preview:free": {
-    "title": "Dots Studio: Dots3-Note Preview (free)",
-    "url": "https://openrouter.ai/models/dots-studio/dots-3-note-preview",
-    "meta": {
-     "prompt": 0.0,
-     "completion": 0.0,
-     "ctx": 512000
     }
    },
    "google/gemini-3.7-flash": {
@@ -1473,8 +1491,8 @@
     "title": "DeepSeek: DeepSeek V4 Flash Latest",
     "url": "https://openrouter.ai/models/~deepseek/deepseek-v4-flash-latest",
     "meta": {
-     "prompt": 0.044,
-     "completion": 0.132,
+     "prompt": 0.047,
+     "completion": 0.3,
      "ctx": 1048576
     }
    },
@@ -1482,7 +1500,7 @@
     "title": "DeepSeek: DeepSeek V4 Flash 0731",
     "url": "https://openrouter.ai/models/deepseek/deepseek-v4-flash-0731",
     "meta": {
-     "prompt": 0.045,
+     "prompt": 0.047,
      "completion": 0.3,
      "ctx": 1048576
     }
@@ -1545,9 +1563,9 @@
     "title": "inclusionAI: Ling 3.0 Flash",
     "url": "https://openrouter.ai/models/inclusionai/ling-3.0-flash",
     "meta": {
-     "prompt": 0.06,
-     "completion": 0.18,
-     "ctx": 131072
+     "prompt": 0.021,
+     "completion": 0.063,
+     "ctx": 262144
     }
    },
    "google/gemini-3.6-flash": {
@@ -2157,8 +2175,8 @@
     "title": "Qwen: Qwen3.6 35B A3B",
     "url": "https://openrouter.ai/models/qwen/qwen3.6-35b-a3b",
     "meta": {
-     "prompt": 0.05,
-     "completion": 0.7,
+     "prompt": 0.1,
+     "completion": 0.89,
      "ctx": 262144
     }
    },
@@ -2225,15 +2243,6 @@
      "ctx": 1048576
     }
    },
-   "xiaomi/mimo-v2.5": {
-    "title": "Xiaomi: MiMo-V2.5",
-    "url": "https://openrouter.ai/models/xiaomi/mimo-v2.5",
-    "meta": {
-     "prompt": 0.4,
-     "completion": 2.0,
-     "ctx": 1000000
-    }
-   },
    "openai/gpt-5.4-image-2": {
     "title": "OpenAI: GPT-5.4 Image 2",
     "url": "https://openrouter.ai/models/openai/gpt-5.4-image-2",
@@ -2292,8 +2301,8 @@
     "title": "Google: Gemma 4 26B A4B ",
     "url": "https://openrouter.ai/models/google/gemma-4-26b-a4b-it",
     "meta": {
-     "prompt": 0.09,
-     "completion": 0.3,
+     "prompt": 0.0765,
+     "completion": 0.255,
      "ctx": 262144
     }
    },
@@ -2661,9 +2670,9 @@
     "title": "MiniMax: MiniMax M2.5",
     "url": "https://openrouter.ai/models/minimax/minimax-m2.5",
     "meta": {
-     "prompt": 0.27,
-     "completion": 0.95,
-     "ctx": 198000
+     "prompt": 0.3,
+     "completion": 1.2,
+     "ctx": 65536
     }
    },
    "z-ai/glm-5": {
@@ -3197,15 +3206,6 @@
      "ctx": 262144
     }
    },
-   "moonshotai/kimi-k2-0905": {
-    "title": "MoonshotAI: Kimi K2 0905",
-    "url": "https://openrouter.ai/models/moonshotai/kimi-k2-0905",
-    "meta": {
-     "prompt": 0.6,
-     "completion": 2.5,
-     "ctx": 262144
-    }
-   },
    "nousresearch/hermes-4-405b": {
     "title": "Nous: Hermes 4 405B",
     "url": "https://openrouter.ai/models/nousresearch/hermes-4-405b",
@@ -3222,15 +3222,6 @@
      "prompt": 0.25,
      "completion": 0.95,
      "ctx": 163840
-    }
-   },
-   "mistralai/mistral-medium-3.1": {
-    "title": "Mistral: Mistral Medium 3.1",
-    "url": "https://openrouter.ai/models/mistralai/mistral-medium-3.1",
-    "meta": {
-     "prompt": 0.44,
-     "completion": 2.2,
-     "ctx": 131072
     }
    },
    "z-ai/glm-4.5v": {
@@ -3537,15 +3528,6 @@
      "prompt": 0.571,
      "completion": 2.286,
      "ctx": 163840
-    }
-   },
-   "mistralai/mistral-medium-3": {
-    "title": "Mistral: Mistral Medium 3",
-    "url": "https://openrouter.ai/models/mistralai/mistral-medium-3",
-    "meta": {
-     "prompt": 0.44,
-     "completion": 2.2,
-     "ctx": 131072
     }
    },
    "meta-llama/llama-guard-4-12b": {
@@ -4670,6 +4652,14 @@
      "version": "0.1.2"
     }
    },
+   "agency.shipmate/shipready-mcp": {
+    "title": "agency.shipmate/shipready-mcp",
+    "url": "https://github.com/Shipmate-agency/shipready-mcp",
+    "meta": {
+     "desc": "Local scan of Next.js, Supabase and Stripe repos for missing RLS, leaked secrets, unsigned webhooks",
+     "version": "0.1.0"
+    }
+   },
    "agency.thebureauoflostcontext/bureau-public": {
     "title": "Bureau public reader",
     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=agency.thebureauoflostcontext/bureau-public",
@@ -5741,473 +5731,425 @@
      "desc": "MCP server for the @agentutility bestiary cluster — pay-per-call x402 tools, no API keys, USDC on…",
      "version": "0.1.3"
     }
-   },
-   "ai.agentutility/mcp-browser-workflow": {
-    "title": "AgentUtility Browser Workflow",
-    "url": "https://github.com/rooz21/x402",
-    "meta": {
-     "desc": "MCP server for the @agentutility browser-workflow cluster — pay-per-call x402 tools, no API keys…",
-     "version": "0.1.1"
-    }
-   },
-   "ai.agentutility/mcp-compose": {
-    "title": "AgentUtility Compose",
-    "url": "https://github.com/rooz21/x402",
-    "meta": {
-     "desc": "MCP server for the @agentutility compose cluster — pay-per-call x402 tools, no API keys, USDC on…",
-     "version": "0.13.0"
-    }
-   },
-   "ai.agentutility/mcp-edge-finance": {
-    "title": "AgentUtility Edge Finance",
-    "url": "https://github.com/rooz21/x402",
-    "meta": {
-     "desc": "MCP server for the @agentutility edge-finance cluster — pay-per-call x402 tools, no API keys, USDC…",
-     "version": "0.18.8"
-    }
-   },
-   "ai.agentutility/mcp-edge-market": {
-    "title": "AgentUtility Edge Market",
-    "url": "https://github.com/rooz21/x402",
-    "meta": {
-     "desc": "MCP server for the @agentutility edge-market cluster — pay-per-call x402 tools, no API keys, USDC…",
-     "version": "0.15.6"
-    }
-   },
-   "ai.agentutility/mcp-locale": {
-    "title": "AgentUtility Locale",
-    "url": "https://github.com/rooz21/x402",
-    "meta": {
-     "desc": "MCP server for the @agentutility locale cluster — pay-per-call x402 tools, no API keys, USDC on…",
-     "version": "0.8.7"
-    }
-   },
-   "ai.agentutility/mcp-matchpoint": {
-    "title": "AgentUtility Matchpoint",
-    "url": "https://github.com/rooz21/x402",
-    "meta": {
-     "desc": "MCP server for the @agentutility matchpoint cluster — pay-per-call x402 tools, no API keys, USDC…",
-     "version": "0.1.4"
-    }
-   },
-   "ai.agentutility/mcp-mediakit": {
-    "title": "AgentUtility Mediakit",
-    "url": "https://github.com/rooz21/x402",
-    "meta": {
-     "desc": "MCP server for the @agentutility mediakit cluster — pay-per-call x402 tools, no API keys, USDC on…",
-     "version": "0.11.9"
-    }
    }
   },
   "hf": {
-   "2611.30813": {
-    "title": "HIVE-Bench: Evaluating Patch-Level Visual Representations for Egocentric Robot Manipulation",
-    "url": "https://huggingface.co/papers/2611.30813",
+   "2611.31766": {
+    "title": "RoMo Hands: A Large Scale Richly Organized Text to Hand Motion Dataset",
+    "url": "https://huggingface.co/papers/2611.31766",
+    "meta": {
+     "up": null,
+     "cm": 1,
+     "pub": "2026-11-24"
+    }
+   },
+   "2611.32462": {
+    "title": "MAGPIE: Agentic Multi-Reference Image Generation via Executable Scene Construction",
+    "url": "https://huggingface.co/papers/2611.32462",
+    "meta": {
+     "up": null,
+     "cm": 1,
+     "pub": "2026-11-24"
+    }
+   },
+   "2611.30488": {
+    "title": "Do learned image captioning metrics generalize? Auditing duplicated samples in human-judgment benchmarks",
+    "url": "https://huggingface.co/papers/2611.30488",
     "meta": {
      "up": null,
      "cm": 1,
      "pub": "2026-11-23"
     }
    },
-   "2611.31115": {
-    "title": "RUIBench: What Makes a Good Robot-Use Interface?",
-    "url": "https://huggingface.co/papers/2611.31115",
+   "2611.31974": {
+    "title": "Coding4Games: Can Modern Coding Agents Play Modern Video Games?",
+    "url": "https://huggingface.co/papers/2611.31974",
+    "meta": {
+     "up": null,
+     "cm": 1,
+     "pub": "2026-11-24"
+    }
+   },
+   "2611.29389": {
+    "title": "PINE: Point, Instance and Normal Estimation in One-Step Diffusion Model",
+    "url": "https://huggingface.co/papers/2611.29389",
+    "meta": {
+     "up": null,
+     "cm": 1,
+     "pub": "2026-11-22"
+    }
+   },
+   "2611.32067": {
+    "title": "LoopDVR: Looped Transformer for Efficient Dense Visual Recognition",
+    "url": "https://huggingface.co/papers/2611.32067",
+    "meta": {
+     "up": null,
+     "cm": 1,
+     "pub": "2026-11-24"
+    }
+   },
+   "2611.32554": {
+    "title": "PartAgent: Agentic 3D Part Segmentation via Expert Integration and Closed-Loop Refinement",
+    "url": "https://huggingface.co/papers/2611.32554",
+    "meta": {
+     "up": null,
+     "cm": 1,
+     "pub": "2026-11-24"
+    }
+   },
+   "2611.29547": {
+    "title": "Align the Pair, Not the Sample: Representation Alignment for Faster and Better One-Step Generato",
+    "url": "https://huggingface.co/papers/2611.29547",
+    "meta": {
+     "up": null,
+     "cm": 1,
+     "pub": "2026-11-22"
+    }
+   },
+   "2611.31184": {
+    "title": "On-Policy Codec Distillation for Efficient All-in-One Video Generation",
+    "url": "https://huggingface.co/papers/2611.31184",
     "meta": {
      "up": null,
      "cm": 1,
      "pub": "2026-11-23"
     }
    },
-   "2611.30989": {
-    "title": "WorldLeague: Benchmarking Physical Agency",
-    "url": "https://huggingface.co/papers/2611.30989",
+   "2611.30962": {
+    "title": "Self-Evolving Evaluation Environments for Computer-Use Agents",
+    "url": "https://huggingface.co/papers/2611.30962",
     "meta": {
      "up": null,
      "cm": 1,
      "pub": "2026-11-23"
     }
    },
-   "2611.30573": {
-    "title": "Write, Evolve, Read: Streaming Cameras into a Persistent World State for 4D Occupancy Forecasting",
-    "url": "https://huggingface.co/papers/2611.30573",
+   "2611.32094": {
+    "title": "Clinical3D-Bench: Evaluating and Improving Spatial Intelligence of Multimodal LLMs in Hospital Environments",
+    "url": "https://huggingface.co/papers/2611.32094",
+    "meta": {
+     "up": null,
+     "cm": 1,
+     "pub": "2026-11-24"
+    }
+   },
+   "2611.31205": {
+    "title": "ACAP: Asynchronous Coding Agents for Efficient Robot Control",
+    "url": "https://huggingface.co/papers/2611.31205",
+    "meta": {
+     "up": null,
+     "cm": 1,
+     "pub": "2026-11-23"
+    }
+   },
+   "2611.28719": {
+    "title": "KMed-31B Technical Report",
+    "url": "https://huggingface.co/papers/2611.28719",
+    "meta": {
+     "up": null,
+     "cm": 1,
+     "pub": "2026-11-21"
+    }
+   },
+   "2611.25848": {
+    "title": "Interpretable Prototype-Conditioned Adaptation for Weather Forecasting",
+    "url": "https://huggingface.co/papers/2611.25848",
+    "meta": {
+     "up": null,
+     "cm": 4,
+     "pub": "2026-11-19"
+    }
+   },
+   "2611.28947": {
+    "title": "Don't Sleep, Keep Watch: Proactive Perception for Computer-Use Agents",
+    "url": "https://huggingface.co/papers/2611.28947",
     "meta": {
      "up": null,
      "cm": 0,
-     "pub": "2026-11-23"
+     "pub": "2026-11-21"
     }
    },
-   "2611.31048": {
-    "title": "Distill the Correction, Not the Rewrite: Hindsight Twins for Self-Improving Text-to-Image Models",
-    "url": "https://huggingface.co/papers/2611.31048",
+   "2611.30634": {
+    "title": "Rewirable Circuits in Transformers with Loom Attention",
+    "url": "https://huggingface.co/papers/2611.30634",
     "meta": {
      "up": null,
      "cm": 1,
      "pub": "2026-11-23"
     }
    },
-   "2611.30771": {
-    "title": "GameDojo: Benchmarking Real-Time Interactive Agents in Video Games",
-    "url": "https://huggingface.co/papers/2611.30771",
+   "2611.29150": {
+    "title": "Can an Agent Trust Its Own Zoom? Cross-Magnification Provenance Verification for Whole-Slide Images",
+    "url": "https://huggingface.co/papers/2611.29150",
+    "meta": {
+     "up": null,
+     "cm": 1,
+     "pub": "2026-11-22"
+    }
+   },
+   "2611.32100": {
+    "title": "EEGJev: A System One Decision Model and Benchmark for Multi-Task EEG Question Answering",
+    "url": "https://huggingface.co/papers/2611.32100",
+    "meta": {
+     "up": null,
+     "cm": 1,
+     "pub": "2026-11-24"
+    }
+   },
+   "2611.25403": {
+    "title": "Antom 3-in-1 Transformer: A Payment Foundation Model",
+    "url": "https://huggingface.co/papers/2611.25403",
+    "meta": {
+     "up": null,
+     "cm": 1,
+     "pub": "2026-11-19"
+    }
+   },
+   "2611.29874": {
+    "title": "Escriba-OCR: A 1B Vision-Language Model for Error-Preserving Transcription of Handwritten Portuguese Essays",
+    "url": "https://huggingface.co/papers/2611.29874",
     "meta": {
      "up": null,
      "cm": 1,
      "pub": "2026-11-23"
     }
    },
-   "2611.27494": {
-    "title": "Typhoon OCR 2: From Thai Document Transcription to Multilingual, Multi-Task OCR",
-    "url": "https://huggingface.co/papers/2611.27494",
+   "2611.29184": {
+    "title": "PhyCoVE: Benchmarking Physical Counterfactual Video Editing across Diverse Material Dynamics",
+    "url": "https://huggingface.co/papers/2611.29184",
     "meta": {
      "up": null,
      "cm": 1,
-     "pub": "2026-11-23"
+     "pub": "2026-11-22"
     }
    },
-   "2611.30581": {
-    "title": "A Pipeline-Parallel System for Depth-Recurrent Models",
-    "url": "https://huggingface.co/papers/2611.30581",
-    "meta": {
-     "up": null,
-     "cm": 1,
-     "pub": "2026-11-23"
-    }
-   },
-   "2611.23946": {
-    "title": "How Complete Must an Environment Be to Train a Capable GUI Agent?",
-    "url": "https://huggingface.co/papers/2611.23946",
-    "meta": {
-     "up": null,
-     "cm": 1,
-     "pub": "2026-11-18"
-    }
-   },
-   "2611.30637": {
-    "title": "SWEEP-Bench: Do Embodied Policies Act on the Speed They See?",
-    "url": "https://huggingface.co/papers/2611.30637",
-    "meta": {
-     "up": null,
-     "cm": 1,
-     "pub": "2026-11-23"
-    }
-   },
-   "2611.28618": {
-    "title": "Distilling Visual Agents from Limited Interaction Experience",
-    "url": "https://huggingface.co/papers/2611.28618",
+   "2611.28649": {
+    "title": "S-Mind: Internalizing Multi-View Geometry for Spatial Intelligence",
+    "url": "https://huggingface.co/papers/2611.28649",
     "meta": {
      "up": null,
      "cm": 1,
      "pub": "2026-11-21"
     }
    },
-   "2611.27689": {
-    "title": "Embodied-Harness: Towards Recursive Self-Improvement for Robotic Manipulation",
-    "url": "https://huggingface.co/papers/2611.27689",
-    "meta": {
-     "up": null,
-     "cm": 1,
-     "pub": "2026-11-23"
-    }
-   },
-   "2611.30013": {
-    "title": "3AGameFactory-Motion: Agentic Rigging and Reliable Complex Motion Generation for Diverse 3D Assets",
-    "url": "https://huggingface.co/papers/2611.30013",
-    "meta": {
-     "up": null,
-     "cm": 1,
-     "pub": "2026-11-23"
-    }
-   },
-   "2611.25927": {
-    "title": "Fast-JEPA: Advancing the Success-Latency Frontier for Latent World Models",
-    "url": "https://huggingface.co/papers/2611.25927",
+   "2611.25595": {
+    "title": "LoopedWAM: Looped World Action Models for Elastic Inference",
+    "url": "https://huggingface.co/papers/2611.25595",
     "meta": {
      "up": null,
      "cm": 1,
      "pub": "2026-11-19"
     }
    },
-   "2611.29897": {
-    "title": "Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control",
-    "url": "https://huggingface.co/papers/2611.29897",
+   "2611.30219": {
+    "title": "RoomTokens: Masked Diffusion over Structured Tokens for Indoor Scene Synthesis",
+    "url": "https://huggingface.co/papers/2611.30219",
     "meta": {
      "up": null,
      "cm": 1,
      "pub": "2026-11-23"
     }
    },
-   "2611.29361": {
-    "title": "Beyond Attention Maps: Understanding and Improving Medical MLLMs via Visual Values",
-    "url": "https://huggingface.co/papers/2611.29361",
+   "2611.30149": {
+    "title": "LeadVLA: Learning Follower-Aware Route Execution for Robot Leading",
+    "url": "https://huggingface.co/papers/2611.30149",
     "meta": {
      "up": null,
      "cm": 1,
-     "pub": "2026-11-22"
+     "pub": "2026-11-23"
     }
    },
-   "2611.27319": {
-    "title": "SAVIOR: Sample-efficient Adaptation of Vision-Language Models for OCR Representation",
-    "url": "https://huggingface.co/papers/2611.27319",
-    "meta": {
-     "up": null,
-     "cm": 2,
-     "pub": "2026-11-20"
-    }
-   },
-   "2611.29238": {
-    "title": "GameAnything: From Any Inspirations to Playable Game Worlds",
-    "url": "https://huggingface.co/papers/2611.29238",
-    "meta": {
-     "up": null,
-     "cm": 4,
-     "pub": "2026-11-22"
-    }
-   },
-   "2611.29338": {
-    "title": "A Glimpse of Training VLMs as Foundation Models for Robotic Manipulation",
-    "url": "https://huggingface.co/papers/2611.29338",
-    "meta": {
-     "up": null,
-     "cm": 1,
-     "pub": "2026-11-22"
-    }
-   },
-   "2611.28202": {
-    "title": "AutoPILOT: A Visual Agent Harness for Real-Time Gameplay",
-    "url": "https://huggingface.co/papers/2611.28202",
-    "meta": {
-     "up": null,
-     "cm": 1,
-     "pub": "2026-11-20"
-    }
-   },
-   "2611.28833": {
-    "title": "Self-WSP: Can Language Models Improve Themselves Through Weight-Space Programming?",
-    "url": "https://huggingface.co/papers/2611.28833",
+   "2611.28574": {
+    "title": "EvoViM: Recursively Self-Evolving Visual Agents for Exploration with Deferred Queries",
+    "url": "https://huggingface.co/papers/2611.28574",
     "meta": {
      "up": null,
      "cm": 1,
      "pub": "2026-11-21"
     }
    },
-   "2611.25476": {
-    "title": "WeightCode: Installing New Capabilities into Neural Networks via Weight-Space Programming",
-    "url": "https://huggingface.co/papers/2611.25476",
+   "2611.31595": {
+    "title": "LUCID: Statistically Grounded Self-Correction for LLM Reasoning Evaluation",
+    "url": "https://huggingface.co/papers/2611.31595",
+    "meta": {
+     "up": null,
+     "cm": 2,
+     "pub": "2026-11-23"
+    }
+   },
+   "2611.30075": {
+    "title": "Context-Grounded Skill Internalization for Vision-Language Agents",
+    "url": "https://huggingface.co/papers/2611.30075",
     "meta": {
      "up": null,
      "cm": 1,
-     "pub": "2026-11-19"
+     "pub": "2026-11-23"
     }
    },
-   "2611.26516": {
-    "title": "Plan4D: Generative Plannable 4D Worlds",
-    "url": "https://huggingface.co/papers/2611.26516",
+   "2611.31358": {
+    "title": "Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation",
+    "url": "https://huggingface.co/papers/2611.31358",
     "meta": {
      "up": null,
      "cm": 1,
-     "pub": "2026-11-19"
+     "pub": "2026-11-23"
     }
    },
-   "2611.28123": {
-    "title": "Seeing the Invisible: How Vision-Language Models Read, Predict and Trace Radio Fields",
-    "url": "https://huggingface.co/papers/2611.28123",
+   "2611.31237": {
+    "title": "Let Vision-Language Models Generate Images through Their Representations",
+    "url": "https://huggingface.co/papers/2611.31237",
     "meta": {
      "up": null,
      "cm": 1,
-     "pub": "2026-11-18"
+     "pub": "2026-11-23"
     }
    },
-   "2611.24249": {
-    "title": "From Points to Trajectories: Rethinking Multimodal Alignment for Physical Events",
-    "url": "https://huggingface.co/papers/2611.24249",
-    "meta": {
-     "up": null,
-     "cm": 1,
-     "pub": "2026-11-18"
-    }
-   },
-   "2611.25534": {
-    "title": "How Feedback-Free Self-Evolution Reshapes Agent Skills: A Systematic Study",
-    "url": "https://huggingface.co/papers/2611.25534",
-    "meta": {
-     "up": null,
-     "cm": 1,
-     "pub": "2026-11-19"
-    }
-   },
-   "2611.27490": {
-    "title": "Which Dwarf Is This? Doppeldwarf-306 and Near-Identical Instance Retrieval",
-    "url": "https://huggingface.co/papers/2611.27490",
+   "2611.30235": {
+    "title": "PixelOne: From Options to Pixels in a Single Forward for GUI Grounding",
+    "url": "https://huggingface.co/papers/2611.30235",
     "meta": {
      "up": null,
      "cm": 2,
+     "pub": "2026-11-23"
+    }
+   },
+   "2611.28167": {
+    "title": "VideoJSON: A Minimal Harness Beats Purpose-Built Memory for Ultra-Long Video Understanding",
+    "url": "https://huggingface.co/papers/2611.28167",
+    "meta": {
+     "up": null,
+     "cm": 6,
      "pub": "2026-11-20"
     }
    },
-   "2611.26954": {
-    "title": "Learning Video Foresight Reasoning from Unlabeled Videos via On-Policy Self-Distillation",
-    "url": "https://huggingface.co/papers/2611.26954",
+   "2611.30900": {
+    "title": "GlanceNav: Efficient Vision-and-Language Navigation with Streaming Memory and Counterfactual Rewind",
+    "url": "https://huggingface.co/papers/2611.30900",
     "meta": {
      "up": null,
      "cm": 2,
-     "pub": "2026-11-20"
+     "pub": "2026-11-23"
     }
    },
-   "2611.23417": {
-    "title": "Autoregressive View Model",
-    "url": "https://huggingface.co/papers/2611.23417",
+   "2611.26216": {
+    "title": "Frontier models need only one text to unmask its human or AI author",
+    "url": "https://huggingface.co/papers/2611.26216",
     "meta": {
      "up": null,
      "cm": 2,
-     "pub": "2026-11-17"
+     "pub": "2026-11-23"
     }
    },
-   "2611.26809": {
-    "title": "Search From the Start: Search-Native Pretraining for Language Models",
-    "url": "https://huggingface.co/papers/2611.26809",
+   "2611.31225": {
+    "title": "Self-Supervised Dataset Distillation via Mutual Information Maximization",
+    "url": "https://huggingface.co/papers/2611.31225",
     "meta": {
      "up": null,
      "cm": 2,
-     "pub": "2026-11-19"
+     "pub": "2026-11-23"
     }
    },
-   "2611.27398": {
-    "title": "Taking Apart and Putting Together: Tracking Objects Through Physical Transformations",
-    "url": "https://huggingface.co/papers/2611.27398",
-    "meta": {
-     "up": null,
-     "cm": 2,
-     "pub": "2026-11-20"
-    }
-   },
-   "2611.22479": {
-    "title": "Exploited Before It Was Fixed? Vulnerability Timelines from Open, Machine-Readable Evidence",
-    "url": "https://huggingface.co/papers/2611.22479",
-    "meta": {
-     "up": null,
-     "cm": 4,
-     "pub": "2026-11-17"
-    }
-   },
-   "2611.25252": {
-    "title": "Moving Generality from Model to Modeler: LLM Agents for PHM on a Deployment-Style Benchmark",
-    "url": "https://huggingface.co/papers/2611.25252",
-    "meta": {
-     "up": null,
-     "cm": 4,
-     "pub": "2026-11-18"
-    }
-   },
-   "2611.19247": {
-    "title": "GameWM: Toward Next-Generation Video Games with Interaction-Centric World Models",
-    "url": "https://huggingface.co/papers/2611.19247",
-    "meta": {
-     "up": null,
-     "cm": 2,
-     "pub": "2026-11-14"
-    }
-   },
-   "2611.22495": {
-    "title": "Motion-Aware Reward Modeling for Instruction-Guided Video Editing",
-    "url": "https://huggingface.co/papers/2611.22495",
-    "meta": {
-     "up": null,
-     "cm": 2,
-     "pub": "2026-11-17"
-    }
-   },
-   "2611.24025": {
-    "title": "Intent Contracts: Taking Tools Away from Agents",
-    "url": "https://huggingface.co/papers/2611.24025",
-    "meta": {
-     "up": null,
-     "cm": 4,
-     "pub": "2026-11-18"
-    }
-   },
-   "2611.27915": {
-    "title": "StereoVLM: Binocular Vision-Language Models for Metric 3D Spatial Reasoning",
-    "url": "https://huggingface.co/papers/2611.27915",
-    "meta": {
-     "up": null,
-     "cm": 2,
-     "pub": "2026-11-20"
-    }
-   },
-   "2611.27973": {
-    "title": "MemOnce: A Scalable Memory Architecture for Large Language Models",
-    "url": "https://huggingface.co/papers/2611.27973",
-    "meta": {
-     "up": null,
-     "cm": 2,
-     "pub": "2026-11-20"
-    }
-   },
-   "2611.26613": {
-    "title": "AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control",
-    "url": "https://huggingface.co/papers/2611.26613",
-    "meta": {
-     "up": null,
-     "cm": 2,
-     "pub": "2026-11-19"
-    }
-   },
-   "2611.27963": {
-    "title": "Non-penetrating World Models",
-    "url": "https://huggingface.co/papers/2611.27963",
+   "2611.28158": {
+    "title": "Measuring and Teaching Language Model Agents to Act on Delayed Consequences",
+    "url": "https://huggingface.co/papers/2611.28158",
     "meta": {
      "up": null,
      "cm": 3,
+     "pub": "2026-11-19"
+    }
+   },
+   "2611.30737": {
+    "title": "CCFinance: Reconstructing Financial News Samples from Web Archives",
+    "url": "https://huggingface.co/papers/2611.30737",
+    "meta": {
+     "up": null,
+     "cm": 1,
+     "pub": "2026-11-23"
+    }
+   },
+   "2611.26358": {
+    "title": "Beam Model Technical Report",
+    "url": "https://huggingface.co/papers/2611.26358",
+    "meta": {
+     "up": null,
+     "cm": 2,
+     "pub": "2026-11-19"
+    }
+   },
+   "2611.31094": {
+    "title": "Unlocking the Power of Loops in Pretrained LLMs with Loop Residuals",
+    "url": "https://huggingface.co/papers/2611.31094",
+    "meta": {
+     "up": null,
+     "cm": 2,
+     "pub": "2026-11-23"
+    }
+   },
+   "2611.28194": {
+    "title": "HEP-Ex-Bench: Evaluating Agentic Performance in High Energy Physics Experiment Data Analyses with Sealed Worlds",
+    "url": "https://huggingface.co/papers/2611.28194",
+    "meta": {
+     "up": null,
+     "cm": 2,
      "pub": "2026-11-20"
     }
    }
   },
   "hn": {
-   "50622854": {
-    "title": "Declare is a UI language for you and your AI",
-    "url": "https://davidtemkin.github.io/declarelang/",
+   "50638320": {
+    "title": "Gemini refused to give me the lyrics to Twinkle Twinkle Little Star",
+    "url": "https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F",
     "meta": {
-     "score": 36,
-     "comments": 19
+     "score": 35,
+     "comments": 20
     }
    },
-   "50620328": {
-    "title": "Latent Introspection: LLMs Can Detect Prior Concept Injections",
-    "url": "https://arxiv.org/abs/2602.20031",
+   "50637686": {
+    "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
+    "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
     "meta": {
-     "score": 52,
+     "score": 87,
+     "comments": 33
+    }
+   },
+   "50637056": {
+    "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
+    "url": "https://greydanus.github.io/2026/11/12/pengpt/",
+    "meta": {
+     "score": 141,
+     "comments": 25
+    }
+   },
+   "50638220": {
+    "title": "Marginalia Search, Money, C++, Rust, AI, Stuff",
+    "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
+    "meta": {
+     "score": 33,
+     "comments": 6
+    }
+   },
+   "50634658": {
+    "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+    "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+    "meta": {
+     "score": 221,
+     "comments": 68
+    }
+   },
+   "50634426": {
+    "title": "Launch HN: Versine (YC F26) – MCP to send and receive money",
+    "url": "https://news.ycombinator.com/item?id=50634426",
+    "meta": {
+     "score": 80,
+     "comments": 64
+    }
+   },
+   "50637871": {
+    "title": "Top open problems in mathematics ranked by LLM-assessed importance",
+    "url": "https://www.proofatlas.ai/open-problems/",
+    "meta": {
+     "score": 19,
      "comments": 4
-    }
-   },
-   "50609685": {
-    "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
-    "url": "https://z.ai/blog/glm-5.4",
-    "meta": {
-     "score": 1099,
-     "comments": 359
-    }
-   },
-   "50623965": {
-    "title": "Show HN: Genesis Map – Visualize your agent's changes. See where they can break",
-    "url": "https://github.com/GenesisAgentInfra/genesis",
-    "meta": {
-     "score": 5,
-     "comments": 0
-    }
-   },
-   "50619630": {
-    "title": "Shirudo: OpenAI and Cisco's open-source runtime for shielding unpatched Linux",
-    "url": "https://openai.com/index/introducing-shirudo/",
-    "meta": {
-     "score": 63,
-     "comments": 18
-    }
-   },
-   "50618513": {
-    "title": "Claude Ship",
-    "url": "https://claude.com/resources/articles/introducing-claude-ship",
-    "meta": {
-     "score": 47,
-     "comments": 13
     }
    }
   }
