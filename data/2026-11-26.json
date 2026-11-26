@@ -1,0 +1,776 @@
+{
+ "date": "2026-11-26",
+ "generated_at": "2026-11-26T12:44:08+08:00",
+ "baseline": false,
+ "sources": {
+  "openrouter": {
+   "new": [
+    {
+     "id": "mistralai/mistral-small-2603:batch",
+     "title": "Mistral: Mistral Small 4 (batch)",
+     "url": "https://openrouter.ai/models/mistralai/mistral-small-2603",
+     "meta": {
+      "prompt": 0.075,
+      "completion": 0.3,
+      "ctx": 262144
+     }
+    },
+    {
+     "id": "mistralai/ministral-8b-2512:batch",
+     "title": "Mistral: Ministral 3 8B 2512 (batch)",
+     "url": "https://openrouter.ai/models/mistralai/ministral-8b-2512",
+     "meta": {
+      "prompt": 0.075,
+      "completion": 0.075,
+      "ctx": 262144
+     }
+    },
+    {
+     "id": "mistralai/mistral-large-2512:batch",
+     "title": "Mistral: Mistral Large 3 2512 (batch)",
+     "url": "https://openrouter.ai/models/mistralai/mistral-large-2512",
+     "meta": {
+      "prompt": 0.25,
+      "completion": 0.75,
+      "ctx": 262144
+     }
+    },
+    {
+     "id": "mistralai/codestral-2508:batch",
+     "title": "Mistral: Codestral 2508 (batch)",
+     "url": "https://openrouter.ai/models/mistralai/codestral-2508",
+     "meta": {
+      "prompt": 0.15,
+      "completion": 0.45,
+      "ctx": 256000
+     }
+    },
+    {
+     "id": "tngtech/deepseek-r1t2-chimera",
+     "title": "TNG: DeepSeek R1T2 Chimera",
+     "url": "https://openrouter.ai/models/tngtech/deepseek-r1t2-chimera",
+     "meta": {
+      "prompt": 1.0,
+      "completion": 2.625,
+      "ctx": 131072
+     }
+    }
+   ],
+   "changed": [
+    {
+     "id": "xiaomi/mimo-v2.6-flash-mopd",
+     "title": "Xiaomi: MiMo-V2.6-Flash-MOPD",
+     "url": "https://openrouter.ai/models/xiaomi/mimo-v2.6-flash-mopd",
+     "from": {
+      "prompt": 0.15,
+      "completion": 0.42,
+      "ctx": 1048576
+     },
+     "to": {
+      "prompt": 0.5,
+      "completion": 1.0,
+      "ctx": 1048576
+     }
+    },
+    {
+     "id": "reflection/beam-1.0-501b-a23b",
+     "title": "Reflection: Beam 1.0 501B A23B",
+     "url": "https://openrouter.ai/models/reflection/beam-1.0-501b-a23b",
+     "from": {
+      "prompt": 0.25,
+      "completion": 1.0,
+      "ctx": 1048576
+     },
+     "to": {
+      "prompt": 0.3,
+      "completion": 1.0,
+      "ctx": 1048576
+     }
+    },
+    {
+     "id": "~unbiased/pareto-latest",
+     "title": "Pareto Latest",
+     "url": "https://openrouter.ai/models/~unbiased/pareto-latest",
+     "from": {
+      "prompt": 0.8,
+      "completion": 3.2,
+      "ctx": 1048576
+     },
+     "to": {
+      "prompt": -1000000.0,
+      "completion": -1000000.0,
+      "ctx": 262144
+     }
+    },
+    {
+     "id": "~deepseek/deepseek-pro-latest",
+     "title": "DeepSeek: DeepSeek Pro Latest",
+     "url": "https://openrouter.ai/models/~deepseek/deepseek-pro-latest",
+     "from": {
+      "prompt": 0.0999,
+      "completion": 5.0,
+      "ctx": 1048576
+     },
+     "to": {
+      "prompt": 0.111,
+      "completion": 4.44,
+      "ctx": 1048576
+     }
+    },
+    {
+     "id": "nvidia/nemotron-3.5-lightning",
+     "title": "NVIDIA: Nemotron 3.5 Lightning",
+     "url": "https://openrouter.ai/models/nvidia/nemotron-3.5-lightning",
+     "from": {
+      "prompt": 0.05,
+      "completion": 0.2,
+      "ctx": 1048576
+     },
+     "to": {
+      "prompt": 0.07,
+      "completion": 0.2,
+      "ctx": 1048576
+     }
+    },
+    {
+     "id": "deepseek/deepseek-v4-flash-0731",
+     "title": "DeepSeek: DeepSeek V4 Flash 0731",
+     "url": "https://openrouter.ai/models/deepseek/deepseek-v4-flash-0731",
+     "from": {
+      "prompt": 0.047,
+      "completion": 0.3,
+      "ctx": 1048576
+     },
+     "to": {
+      "prompt": 0.06,
+      "completion": 0.18,
+      "ctx": 1048576
+     }
+    },
+    {
+     "id": "deepseek/deepseek-v4-pro",
+     "title": "DeepSeek: DeepSeek V4 Pro 0423",
+     "url": "https://openrouter.ai/models/deepseek/deepseek-v4-pro",
+     "from": {
+      "prompt": 1.28,
+      "completion": 2.56,
+      "ctx": 1048576
+     },
+     "to": {
+      "prompt": 0.8882,
+      "completion": 1.5082,
+      "ctx": 1048576
+     }
+    },
+    {
+     "id": "qwen/qwen3.5-9b",
+     "title": "Qwen: Qwen3.5-9B",
+     "url": "https://openrouter.ai/models/qwen/qwen3.5-9b",
+     "from": {
+      "prompt": 0.17,
+      "completion": 0.25,
+      "ctx": 262144
+     },
+     "to": {
+      "prompt": 0.1,
+      "completion": 0.25,
+      "ctx": 262144
+     }
+    },
+    {
+     "id": "qwen/qwen3.5-397b-a17b",
+     "title": "Qwen: Qwen3.5 397B A17B",
+     "url": "https://openrouter.ai/models/qwen/qwen3.5-397b-a17b",
+     "from": {
+      "prompt": 0.45,
+      "completion": 3.0,
+      "ctx": 262144
+     },
+     "to": {
+      "prompt": 0.5,
+      "completion": 3.6,
+      "ctx": 262144
+     }
+    },
+    {
+     "id": "z-ai/glm-4.7-flash",
+     "title": "Z.ai: GLM 4.7 Flash",
+     "url": "https://openrouter.ai/models/z-ai/glm-4.7-flash",
+     "from": {
+      "prompt": 0.0605,
+      "completion": 0.4,
+      "ctx": 200000
+     },
+     "to": {
+      "prompt": 0.0605,
+      "completion": 0.4,
+      "ctx": 131072
+     }
+    },
+    {
+     "id": "z-ai/glm-4.5-air",
+     "title": "Z.ai: GLM 4.5 Air",
+     "url": "https://openrouter.ai/models/z-ai/glm-4.5-air",
+     "from": {
+      "prompt": 0.13,
+      "completion": 0.85,
+      "ctx": 131072
+     },
+     "to": {
+      "prompt": 0.2,
+      "completion": 1.1,
+      "ctx": 131072
+     }
+    }
+   ],
+   "gone": [
+    {
+     "id": "unbiased/pareto-26.10",
+     "title": "Pareto 26.10",
+     "url": "https://openrouter.ai/models/unbiased/pareto-26.10"
+    },
+    {
+     "id": "unbiased/pareto-26.9",
+     "title": "Pareto 26.9",
+     "url": "https://openrouter.ai/models/unbiased/pareto-26.9"
+    },
+    {
+     "id": "unbiased/pareto-26.10-preview",
+     "title": "Pareto 26.10 Preview",
+     "url": "https://openrouter.ai/models/unbiased/pareto-26.10-preview"
+    }
+   ]
+  },
+  "mcp": {
+   "new": [
+    {
+     "id": "ae.brainy.tax/uae-tax-rules",
+     "title": "Brainy Tax — UAE Tax Rules & Deadlines",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ae.brainy.tax/uae-tax-rules",
+     "meta": {
+      "desc": "Read-only UAE Corporate Tax, VAT and e-invoicing calculators with official legal citations.",
+      "version": "0.1.0"
+     }
+    },
+    {
+     "id": "ai.agentapigate/google-news-articles-headlines-mcp",
+     "title": "AgentAPIGate — Real-Time Google News Headlines, Articles & Topics MCP",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapigate/google-news-articles-headlines-mcp",
+     "meta": {
+      "desc": "Real-time Google News headlines, breaking publisher articles & topic search remote MCP server.",
+      "version": "1.0.0"
+     }
+    },
+    {
+     "id": "ai.agentapigate/google-search-serp-web-results-mcp",
+     "title": "AgentAPIGate — Real-Time Google Search SERP, Web Results & Markdown MCP",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapigate/google-search-serp-web-results-mcp",
+     "meta": {
+      "desc": "Real-time Google Search SERP, organic web results, autocomplete & URL/PDF-to-Markdown MCP API.",
+      "version": "1.0.0"
+     }
+    }
+   ],
+   "changed": [],
+   "gone": []
+  },
+  "hf": {
+   "new": [
+    {
+     "id": "2611.34575",
+     "title": "Sage-Med: Scaling Medical Multimodal Intelligence",
+     "url": "https://huggingface.co/papers/2611.34575",
+     "meta": {
+      "up": null,
+      "cm": 1,
+      "pub": "2026-11-25"
+     }
+    },
+    {
+     "id": "2611.34237",
+     "title": "VibeVideoAgent: Closing the Perceptual Loop for Code-Driven Video Generation",
+     "url": "https://huggingface.co/papers/2611.34237",
+     "meta": {
+      "up": null,
+      "cm": 1,
+      "pub": "2026-11-25"
+     }
+    },
+    {
+     "id": "2611.34907",
+     "title": "Agentic LongLive: Asynchronous Agentic Memory for Long Video Generation",
+     "url": "https://huggingface.co/papers/2611.34907",
+     "meta": {
+      "up": null,
+      "cm": 1,
+      "pub": "2026-11-25"
+     }
+    },
+    {
+     "id": "2611.28010",
+     "title": "Beyond Code and Pixels: Co-Generating Editable and Visually Rich Presentations",
+     "url": "https://huggingface.co/papers/2611.28010",
+     "meta": {
+      "up": null,
+      "cm": 1,
+      "pub": "2026-11-25"
+     }
+    },
+    {
+     "id": "2611.31895",
+     "title": "Loupe: Reinforcing Knowledge-Intensive Video Generation Agents",
+     "url": "https://huggingface.co/papers/2611.31895",
+     "meta": {
+      "up": null,
+      "cm": 1,
+      "pub": "2026-11-24"
+     }
+    },
+    {
+     "id": "2611.30460",
+     "title": "CONCOR: Benchmarking Contrastive Decoding for Visual Hallucination Mitigation Beyond Final-Output Performance",
+     "url": "https://huggingface.co/papers/2611.30460",
+     "meta": {
+      "up": null,
+      "cm": 1,
+      "pub": "2026-11-25"
+     }
+    },
+    {
+     "id": "2611.30472",
+     "title": "Target-Part Preference Optimization for Part-Aware 3D Generation",
+     "url": "https://huggingface.co/papers/2611.30472",
+     "meta": {
+      "up": null,
+      "cm": 1,
+      "pub": "2026-11-23"
+     }
+    },
+    {
+     "id": "2611.33915",
+     "title": "SEEK: Self-Evolution through Execution Knowledge for Agentic Robot Manipulation",
+     "url": "https://huggingface.co/papers/2611.33915",
+     "meta": {
+      "up": null,
+      "cm": 1,
+      "pub": "2026-11-25"
+     }
+    },
+    {
+     "id": "2611.33143",
+     "title": "ROAM-Bench: Evaluating Embodied Active Spatial Intelligence through Evidence Verification",
+     "url": "https://huggingface.co/papers/2611.33143",
+     "meta": {
+      "up": null,
+      "cm": 1,
+      "pub": "2026-11-24"
+     }
+    },
+    {
+     "id": "2611.33144",
+     "title": "PyRUA-Dex: Learning Programmatic Policies for Dexterous Bimanual Manipulation with Coding Agents",
+     "url": "https://huggingface.co/papers/2611.33144",
+     "meta": {
+      "up": null,
+      "cm": 1,
+      "pub": "2026-11-24"
+     }
+    },
+    {
+     "id": "2611.30844",
+     "title": "DyLoMo-DiT: Dynamic Looped Mixture-of-Experts Diffusion Transformers",
+     "url": "https://huggingface.co/papers/2611.30844",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-23"
+     }
+    },
+    {
+     "id": "2611.27962",
+     "title": "Model Carving: Training Transformers That Optimize Their Own Topology",
+     "url": "https://huggingface.co/papers/2611.27962",
+     "meta": {
+      "up": null,
+      "cm": 1,
+      "pub": "2026-11-20"
+     }
+    },
+    {
+     "id": "2611.32199",
+     "title": "Steerable by Design: Conditional Pretraining for Robust Control of Language Models",
+     "url": "https://huggingface.co/papers/2611.32199",
+     "meta": {
+      "up": null,
+      "cm": 1,
+      "pub": "2026-11-24"
+     }
+    },
+    {
+     "id": "2611.32351",
+     "title": "LookAnything: A Foundation Model for Holistic Gaze Following",
+     "url": "https://huggingface.co/papers/2611.32351",
+     "meta": {
+      "up": null,
+      "cm": 1,
+      "pub": "2026-11-24"
+     }
+    },
+    {
+     "id": "2611.30564",
+     "title": "Seeing Is Locating: Spatial Awareness and Geographic Bias in Decision Language Models",
+     "url": "https://huggingface.co/papers/2611.30564",
+     "meta": {
+      "up": null,
+      "cm": 1,
+      "pub": "2026-11-23"
+     }
+    },
+    {
+     "id": "2611.32393",
+     "title": "Fractal Neural Synthesis: Constant-Storage Procedural Weight Derivation via Complex Quadratic Boundary Dynamics",
+     "url": "https://huggingface.co/papers/2611.32393",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-24"
+     }
+    },
+    {
+     "id": "2611.25946",
+     "title": "Point Dynamics as Proxy for Robotic World Models",
+     "url": "https://huggingface.co/papers/2611.25946",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-19"
+     }
+    },
+    {
+     "id": "2611.27404",
+     "title": "Degradation of Language Models under Controlled Load: Synchronization, Rule Execution and Misfires on the Background",
+     "url": "https://huggingface.co/papers/2611.27404",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-20"
+     }
+    },
+    {
+     "id": "2611.30017",
+     "title": "OWE-Bench: A long-horizon benchmark for measuring real-world engineering",
+     "url": "https://huggingface.co/papers/2611.30017",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-23"
+     }
+    },
+    {
+     "id": "2611.32816",
+     "title": "SpatialArena: Where Do Geometric Foundation Models Stand?",
+     "url": "https://huggingface.co/papers/2611.32816",
+     "meta": {
+      "up": null,
+      "cm": 3,
+      "pub": "2026-11-24"
+     }
+    },
+    {
+     "id": "2510.22622",
+     "title": "Mega-MMDF and DeepfakeBench-MM: Benchmarking Multimodal Deepfake Detection Across Diverse Forgery Pipelines",
+     "url": "https://huggingface.co/papers/2510.22622",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-20"
+     }
+    },
+    {
+     "id": "2611.31977",
+     "title": "Distill to Loop: Turning Pretrained Diffusion Transformers into Looped Models with Adjustable Depth",
+     "url": "https://huggingface.co/papers/2611.31977",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-24"
+     }
+    },
+    {
+     "id": "2611.31752",
+     "title": "Separating Measurement Failures from Defence Failures in Split Language-Model Privacy",
+     "url": "https://huggingface.co/papers/2611.31752",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-24"
+     }
+    },
+    {
+     "id": "2611.32782",
+     "title": "Measuring Layer-wise Intrinsic Dimensionality of FFNs in LLMs via PCA",
+     "url": "https://huggingface.co/papers/2611.32782",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-24"
+     }
+    },
+    {
+     "id": "2611.32649",
+     "title": "ICLWorld: Benchmarking In-Context Learning of Agents from Digital to Physical Worlds",
+     "url": "https://huggingface.co/papers/2611.32649",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-24"
+     }
+    },
+    {
+     "id": "2611.31129",
+     "title": "FATCAT: Fault Injection Attacks Targeting Chip-level Alignment",
+     "url": "https://huggingface.co/papers/2611.31129",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-23"
+     }
+    },
+    {
+     "id": "2611.32918",
+     "title": "InstructReplay: Replaying Assistant Turns to Preserve General Behavior During Factual Fine-Tuning",
+     "url": "https://huggingface.co/papers/2611.32918",
+     "meta": {
+      "up": null,
+      "cm": 4,
+      "pub": "2026-11-24"
+     }
+    },
+    {
+     "id": "2611.31258",
+     "title": "RECAP: Training Long-horizon LLM Agents with Context Compaction",
+     "url": "https://huggingface.co/papers/2611.31258",
+     "meta": {
+      "up": null,
+      "cm": 3,
+      "pub": "2026-10-19"
+     }
+    },
+    {
+     "id": "2611.30963",
+     "title": "Foresight Forcing: Learning Spatial Foresight for Robotic Manipulation",
+     "url": "https://huggingface.co/papers/2611.30963",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-23"
+     }
+    },
+    {
+     "id": "2611.33148",
+     "title": "CoT-Proxy: Cross-Format Transfer for Distilling Long-Horizon Policies",
+     "url": "https://huggingface.co/papers/2611.33148",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-24"
+     }
+    },
+    {
+     "id": "2611.31442",
+     "title": "Small Learned Projections for Semantic-Reversal-Aware Retrieval with Spectral Acceleration: A Four-Domain Empirical Study",
+     "url": "https://huggingface.co/papers/2611.31442",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-23"
+     }
+    },
+    {
+     "id": "2611.33020",
+     "title": "GRAPE-Bench: When Vision Degrades, Does Video Reasoning Hold?",
+     "url": "https://huggingface.co/papers/2611.33020",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-24"
+     }
+    },
+    {
+     "id": "2611.32973",
+     "title": "SpecEngineeringBench: Evaluating Coding Agents as Autonomous Specification Engineers",
+     "url": "https://huggingface.co/papers/2611.32973",
+     "meta": {
+      "up": null,
+      "cm": 4,
+      "pub": "2026-11-24"
+     }
+    },
+    {
+     "id": "2611.32639",
+     "title": "ReFocus: Progress-Guided Adaptive Practice for Long-Horizon Robotic Manipulation Reinforcement Learning",
+     "url": "https://huggingface.co/papers/2611.32639",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-24"
+     }
+    },
+    {
+     "id": "2611.32884",
+     "title": "Lazy Agents Answer Against Their Own Beliefs: Reinforcement Learning with Verifiable Beliefs Teaches Them to Act on What They Believe",
+     "url": "https://huggingface.co/papers/2611.32884",
+     "meta": {
+      "up": null,
+      "cm": 6,
+      "pub": "2026-11-24"
+     }
+    },
+    {
+     "id": "2611.25509",
+     "title": "LingSante MedGuard Technical Report",
+     "url": "https://huggingface.co/papers/2611.25509",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-19"
+     }
+    },
+    {
+     "id": "2611.33010",
+     "title": "Embodied AI Fails the Mirror Test: How a Simple Mirror Breaks Robot Policies",
+     "url": "https://huggingface.co/papers/2611.33010",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-24"
+     }
+    },
+    {
+     "id": "2611.32423",
+     "title": "Factorized Context Attention: From Emulated to Native Grid Probing",
+     "url": "https://huggingface.co/papers/2611.32423",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-24"
+     }
+    },
+    {
+     "id": "2611.32617",
+     "title": "VenusOCR2.0: Towards Efficient and Effective Document Parsing",
+     "url": "https://huggingface.co/papers/2611.32617",
+     "meta": {
+      "up": null,
+      "cm": 3,
+      "pub": "2026-11-24"
+     }
+    }
+   ],
+   "changed": [
+    {
+     "id": "2611.31358",
+     "title": "Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation",
+     "url": "https://huggingface.co/papers/2611.31358",
+     "from": {
+      "up": null,
+      "cm": 1,
+      "pub": "2026-11-23"
+     },
+     "to": {
+      "up": null,
+      "cm": 3,
+      "pub": "2026-11-23"
+     }
+    }
+   ],
+   "gone": []
+  },
+  "hn": {
+   "new": [
+    {
+     "id": "50648050",
+     "title": "Much shorter version of GRH Lean verification from Anthropic",
+     "url": "https://github.com/lsernau/grh-lean",
+     "meta": {
+      "score": 348,
+      "comments": 176
+     }
+    },
+    {
+     "id": "50601280",
+     "title": "GPT-6.2 Astra is the first model to beat Googlers' code golf records",
+     "url": "https://bjin.github.io/go-codegolf-benchmark/#leaderboard",
+     "meta": {
+      "score": 302,
+      "comments": 84
+     }
+    },
+    {
+     "id": "50647673",
+     "title": "The New York Times warns photographers not to update Photoshop over AI features",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+     "meta": {
+      "score": 264,
+      "comments": 229
+     }
+    },
+    {
+     "id": "50651117",
+     "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+     "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+     "meta": {
+      "score": 32,
+      "comments": 11
+     }
+    },
+    {
+     "id": "50624446",
+     "title": "Porting Rockbox to an undocumented $9 AliExpress 'YP3' MP3 player with LLMs",
+     "url": "https://jayd.ml/2026/11/14/rockbox-on-yp3.html",
+     "meta": {
+      "score": 242,
+      "comments": 96
+     }
+    },
+    {
+     "id": "50611593",
+     "title": "Show HN: An agent skill that optimizes code with falsifiable hypotheses",
+     "url": "https://chszlab.github.io/AgenticAlgorithmEngineering/",
+     "meta": {
+      "score": 92,
+      "comments": 10
+     }
+    }
+   ],
+   "changed": [],
+   "gone": []
+  }
+ },
+ "counts": {
+  "openrouter": {
+   "new": 5,
+   "changed": 11,
+   "gone": 3,
+   "total": 474
+  },
+  "mcp": {
+   "new": 3,
+   "changed": 0,
+   "gone": 0,
+   "total": 184
+  },
+  "hf": {
+   "new": 39,
+   "changed": 1,
+   "gone": 0,
+   "total": 40
+  },
+  "hn": {
+   "new": 6,
+   "changed": 0,
+   "gone": 0,
+   "total": 7
+  }
+ }
+}
