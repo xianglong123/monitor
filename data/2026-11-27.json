@@ -1,0 +1,731 @@
+{
+ "date": "2026-11-27",
+ "generated_at": "2026-11-27T12:51:30+08:00",
+ "baseline": false,
+ "sources": {
+  "openrouter": {
+   "new": [
+    {
+     "id": "inclusionai/lingsante-3.1-air-vl",
+     "title": "inclusionAI: LingSante 3.1 Air VL",
+     "url": "https://openrouter.ai/models/inclusionai/lingsante-3.1-air-vl",
+     "meta": {
+      "prompt": 0.06,
+      "completion": 0.18,
+      "ctx": 131072
+     }
+    },
+    {
+     "id": "moonshotai/kimi-k2-0905",
+     "title": "MoonshotAI: Kimi K2 0905",
+     "url": "https://openrouter.ai/models/moonshotai/kimi-k2-0905",
+     "meta": {
+      "prompt": 0.6,
+      "completion": 2.5,
+      "ctx": 262144
+     }
+    },
+    {
+     "id": "moonshotai/kimi-k2",
+     "title": "MoonshotAI: Kimi K2 0711",
+     "url": "https://openrouter.ai/models/moonshotai/kimi-k2",
+     "meta": {
+      "prompt": 0.57,
+      "completion": 2.3,
+      "ctx": 131072
+     }
+    }
+   ],
+   "changed": [
+    {
+     "id": "~deepseek/deepseek-pro-latest",
+     "title": "DeepSeek: DeepSeek Pro Latest",
+     "url": "https://openrouter.ai/models/~deepseek/deepseek-pro-latest",
+     "from": {
+      "prompt": 0.111,
+      "completion": 4.44,
+      "ctx": 1048576
+     },
+     "to": {
+      "prompt": 0.0999,
+      "completion": 5.0,
+      "ctx": 1048576
+     }
+    },
+    {
+     "id": "z-ai/glm-5.3-flash",
+     "title": "Z.ai: GLM 5.3 Flash",
+     "url": "https://openrouter.ai/models/z-ai/glm-5.3-flash",
+     "from": {
+      "prompt": 0.12,
+      "completion": 0.38,
+      "ctx": 1048576
+     },
+     "to": {
+      "prompt": 0.15,
+      "completion": 0.5,
+      "ctx": 1048576
+     }
+    },
+    {
+     "id": "deepseek/deepseek-v4-flash-vision-exp",
+     "title": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+     "url": "https://openrouter.ai/models/deepseek/deepseek-v4-flash-vision-exp",
+     "from": {
+      "prompt": 0.44,
+      "completion": 1.32,
+      "ctx": 1048576
+     },
+     "to": {
+      "prompt": 0.2156,
+      "completion": 0.6468,
+      "ctx": 1048576
+     }
+    },
+    {
+     "id": "qwen/qwen3.8-27b",
+     "title": "Qwen: Qwen3.8 27B",
+     "url": "https://openrouter.ai/models/qwen/qwen3.8-27b",
+     "from": {
+      "prompt": 0.035,
+      "completion": 1.5,
+      "ctx": 1024000
+     },
+     "to": {
+      "prompt": 0.06,
+      "completion": 1.96,
+      "ctx": 1024000
+     }
+    },
+    {
+     "id": "deepseek/deepseek-v4-pro-0813",
+     "title": "DeepSeek: DeepSeek V4 Pro 0813",
+     "url": "https://openrouter.ai/models/deepseek/deepseek-v4-pro-0813",
+     "from": {
+      "prompt": 0.111,
+      "completion": 4.44,
+      "ctx": 1048576
+     },
+     "to": {
+      "prompt": 0.0999,
+      "completion": 5.0,
+      "ctx": 1048576
+     }
+    },
+    {
+     "id": "meta/muse-glimmer-30b",
+     "title": "Meta: Muse Glimmer 30B",
+     "url": "https://openrouter.ai/models/meta/muse-glimmer-30b",
+     "from": {
+      "prompt": 0.35,
+      "completion": 1.5,
+      "ctx": 131072
+     },
+     "to": {
+      "prompt": 0.3,
+      "completion": 1.2,
+      "ctx": 131072
+     }
+    },
+    {
+     "id": "deepseek/deepseek-v4-flash-0731",
+     "title": "DeepSeek: DeepSeek V4 Flash 0731",
+     "url": "https://openrouter.ai/models/deepseek/deepseek-v4-flash-0731",
+     "from": {
+      "prompt": 0.06,
+      "completion": 0.18,
+      "ctx": 1048576
+     },
+     "to": {
+      "prompt": 0.047,
+      "completion": 0.3,
+      "ctx": 1048576
+     }
+    },
+    {
+     "id": "moonshotai/kimi-k2.5",
+     "title": "MoonshotAI: Kimi K2.5",
+     "url": "https://openrouter.ai/models/moonshotai/kimi-k2.5",
+     "from": {
+      "prompt": 0.5,
+      "completion": 2.5,
+      "ctx": 262144
+     },
+     "to": {
+      "prompt": 0.6,
+      "completion": 3.0,
+      "ctx": 262144
+     }
+    },
+    {
+     "id": "z-ai/glm-4.6",
+     "title": "Z.ai: GLM 4.6",
+     "url": "https://openrouter.ai/models/z-ai/glm-4.6",
+     "from": {
+      "prompt": 0.5,
+      "completion": 2.0,
+      "ctx": 204800
+     },
+     "to": {
+      "prompt": 0.5,
+      "completion": 2.0,
+      "ctx": 202752
+     }
+    },
+    {
+     "id": "google/gemma-3-4b-it",
+     "title": "Google: Gemma 3 4B",
+     "url": "https://openrouter.ai/models/google/gemma-3-4b-it",
+     "from": {
+      "prompt": 0.04,
+      "completion": 0.05,
+      "ctx": 131072
+     },
+     "to": {
+      "prompt": 0.05,
+      "completion": 0.1,
+      "ctx": 131072
+     }
+    },
+    {
+     "id": "google/gemma-3-27b-it",
+     "title": "Google: Gemma 3 27B",
+     "url": "https://openrouter.ai/models/google/gemma-3-27b-it",
+     "from": {
+      "prompt": 0.08,
+      "completion": 0.16,
+      "ctx": 131072
+     },
+     "to": {
+      "prompt": 0.08,
+      "completion": 0.45,
+      "ctx": 131072
+     }
+    },
+    {
+     "id": "meta-llama/llama-3.3-70b-instruct",
+     "title": "Meta: Llama 3.3 70B Instruct",
+     "url": "https://openrouter.ai/models/meta-llama/llama-3.3-70b-instruct",
+     "from": {
+      "prompt": 0.71,
+      "completion": 0.71,
+      "ctx": 131072
+     },
+     "to": {
+      "prompt": 0.59,
+      "completion": 0.79,
+      "ctx": 131072
+     }
+    }
+   ],
+   "gone": []
+  },
+  "mcp": {
+   "new": [
+    {
+     "id": "ac.compare/air-conditioners",
+     "title": "compare.ac: US air conditioner, heat pump and space heater prices",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ac.compare/air-conditioners",
+     "meta": {
+      "desc": "US air conditioners, heat pumps and space heaters in stock, with dated store prices and room sizing.",
+      "version": "1.0.0"
+     }
+    }
+   ],
+   "changed": [],
+   "gone": []
+  },
+  "hf": {
+   "new": [
+    {
+     "id": "2611.32238",
+     "title": "Boundary-Aware Policy Learning for Agent-Orchestrated Robot Manipulation",
+     "url": "https://huggingface.co/papers/2611.32238",
+     "meta": {
+      "up": null,
+      "cm": 1,
+      "pub": "2026-11-24"
+     }
+    },
+    {
+     "id": "2611.34719",
+     "title": "Reading, Not Adapting: Unlocking Frozen Visual Knowledge for AI-Generated Image Detection",
+     "url": "https://huggingface.co/papers/2611.34719",
+     "meta": {
+      "up": null,
+      "cm": 1,
+      "pub": "2026-11-25"
+     }
+    },
+    {
+     "id": "2611.34232",
+     "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+     "url": "https://huggingface.co/papers/2611.34232",
+     "meta": {
+      "up": null,
+      "cm": 1,
+      "pub": "2026-11-25"
+     }
+    },
+    {
+     "id": "2611.34852",
+     "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
+     "url": "https://huggingface.co/papers/2611.34852",
+     "meta": {
+      "up": null,
+      "cm": 1,
+      "pub": "2026-11-25"
+     }
+    },
+    {
+     "id": "2611.32993",
+     "title": "Decision-Native Multimodal Clinical Modeling via Anatomical Grounding and Confidence Calibration",
+     "url": "https://huggingface.co/papers/2611.32993",
+     "meta": {
+      "up": null,
+      "cm": 1,
+      "pub": "2026-11-24"
+     }
+    },
+    {
+     "id": "2611.34290",
+     "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
+     "url": "https://huggingface.co/papers/2611.34290",
+     "meta": {
+      "up": null,
+      "cm": 1,
+      "pub": "2026-11-25"
+     }
+    },
+    {
+     "id": "2611.34813",
+     "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
+     "url": "https://huggingface.co/papers/2611.34813",
+     "meta": {
+      "up": null,
+      "cm": 1,
+      "pub": "2026-11-25"
+     }
+    },
+    {
+     "id": "2611.34693",
+     "title": "ShowNow: Fine-Grained Speculative Streaming for Responsive World Models",
+     "url": "https://huggingface.co/papers/2611.34693",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-25"
+     }
+    },
+    {
+     "id": "2611.34457",
+     "title": "ProxyGenBench: Benchmarking Proxy-Guided Video Generation",
+     "url": "https://huggingface.co/papers/2611.34457",
+     "meta": {
+      "up": null,
+      "cm": 1,
+      "pub": "2026-11-25"
+     }
+    },
+    {
+     "id": "2611.34051",
+     "title": "Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability",
+     "url": "https://huggingface.co/papers/2611.34051",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-25"
+     }
+    },
+    {
+     "id": "2611.20844",
+     "title": "DetourBench: Trajectory-Level Evaluation of Interactive Agents with Exact Minimum-Action Bounds",
+     "url": "https://huggingface.co/papers/2611.20844",
+     "meta": {
+      "up": null,
+      "cm": 1,
+      "pub": "2026-11-16"
+     }
+    },
+    {
+     "id": "2611.29829",
+     "title": "Who Makes the Decision? Auditing an Agentic LLM Pipeline for Illicit Cryptocurrency Transaction Monitoring",
+     "url": "https://huggingface.co/papers/2611.29829",
+     "meta": {
+      "up": null,
+      "cm": 1,
+      "pub": "2026-11-22"
+     }
+    },
+    {
+     "id": "2611.29969",
+     "title": "CARE-3D: Reinforcement Learning for Evidence Grounded Agentic Reasoning in Situated 3D Scenes",
+     "url": "https://huggingface.co/papers/2611.29969",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-23"
+     }
+    },
+    {
+     "id": "2611.28231",
+     "title": "Evaluating Memanto on DolphinBench for AI Agents",
+     "url": "https://huggingface.co/papers/2611.28231",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-20"
+     }
+    },
+    {
+     "id": "2611.29259",
+     "title": "Look Back: Reinforcement Learning with Counterfactual World Models",
+     "url": "https://huggingface.co/papers/2611.29259",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-22"
+     }
+    },
+    {
+     "id": "2611.34363",
+     "title": "Single-Database Rewards Are Hackable: Counterfactual Execution for Trustworthy Text-to-SQL RL",
+     "url": "https://huggingface.co/papers/2611.34363",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-25"
+     }
+    },
+    {
+     "id": "2611.28732",
+     "title": "Entangle: Scaling Human-Video In-Context World-Action Models across Unseen Tasks and Contexts",
+     "url": "https://huggingface.co/papers/2611.28732",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-25"
+     }
+    },
+    {
+     "id": "2611.33093",
+     "title": "AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design",
+     "url": "https://huggingface.co/papers/2611.33093",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-24"
+     }
+    },
+    {
+     "id": "2611.34079",
+     "title": "WorldBridge: Bridging Scattered Views for Coherent 3D World Generation",
+     "url": "https://huggingface.co/papers/2611.34079",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-25"
+     }
+    },
+    {
+     "id": "2611.21155",
+     "title": "Edit Recommendation: Can LLMs Anticipate Edit Requests from Users, and When?",
+     "url": "https://huggingface.co/papers/2611.21155",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-16"
+     }
+    },
+    {
+     "id": "2611.30334",
+     "title": "When Does Reasoning Help Entity Disambiguation? Small LLMs In-Domain and Under Shift",
+     "url": "https://huggingface.co/papers/2611.30334",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-23"
+     }
+    },
+    {
+     "id": "2611.32335",
+     "title": "GOLD-SLAM: Gaussian-splatting Omnidirectional LiDAR-Depth SLAM",
+     "url": "https://huggingface.co/papers/2611.32335",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-24"
+     }
+    },
+    {
+     "id": "2611.28244",
+     "title": "Demystifying the Autoresearch Harness: How Context and Skills Shape Self-Evolving Agents",
+     "url": "https://huggingface.co/papers/2611.28244",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-20"
+     }
+    },
+    {
+     "id": "2611.32938",
+     "title": "Efficient Video Retrieval Augmented Generation via Token Allocation",
+     "url": "https://huggingface.co/papers/2611.32938",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-24"
+     }
+    },
+    {
+     "id": "2611.21056",
+     "title": "Evaluation-Free Recursive Self-Improvement for Coding Agents",
+     "url": "https://huggingface.co/papers/2611.21056",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-16"
+     }
+    },
+    {
+     "id": "2611.34147",
+     "title": "Letting Models Manage Their Own Context: Where We Stand",
+     "url": "https://huggingface.co/papers/2611.34147",
+     "meta": {
+      "up": null,
+      "cm": 3,
+      "pub": "2026-11-25"
+     }
+    },
+    {
+     "id": "2611.32786",
+     "title": "Simulator-as-Proxy World Model for Robot Manipulation",
+     "url": "https://huggingface.co/papers/2611.32786",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-24"
+     }
+    },
+    {
+     "id": "2611.33307",
+     "title": "Lost in Translation, Not in Confidence: Benchmarking and Calibrating Multilingual Decision Models",
+     "url": "https://huggingface.co/papers/2611.33307",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-24"
+     }
+    },
+    {
+     "id": "2611.34777",
+     "title": "When Every Rollout Fails: Splicing Learner-Conditioned Options into Long-Horizon Agent RL",
+     "url": "https://huggingface.co/papers/2611.34777",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-25"
+     }
+    },
+    {
+     "id": "2611.34756",
+     "title": "Collect for Coverage, Replay with Evidence: Adaptive and Efficient On-Policy Distillation for Long-Horizon Agents",
+     "url": "https://huggingface.co/papers/2611.34756",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-25"
+     }
+    },
+    {
+     "id": "2611.34939",
+     "title": "A Mesh for Every Moment",
+     "url": "https://huggingface.co/papers/2611.34939",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-25"
+     }
+    },
+    {
+     "id": "2611.33579",
+     "title": "DexEngine: Scaling Human Demonstrations into Physically Executable Whole-Robot Data",
+     "url": "https://huggingface.co/papers/2611.33579",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-25"
+     }
+    },
+    {
+     "id": "2611.31237",
+     "title": "Let Vision-Language Models Generate Images through Their Representations",
+     "url": "https://huggingface.co/papers/2611.31237",
+     "meta": {
+      "up": null,
+      "cm": 3,
+      "pub": "2026-11-23"
+     }
+    },
+    {
+     "id": "2611.34671",
+     "title": "DemoFoundry: Toward Scalable Photorealistic Robot Data with Coding Agents and Generative Rendering",
+     "url": "https://huggingface.co/papers/2611.34671",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-25"
+     }
+    },
+    {
+     "id": "2611.30895",
+     "title": "Speak When You See It: Proactive Task Assistants Should Wait for Evidence, Not the Clock",
+     "url": "https://huggingface.co/papers/2611.30895",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-23"
+     }
+    },
+    {
+     "id": "2611.34750",
+     "title": "SOLVE: Sparse, Ordered Keyposes Make LLM Agents Versatile and Efficient Robot Manipulator",
+     "url": "https://huggingface.co/papers/2611.34750",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-25"
+     }
+    },
+    {
+     "id": "2611.32002",
+     "title": "Change the Base, Change the Game: Rethinking Pan-sharpening",
+     "url": "https://huggingface.co/papers/2611.32002",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-24"
+     }
+    },
+    {
+     "id": "2611.33457",
+     "title": "Playfulness as Feedback for Agentic Game Development",
+     "url": "https://huggingface.co/papers/2611.33457",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-24"
+     }
+    },
+    {
+     "id": "2611.34420",
+     "title": "DocSEAM: Bidirectional Cross-Page Encoding for Multi-Page Document Understanding",
+     "url": "https://huggingface.co/papers/2611.34420",
+     "meta": {
+      "up": null,
+      "cm": 4,
+      "pub": "2026-11-25"
+     }
+    },
+    {
+     "id": "2611.34923",
+     "title": "Mixture-of-Loops Transformer",
+     "url": "https://huggingface.co/papers/2611.34923",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-25"
+     }
+    }
+   ],
+   "changed": [],
+   "gone": []
+  },
+  "hn": {
+   "new": [
+    {
+     "id": "50660180",
+     "title": "AI made self-hosting fun again",
+     "url": "https://janlukas.blog/posts/ai-self-hosting",
+     "meta": {
+      "score": 443,
+      "comments": 238
+     }
+    },
+    {
+     "id": "50657265",
+     "title": "AMD-specific fork of llama.cpp",
+     "url": "https://devnull.land/amd-specific-llama-cpp",
+     "meta": {
+      "score": 310,
+      "comments": 75
+     }
+    },
+    {
+     "id": "50653477",
+     "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+     "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+     "meta": {
+      "score": 290,
+      "comments": 240
+     }
+    },
+    {
+     "id": "50661218",
+     "title": "AI agents now control part of DeepMind's compute for Gemini experiments",
+     "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
+     "meta": {
+      "score": 44,
+      "comments": 21
+     }
+    },
+    {
+     "id": "50652527",
+     "title": "OpenAI may be in cost control mode",
+     "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/",
+     "meta": {
+      "score": 307,
+      "comments": 314
+     }
+    },
+    {
+     "id": "50658910",
+     "title": "Top-cited AI scientists at four US companies compared",
+     "url": "https://topcitedscientists.com/figures/ai-at-four-us-companies/",
+     "meta": {
+      "score": 39,
+      "comments": 22
+     }
+    }
+   ],
+   "changed": [],
+   "gone": []
+  }
+ },
+ "counts": {
+  "openrouter": {
+   "new": 3,
+   "changed": 12,
+   "gone": 0,
+   "total": 477
+  },
+  "mcp": {
+   "new": 1,
+   "changed": 0,
+   "gone": 0,
+   "total": 185
+  },
+  "hf": {
+   "new": 40,
+   "changed": 0,
+   "gone": 0,
+   "total": 40
+  },
+  "hn": {
+   "new": 6,
+   "changed": 0,
+   "gone": 0,
+   "total": 8
+  }
+ }
+}

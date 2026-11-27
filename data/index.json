@@ -1,5 +1,36 @@
 [
  {
+  "date": "2026-11-27",
+  "baseline": false,
+  "counts": {
+   "openrouter": {
+    "new": 3,
+    "changed": 12,
+    "gone": 0,
+    "total": 477
+   },
+   "mcp": {
+    "new": 1,
+    "changed": 0,
+    "gone": 0,
+    "total": 185
+   },
+   "hf": {
+    "new": 40,
+    "changed": 0,
+    "gone": 0,
+    "total": 40
+   },
+   "hn": {
+    "new": 6,
+    "changed": 0,
+    "gone": 0,
+    "total": 8
+   }
+  },
+  "errors": []
+ },
+ {
   "date": "2026-11-26",
   "baseline": false,
   "counts": {
