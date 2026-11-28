@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T12:51:30+08:00",
+ "updated": "2026-11-28T12:36:35+08:00",
  "sources": {
   "openrouter": {
    "inclusionai/lingsante-3.1-air-vl": {
@@ -42,8 +42,8 @@
     "title": "Thinking Machines: Inkling 2 Mini",
     "url": "https://openrouter.ai/models/thinkingmachines/inkling-2-mini",
     "meta": {
-     "prompt": 0.075,
-     "completion": 0.3,
+     "prompt": 0.06,
+     "completion": 0.24,
      "ctx": 1048576
     }
    },
@@ -173,12 +173,12 @@
      "ctx": 1000000
     }
    },
-   "inclusionai/ling-3.2-flash:free": {
-    "title": "inclusionAI: Ling 3.2 Flash (free)",
+   "inclusionai/ling-3.2-flash": {
+    "title": "inclusionAI: Ling 3.2 Flash",
     "url": "https://openrouter.ai/models/inclusionai/ling-3.2-flash",
     "meta": {
-     "prompt": 0.0,
-     "completion": 0.0,
+     "prompt": 0.3,
+     "completion": 0.9,
      "ctx": 1048576
     }
    },
@@ -249,8 +249,8 @@
     "title": "Thinking Machines: Inkling 2 Small",
     "url": "https://openrouter.ai/models/thinkingmachines/inkling-2-small",
     "meta": {
-     "prompt": 0.3,
-     "completion": 1.0,
+     "prompt": 0.15,
+     "completion": 0.5,
      "ctx": 1048576
     }
    },
@@ -483,7 +483,7 @@
     "title": "Reflection: Beam 1.0 501B A23B",
     "url": "https://openrouter.ai/models/reflection/beam-1.0-501b-a23b",
     "meta": {
-     "prompt": 0.3,
+     "prompt": 0.25,
      "completion": 1.0,
      "ctx": 1048576
     }
@@ -529,7 +529,7 @@
     "url": "https://openrouter.ai/models/nvidia/nemotron-3.5-super-vl",
     "meta": {
      "prompt": 0.15,
-     "completion": 0.47,
+     "completion": 0.45,
      "ctx": 1048576
     }
    },
@@ -1050,8 +1050,8 @@
     "title": "DeepSeek: DeepSeek V4.1 Flash",
     "url": "https://openrouter.ai/models/deepseek/deepseek-v4.1-flash",
     "meta": {
-     "prompt": 0.14,
-     "completion": 0.42,
+     "prompt": 0.051,
+     "completion": 0.567,
      "ctx": 1048576
     }
    },
@@ -1367,7 +1367,7 @@
     "meta": {
      "prompt": 2.0,
      "completion": 6.0,
-     "ctx": 1048576
+     "ctx": 1000000
     }
    },
    "deepseek/deepseek-v4-pro-0813": {
@@ -1401,7 +1401,7 @@
     "title": "NVIDIA: Nemotron 3.5 Lightning",
     "url": "https://openrouter.ai/models/nvidia/nemotron-3.5-lightning",
     "meta": {
-     "prompt": 0.07,
+     "prompt": 0.05,
      "completion": 0.2,
      "ctx": 1048576
     }
@@ -1473,8 +1473,8 @@
     "title": "DeepSeek: DeepSeek V4 Flash Latest",
     "url": "https://openrouter.ai/models/~deepseek/deepseek-v4-flash-latest",
     "meta": {
-     "prompt": 0.047,
-     "completion": 0.3,
+     "prompt": 0.0453,
+     "completion": 0.136,
      "ctx": 1048576
     }
    },
@@ -1482,7 +1482,7 @@
     "title": "DeepSeek: DeepSeek V4 Flash 0731",
     "url": "https://openrouter.ai/models/deepseek/deepseek-v4-flash-0731",
     "meta": {
-     "prompt": 0.047,
+     "prompt": 0.0456,
      "completion": 0.3,
      "ctx": 1048576
     }
@@ -2211,8 +2211,8 @@
     "title": "DeepSeek: DeepSeek V4 Pro 0423",
     "url": "https://openrouter.ai/models/deepseek/deepseek-v4-pro",
     "meta": {
-     "prompt": 0.8882,
-     "completion": 1.5082,
+     "prompt": 0.3703,
+     "completion": 1.5791,
      "ctx": 1048576
     }
    },
@@ -2283,8 +2283,8 @@
     "title": "Google: Gemma 4 26B A4B ",
     "url": "https://openrouter.ai/models/google/gemma-4-26b-a4b-it",
     "meta": {
-     "prompt": 0.0765,
-     "completion": 0.255,
+     "prompt": 0.0675,
+     "completion": 0.225,
      "ctx": 262144
     }
    },
@@ -2472,8 +2472,8 @@
     "title": "Qwen: Qwen3.5-9B",
     "url": "https://openrouter.ai/models/qwen/qwen3.5-9b",
     "meta": {
-     "prompt": 0.1,
-     "completion": 0.25,
+     "prompt": 0.085,
+     "completion": 0.125,
      "ctx": 262144
     }
    },
@@ -3413,15 +3413,6 @@
      "ctx": 131072
     }
    },
-   "qwen/qwen3-235b-a22b-thinking-2507": {
-    "title": "Qwen: Qwen3 235B A22B Thinking 2507",
-    "url": "https://openrouter.ai/models/qwen/qwen3-235b-a22b-thinking-2507",
-    "meta": {
-     "prompt": 0.45,
-     "completion": 3.5,
-     "ctx": 128000
-    }
-   },
    "qwen/qwen3-coder": {
     "title": "Qwen: Qwen3 Coder 480B A35B",
     "url": "https://openrouter.ai/models/qwen/qwen3-coder",
@@ -3732,8 +3723,8 @@
     "title": "Google: Gemma 3 4B",
     "url": "https://openrouter.ai/models/google/gemma-3-4b-it",
     "meta": {
-     "prompt": 0.05,
-     "completion": 0.1,
+     "prompt": 0.04,
+     "completion": 0.05,
      "ctx": 131072
     }
    },
@@ -3769,7 +3760,7 @@
     "url": "https://openrouter.ai/models/google/gemma-3-27b-it",
     "meta": {
      "prompt": 0.08,
-     "completion": 0.45,
+     "completion": 0.16,
      "ctx": 131072
     }
    },
@@ -5768,23 +5759,123 @@
      "desc": "The editors' index of AI-native software, from AI agents to the models and frameworks behind them.",
      "version": "1.0.0"
     }
-   },
-   "ai.agentsrank/agentsrank": {
-    "title": "AgentsRank",
-    "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentsrank/agentsrank",
-    "meta": {
-     "desc": "Hire listed AI workers for research and briefs. Review a draft, then open the result.",
-     "version": "2.1.0"
-    }
    }
   },
   "hf": {
+   "2611.33885": {
+    "title": "LayoutRecall: Preserving Appearance in Multi-Round 3D Layout-Controlled Image Editing",
+    "url": "https://huggingface.co/papers/2611.33885",
+    "meta": {
+     "up": null,
+     "cm": 2,
+     "pub": "2026-11-25"
+    }
+   },
+   "2611.30025": {
+    "title": "Damped Atomic Wave Integration Neurons (DAWIN): A Universal Primitive for Continuous-Time Spatiotemporal Learning",
+    "url": "https://huggingface.co/papers/2611.30025",
+    "meta": {
+     "up": null,
+     "cm": 3,
+     "pub": "2026-11-23"
+    }
+   },
+   "2611.30723": {
+    "title": "BiSAT: Bidirectionally Aligned Semantic-Acoustic Tokenization for Speech Language Models",
+    "url": "https://huggingface.co/papers/2611.30723",
+    "meta": {
+     "up": null,
+     "cm": 2,
+     "pub": "2026-11-23"
+    }
+   },
+   "2611.27112": {
+    "title": "Markdown Is Not a Firewall: four coding agents, one rules file, four boundaries",
+    "url": "https://huggingface.co/papers/2611.27112",
+    "meta": {
+     "up": null,
+     "cm": 2,
+     "pub": "2026-11-20"
+    }
+   },
+   "2611.30494": {
+    "title": "Revisiting LLMs as Context Engineers",
+    "url": "https://huggingface.co/papers/2611.30494",
+    "meta": {
+     "up": null,
+     "cm": 2,
+     "pub": "2026-11-23"
+    }
+   },
+   "2611.31516": {
+    "title": "InitFree-SfM: When Initialization-Free Bundle Adjustment meets Learned Structure-from-Motion",
+    "url": "https://huggingface.co/papers/2611.31516",
+    "meta": {
+     "up": null,
+     "cm": 2,
+     "pub": "2026-11-23"
+    }
+   },
+   "2611.31155": {
+    "title": "So Many Ways to Multiply 3times3 Matrices: A Large Dataset of Rank-23 Schemes",
+    "url": "https://huggingface.co/papers/2611.31155",
+    "meta": {
+     "up": null,
+     "cm": 2,
+     "pub": "2026-11-23"
+    }
+   },
+   "2611.31491": {
+    "title": "Pretrained Tabular Features and the Measurement of Financial Proximity",
+    "url": "https://huggingface.co/papers/2611.31491",
+    "meta": {
+     "up": null,
+     "cm": 2,
+     "pub": "2026-11-23"
+    }
+   },
+   "2611.28849": {
+    "title": "Guarding with Judgment: Learning to Intervene for Multimodal Safety",
+    "url": "https://huggingface.co/papers/2611.28849",
+    "meta": {
+     "up": null,
+     "cm": 2,
+     "pub": "2026-11-21"
+    }
+   },
+   "2611.31619": {
+    "title": "What a Forecasting Leaderboard Can Establish: Resolution Reporting for Zero-Shot Time-Series Models",
+    "url": "https://huggingface.co/papers/2611.31619",
+    "meta": {
+     "up": null,
+     "cm": 5,
+     "pub": "2026-11-23"
+    }
+   },
+   "2611.34782": {
+    "title": "Generation as Reverse Encoding",
+    "url": "https://huggingface.co/papers/2611.34782",
+    "meta": {
+     "up": null,
+     "cm": 2,
+     "pub": "2026-11-25"
+    }
+   },
+   "2611.30483": {
+    "title": "When an AI agent makes a mistake in a database, what decides the damage?",
+    "url": "https://huggingface.co/papers/2611.30483",
+    "meta": {
+     "up": null,
+     "cm": 4,
+     "pub": "2026-11-23"
+    }
+   },
    "2611.32238": {
     "title": "Boundary-Aware Policy Learning for Agent-Orchestrated Robot Manipulation",
     "url": "https://huggingface.co/papers/2611.32238",
     "meta": {
      "up": null,
-     "cm": 1,
+     "cm": 2,
      "pub": "2026-11-24"
     }
    },
@@ -5793,7 +5884,7 @@
     "url": "https://huggingface.co/papers/2611.34719",
     "meta": {
      "up": null,
-     "cm": 1,
+     "cm": 2,
      "pub": "2026-11-25"
     }
    },
@@ -5802,7 +5893,7 @@
     "url": "https://huggingface.co/papers/2611.34232",
     "meta": {
      "up": null,
-     "cm": 1,
+     "cm": 3,
      "pub": "2026-11-25"
     }
    },
@@ -5811,7 +5902,7 @@
     "url": "https://huggingface.co/papers/2611.34852",
     "meta": {
      "up": null,
-     "cm": 1,
+     "cm": 2,
      "pub": "2026-11-25"
     }
    },
@@ -5820,7 +5911,7 @@
     "url": "https://huggingface.co/papers/2611.32993",
     "meta": {
      "up": null,
-     "cm": 1,
+     "cm": 2,
      "pub": "2026-11-24"
     }
    },
@@ -5829,7 +5920,7 @@
     "url": "https://huggingface.co/papers/2611.34290",
     "meta": {
      "up": null,
-     "cm": 1,
+     "cm": 2,
      "pub": "2026-11-25"
     }
    },
@@ -5838,7 +5929,7 @@
     "url": "https://huggingface.co/papers/2611.34813",
     "meta": {
      "up": null,
-     "cm": 1,
+     "cm": 5,
      "pub": "2026-11-25"
     }
    },
@@ -5847,7 +5938,7 @@
     "url": "https://huggingface.co/papers/2611.34693",
     "meta": {
      "up": null,
-     "cm": 2,
+     "cm": 3,
      "pub": "2026-11-25"
     }
    },
@@ -5856,7 +5947,7 @@
     "url": "https://huggingface.co/papers/2611.34457",
     "meta": {
      "up": null,
-     "cm": 1,
+     "cm": 3,
      "pub": "2026-11-25"
     }
    },
@@ -5865,7 +5956,7 @@
     "url": "https://huggingface.co/papers/2611.34051",
     "meta": {
      "up": null,
-     "cm": 2,
+     "cm": 3,
      "pub": "2026-11-25"
     }
    },
@@ -5874,7 +5965,7 @@
     "url": "https://huggingface.co/papers/2611.20844",
     "meta": {
      "up": null,
-     "cm": 1,
+     "cm": 3,
      "pub": "2026-11-16"
     }
    },
@@ -5883,7 +5974,7 @@
     "url": "https://huggingface.co/papers/2611.29829",
     "meta": {
      "up": null,
-     "cm": 1,
+     "cm": 3,
      "pub": "2026-11-22"
     }
    },
@@ -5928,7 +6019,7 @@
     "url": "https://huggingface.co/papers/2611.28732",
     "meta": {
      "up": null,
-     "cm": 2,
+     "cm": 3,
      "pub": "2026-11-25"
     }
    },
@@ -6009,7 +6100,7 @@
     "url": "https://huggingface.co/papers/2611.34147",
     "meta": {
      "up": null,
-     "cm": 3,
+     "cm": 4,
      "pub": "2026-11-25"
     }
    },
@@ -6030,179 +6121,95 @@
      "cm": 2,
      "pub": "2026-11-24"
     }
-   },
-   "2611.34777": {
-    "title": "When Every Rollout Fails: Splicing Learner-Conditioned Options into Long-Horizon Agent RL",
-    "url": "https://huggingface.co/papers/2611.34777",
-    "meta": {
-     "up": null,
-     "cm": 2,
-     "pub": "2026-11-25"
-    }
-   },
-   "2611.34756": {
-    "title": "Collect for Coverage, Replay with Evidence: Adaptive and Efficient On-Policy Distillation for Long-Horizon Agents",
-    "url": "https://huggingface.co/papers/2611.34756",
-    "meta": {
-     "up": null,
-     "cm": 2,
-     "pub": "2026-11-25"
-    }
-   },
-   "2611.34939": {
-    "title": "A Mesh for Every Moment",
-    "url": "https://huggingface.co/papers/2611.34939",
-    "meta": {
-     "up": null,
-     "cm": 2,
-     "pub": "2026-11-25"
-    }
-   },
-   "2611.33579": {
-    "title": "DexEngine: Scaling Human Demonstrations into Physically Executable Whole-Robot Data",
-    "url": "https://huggingface.co/papers/2611.33579",
-    "meta": {
-     "up": null,
-     "cm": 2,
-     "pub": "2026-11-25"
-    }
-   },
-   "2611.31237": {
-    "title": "Let Vision-Language Models Generate Images through Their Representations",
-    "url": "https://huggingface.co/papers/2611.31237",
-    "meta": {
-     "up": null,
-     "cm": 3,
-     "pub": "2026-11-23"
-    }
-   },
-   "2611.34671": {
-    "title": "DemoFoundry: Toward Scalable Photorealistic Robot Data with Coding Agents and Generative Rendering",
-    "url": "https://huggingface.co/papers/2611.34671",
-    "meta": {
-     "up": null,
-     "cm": 2,
-     "pub": "2026-11-25"
-    }
-   },
-   "2611.30895": {
-    "title": "Speak When You See It: Proactive Task Assistants Should Wait for Evidence, Not the Clock",
-    "url": "https://huggingface.co/papers/2611.30895",
-    "meta": {
-     "up": null,
-     "cm": 2,
-     "pub": "2026-11-23"
-    }
-   },
-   "2611.34750": {
-    "title": "SOLVE: Sparse, Ordered Keyposes Make LLM Agents Versatile and Efficient Robot Manipulator",
-    "url": "https://huggingface.co/papers/2611.34750",
-    "meta": {
-     "up": null,
-     "cm": 2,
-     "pub": "2026-11-25"
-    }
-   },
-   "2611.32002": {
-    "title": "Change the Base, Change the Game: Rethinking Pan-sharpening",
-    "url": "https://huggingface.co/papers/2611.32002",
-    "meta": {
-     "up": null,
-     "cm": 2,
-     "pub": "2026-11-24"
-    }
-   },
-   "2611.33457": {
-    "title": "Playfulness as Feedback for Agentic Game Development",
-    "url": "https://huggingface.co/papers/2611.33457",
-    "meta": {
-     "up": null,
-     "cm": 2,
-     "pub": "2026-11-24"
-    }
-   },
-   "2611.34420": {
-    "title": "DocSEAM: Bidirectional Cross-Page Encoding for Multi-Page Document Understanding",
-    "url": "https://huggingface.co/papers/2611.34420",
-    "meta": {
-     "up": null,
-     "cm": 4,
-     "pub": "2026-11-25"
-    }
-   },
-   "2611.34923": {
-    "title": "Mixture-of-Loops Transformer",
-    "url": "https://huggingface.co/papers/2611.34923",
-    "meta": {
-     "up": null,
-     "cm": 2,
-     "pub": "2026-11-25"
-    }
    }
   },
   "hn": {
+   "50643158": {
+    "title": "GPT 6.2 Astra Solves a Historical Mystery",
+    "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
+    "meta": {
+     "score": 373,
+     "comments": 235
+    }
+   },
+   "50674489": {
+    "title": "Claude silently added rules to ignore users skintone preferences in our app",
+    "url": "https://twitter.com/jakozloski/status/2126281598517576049",
+    "meta": {
+     "score": 8,
+     "comments": 0
+    }
+   },
+   "50671275": {
+    "title": "Prospero: Bloat-free, native AI coding harness with ImGui",
+    "url": "https://github.com/skeeto/prospero",
+    "meta": {
+     "score": 47,
+     "comments": 9
+    }
+   },
+   "50669673": {
+    "title": "Show HN: DragDropMath – Learn math by feel",
+    "url": "https://dragdropmath.com/",
+    "meta": {
+     "score": 115,
+     "comments": 33
+    }
+   },
+   "50673521": {
+    "title": "Woman evicted after landlord's AI assistant told her she could delay rent",
+    "url": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
+    "meta": {
+     "score": 109,
+     "comments": 83
+    }
+   },
+   "50671651": {
+    "title": "SessionGraph: Visualize all your coding agent sessions in one interactive graph",
+    "url": "https://sessiongraph.ai/",
+    "meta": {
+     "score": 39,
+     "comments": 17
+    }
+   },
+   "50664325": {
+    "title": "Claude sabotaging ML research tasks?",
+    "url": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+    "meta": {
+     "score": 647,
+     "comments": 298
+    }
+   },
+   "50662933": {
+    "title": "\"What's Claude's fursona?\" and other questions",
+    "url": "https://herecomesthemoon.net/2026/11/whats-claudes-fursona/",
+    "meta": {
+     "score": 189,
+     "comments": 179
+    }
+   },
+   "50670443": {
+    "title": "Show HN: Getting 101 tok/s from Inkling 2 Mini in vLLM on one GB10",
+    "url": "https://runtimenotes.com/blog/getting-101-tok-s-from-inkling-2-mini-in-vllm-on-one-gb10/",
+    "meta": {
+     "score": 50,
+     "comments": 11
+    }
+   },
+   "50663595": {
+    "title": "Group chat where your AI talks behind your back",
+    "url": "https://construct22.com/",
+    "meta": {
+     "score": 692,
+     "comments": 286
+    }
+   },
    "50660180": {
     "title": "AI made self-hosting fun again",
     "url": "https://janlukas.blog/posts/ai-self-hosting",
     "meta": {
-     "score": 443,
-     "comments": 238
-    }
-   },
-   "50657265": {
-    "title": "AMD-specific fork of llama.cpp",
-    "url": "https://devnull.land/amd-specific-llama-cpp",
-    "meta": {
-     "score": 310,
-     "comments": 75
-    }
-   },
-   "50653477": {
-    "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
-    "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
-    "meta": {
-     "score": 290,
-     "comments": 240
-    }
-   },
-   "50661218": {
-    "title": "AI agents now control part of DeepMind's compute for Gemini experiments",
-    "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
-    "meta": {
-     "score": 44,
-     "comments": 21
-    }
-   },
-   "50652527": {
-    "title": "OpenAI may be in cost control mode",
-    "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/",
-    "meta": {
-     "score": 307,
-     "comments": 314
-    }
-   },
-   "50647673": {
-    "title": "The New York Times warns photographers not to update Photoshop over AI features",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
-    "meta": {
-     "score": 661,
-     "comments": 525
-    }
-   },
-   "50658910": {
-    "title": "Top-cited AI scientists at four US companies compared",
-    "url": "https://topcitedscientists.com/figures/ai-at-four-us-companies/",
-    "meta": {
-     "score": 39,
-     "comments": 22
-    }
-   },
-   "50648050": {
-    "title": "Much shorter version of GRH Lean verification from Anthropic",
-    "url": "https://github.com/lsernau/grh-lean",
-    "meta": {
-     "score": 551,
-     "comments": 349
+     "score": 1107,
+     "comments": 509
     }
    }
   }

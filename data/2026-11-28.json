@@ -1,0 +1,709 @@
+{
+ "date": "2026-11-28",
+ "generated_at": "2026-11-28T12:36:35+08:00",
+ "baseline": false,
+ "sources": {
+  "openrouter": {
+   "new": [
+    {
+     "id": "inclusionai/ling-3.2-flash",
+     "title": "inclusionAI: Ling 3.2 Flash",
+     "url": "https://openrouter.ai/models/inclusionai/ling-3.2-flash",
+     "meta": {
+      "prompt": 0.3,
+      "completion": 0.9,
+      "ctx": 1048576
+     }
+    }
+   ],
+   "changed": [
+    {
+     "id": "thinkingmachines/inkling-2-mini",
+     "title": "Thinking Machines: Inkling 2 Mini",
+     "url": "https://openrouter.ai/models/thinkingmachines/inkling-2-mini",
+     "from": {
+      "prompt": 0.075,
+      "completion": 0.3,
+      "ctx": 1048576
+     },
+     "to": {
+      "prompt": 0.06,
+      "completion": 0.24,
+      "ctx": 1048576
+     }
+    },
+    {
+     "id": "thinkingmachines/inkling-2-small",
+     "title": "Thinking Machines: Inkling 2 Small",
+     "url": "https://openrouter.ai/models/thinkingmachines/inkling-2-small",
+     "from": {
+      "prompt": 0.3,
+      "completion": 1.0,
+      "ctx": 1048576
+     },
+     "to": {
+      "prompt": 0.15,
+      "completion": 0.5,
+      "ctx": 1048576
+     }
+    },
+    {
+     "id": "reflection/beam-1.0-501b-a23b",
+     "title": "Reflection: Beam 1.0 501B A23B",
+     "url": "https://openrouter.ai/models/reflection/beam-1.0-501b-a23b",
+     "from": {
+      "prompt": 0.3,
+      "completion": 1.0,
+      "ctx": 1048576
+     },
+     "to": {
+      "prompt": 0.25,
+      "completion": 1.0,
+      "ctx": 1048576
+     }
+    },
+    {
+     "id": "nvidia/nemotron-3.5-super-vl",
+     "title": "NVIDIA: Nemotron 3.5 Super VL",
+     "url": "https://openrouter.ai/models/nvidia/nemotron-3.5-super-vl",
+     "from": {
+      "prompt": 0.15,
+      "completion": 0.47,
+      "ctx": 1048576
+     },
+     "to": {
+      "prompt": 0.15,
+      "completion": 0.45,
+      "ctx": 1048576
+     }
+    },
+    {
+     "id": "deepseek/deepseek-v4.1-flash",
+     "title": "DeepSeek: DeepSeek V4.1 Flash",
+     "url": "https://openrouter.ai/models/deepseek/deepseek-v4.1-flash",
+     "from": {
+      "prompt": 0.14,
+      "completion": 0.42,
+      "ctx": 1048576
+     },
+     "to": {
+      "prompt": 0.051,
+      "completion": 0.567,
+      "ctx": 1048576
+     }
+    },
+    {
+     "id": "qwen/qwen3.8-2.4t-a95b",
+     "title": "Qwen: Qwen3.8 2.4T A95B",
+     "url": "https://openrouter.ai/models/qwen/qwen3.8-2.4t-a95b",
+     "from": {
+      "prompt": 2.0,
+      "completion": 6.0,
+      "ctx": 1048576
+     },
+     "to": {
+      "prompt": 2.0,
+      "completion": 6.0,
+      "ctx": 1000000
+     }
+    },
+    {
+     "id": "nvidia/nemotron-3.5-lightning",
+     "title": "NVIDIA: Nemotron 3.5 Lightning",
+     "url": "https://openrouter.ai/models/nvidia/nemotron-3.5-lightning",
+     "from": {
+      "prompt": 0.07,
+      "completion": 0.2,
+      "ctx": 1048576
+     },
+     "to": {
+      "prompt": 0.05,
+      "completion": 0.2,
+      "ctx": 1048576
+     }
+    },
+    {
+     "id": "~deepseek/deepseek-v4-flash-latest",
+     "title": "DeepSeek: DeepSeek V4 Flash Latest",
+     "url": "https://openrouter.ai/models/~deepseek/deepseek-v4-flash-latest",
+     "from": {
+      "prompt": 0.047,
+      "completion": 0.3,
+      "ctx": 1048576
+     },
+     "to": {
+      "prompt": 0.0453,
+      "completion": 0.136,
+      "ctx": 1048576
+     }
+    },
+    {
+     "id": "deepseek/deepseek-v4-flash-0731",
+     "title": "DeepSeek: DeepSeek V4 Flash 0731",
+     "url": "https://openrouter.ai/models/deepseek/deepseek-v4-flash-0731",
+     "from": {
+      "prompt": 0.047,
+      "completion": 0.3,
+      "ctx": 1048576
+     },
+     "to": {
+      "prompt": 0.0456,
+      "completion": 0.3,
+      "ctx": 1048576
+     }
+    },
+    {
+     "id": "deepseek/deepseek-v4-pro",
+     "title": "DeepSeek: DeepSeek V4 Pro 0423",
+     "url": "https://openrouter.ai/models/deepseek/deepseek-v4-pro",
+     "from": {
+      "prompt": 0.8882,
+      "completion": 1.5082,
+      "ctx": 1048576
+     },
+     "to": {
+      "prompt": 0.3703,
+      "completion": 1.5791,
+      "ctx": 1048576
+     }
+    },
+    {
+     "id": "google/gemma-4-26b-a4b-it",
+     "title": "Google: Gemma 4 26B A4B ",
+     "url": "https://openrouter.ai/models/google/gemma-4-26b-a4b-it",
+     "from": {
+      "prompt": 0.0765,
+      "completion": 0.255,
+      "ctx": 262144
+     },
+     "to": {
+      "prompt": 0.0675,
+      "completion": 0.225,
+      "ctx": 262144
+     }
+    },
+    {
+     "id": "qwen/qwen3.5-9b",
+     "title": "Qwen: Qwen3.5-9B",
+     "url": "https://openrouter.ai/models/qwen/qwen3.5-9b",
+     "from": {
+      "prompt": 0.1,
+      "completion": 0.25,
+      "ctx": 262144
+     },
+     "to": {
+      "prompt": 0.085,
+      "completion": 0.125,
+      "ctx": 262144
+     }
+    },
+    {
+     "id": "google/gemma-3-4b-it",
+     "title": "Google: Gemma 3 4B",
+     "url": "https://openrouter.ai/models/google/gemma-3-4b-it",
+     "from": {
+      "prompt": 0.05,
+      "completion": 0.1,
+      "ctx": 131072
+     },
+     "to": {
+      "prompt": 0.04,
+      "completion": 0.05,
+      "ctx": 131072
+     }
+    },
+    {
+     "id": "google/gemma-3-27b-it",
+     "title": "Google: Gemma 3 27B",
+     "url": "https://openrouter.ai/models/google/gemma-3-27b-it",
+     "from": {
+      "prompt": 0.08,
+      "completion": 0.45,
+      "ctx": 131072
+     },
+     "to": {
+      "prompt": 0.08,
+      "completion": 0.16,
+      "ctx": 131072
+     }
+    }
+   ],
+   "gone": [
+    {
+     "id": "inclusionai/ling-3.2-flash:free",
+     "title": "inclusionAI: Ling 3.2 Flash (free)",
+     "url": "https://openrouter.ai/models/inclusionai/ling-3.2-flash"
+    },
+    {
+     "id": "qwen/qwen3-235b-a22b-thinking-2507",
+     "title": "Qwen: Qwen3 235B A22B Thinking 2507",
+     "url": "https://openrouter.ai/models/qwen/qwen3-235b-a22b-thinking-2507"
+    }
+   ]
+  },
+  "mcp": {
+   "new": [],
+   "changed": [],
+   "gone": []
+  },
+  "hf": {
+   "new": [
+    {
+     "id": "2611.33885",
+     "title": "LayoutRecall: Preserving Appearance in Multi-Round 3D Layout-Controlled Image Editing",
+     "url": "https://huggingface.co/papers/2611.33885",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-25"
+     }
+    },
+    {
+     "id": "2611.30025",
+     "title": "Damped Atomic Wave Integration Neurons (DAWIN): A Universal Primitive for Continuous-Time Spatiotemporal Learning",
+     "url": "https://huggingface.co/papers/2611.30025",
+     "meta": {
+      "up": null,
+      "cm": 3,
+      "pub": "2026-11-23"
+     }
+    },
+    {
+     "id": "2611.30723",
+     "title": "BiSAT: Bidirectionally Aligned Semantic-Acoustic Tokenization for Speech Language Models",
+     "url": "https://huggingface.co/papers/2611.30723",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-23"
+     }
+    },
+    {
+     "id": "2611.27112",
+     "title": "Markdown Is Not a Firewall: four coding agents, one rules file, four boundaries",
+     "url": "https://huggingface.co/papers/2611.27112",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-20"
+     }
+    },
+    {
+     "id": "2611.30494",
+     "title": "Revisiting LLMs as Context Engineers",
+     "url": "https://huggingface.co/papers/2611.30494",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-23"
+     }
+    },
+    {
+     "id": "2611.31516",
+     "title": "InitFree-SfM: When Initialization-Free Bundle Adjustment meets Learned Structure-from-Motion",
+     "url": "https://huggingface.co/papers/2611.31516",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-23"
+     }
+    },
+    {
+     "id": "2611.31155",
+     "title": "So Many Ways to Multiply 3times3 Matrices: A Large Dataset of Rank-23 Schemes",
+     "url": "https://huggingface.co/papers/2611.31155",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-23"
+     }
+    },
+    {
+     "id": "2611.31491",
+     "title": "Pretrained Tabular Features and the Measurement of Financial Proximity",
+     "url": "https://huggingface.co/papers/2611.31491",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-23"
+     }
+    },
+    {
+     "id": "2611.28849",
+     "title": "Guarding with Judgment: Learning to Intervene for Multimodal Safety",
+     "url": "https://huggingface.co/papers/2611.28849",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-21"
+     }
+    },
+    {
+     "id": "2611.31619",
+     "title": "What a Forecasting Leaderboard Can Establish: Resolution Reporting for Zero-Shot Time-Series Models",
+     "url": "https://huggingface.co/papers/2611.31619",
+     "meta": {
+      "up": null,
+      "cm": 5,
+      "pub": "2026-11-23"
+     }
+    },
+    {
+     "id": "2611.34782",
+     "title": "Generation as Reverse Encoding",
+     "url": "https://huggingface.co/papers/2611.34782",
+     "meta": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-25"
+     }
+    },
+    {
+     "id": "2611.30483",
+     "title": "When an AI agent makes a mistake in a database, what decides the damage?",
+     "url": "https://huggingface.co/papers/2611.30483",
+     "meta": {
+      "up": null,
+      "cm": 4,
+      "pub": "2026-11-23"
+     }
+    }
+   ],
+   "changed": [
+    {
+     "id": "2611.32238",
+     "title": "Boundary-Aware Policy Learning for Agent-Orchestrated Robot Manipulation",
+     "url": "https://huggingface.co/papers/2611.32238",
+     "from": {
+      "up": null,
+      "cm": 1,
+      "pub": "2026-11-24"
+     },
+     "to": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-24"
+     }
+    },
+    {
+     "id": "2611.34719",
+     "title": "Reading, Not Adapting: Unlocking Frozen Visual Knowledge for AI-Generated Image Detection",
+     "url": "https://huggingface.co/papers/2611.34719",
+     "from": {
+      "up": null,
+      "cm": 1,
+      "pub": "2026-11-25"
+     },
+     "to": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-25"
+     }
+    },
+    {
+     "id": "2611.34232",
+     "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+     "url": "https://huggingface.co/papers/2611.34232",
+     "from": {
+      "up": null,
+      "cm": 1,
+      "pub": "2026-11-25"
+     },
+     "to": {
+      "up": null,
+      "cm": 3,
+      "pub": "2026-11-25"
+     }
+    },
+    {
+     "id": "2611.34852",
+     "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
+     "url": "https://huggingface.co/papers/2611.34852",
+     "from": {
+      "up": null,
+      "cm": 1,
+      "pub": "2026-11-25"
+     },
+     "to": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-25"
+     }
+    },
+    {
+     "id": "2611.32993",
+     "title": "Decision-Native Multimodal Clinical Modeling via Anatomical Grounding and Confidence Calibration",
+     "url": "https://huggingface.co/papers/2611.32993",
+     "from": {
+      "up": null,
+      "cm": 1,
+      "pub": "2026-11-24"
+     },
+     "to": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-24"
+     }
+    },
+    {
+     "id": "2611.34290",
+     "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
+     "url": "https://huggingface.co/papers/2611.34290",
+     "from": {
+      "up": null,
+      "cm": 1,
+      "pub": "2026-11-25"
+     },
+     "to": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-25"
+     }
+    },
+    {
+     "id": "2611.34813",
+     "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
+     "url": "https://huggingface.co/papers/2611.34813",
+     "from": {
+      "up": null,
+      "cm": 1,
+      "pub": "2026-11-25"
+     },
+     "to": {
+      "up": null,
+      "cm": 5,
+      "pub": "2026-11-25"
+     }
+    },
+    {
+     "id": "2611.34693",
+     "title": "ShowNow: Fine-Grained Speculative Streaming for Responsive World Models",
+     "url": "https://huggingface.co/papers/2611.34693",
+     "from": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-25"
+     },
+     "to": {
+      "up": null,
+      "cm": 3,
+      "pub": "2026-11-25"
+     }
+    },
+    {
+     "id": "2611.34457",
+     "title": "ProxyGenBench: Benchmarking Proxy-Guided Video Generation",
+     "url": "https://huggingface.co/papers/2611.34457",
+     "from": {
+      "up": null,
+      "cm": 1,
+      "pub": "2026-11-25"
+     },
+     "to": {
+      "up": null,
+      "cm": 3,
+      "pub": "2026-11-25"
+     }
+    },
+    {
+     "id": "2611.34051",
+     "title": "Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability",
+     "url": "https://huggingface.co/papers/2611.34051",
+     "from": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-25"
+     },
+     "to": {
+      "up": null,
+      "cm": 3,
+      "pub": "2026-11-25"
+     }
+    },
+    {
+     "id": "2611.20844",
+     "title": "DetourBench: Trajectory-Level Evaluation of Interactive Agents with Exact Minimum-Action Bounds",
+     "url": "https://huggingface.co/papers/2611.20844",
+     "from": {
+      "up": null,
+      "cm": 1,
+      "pub": "2026-11-16"
+     },
+     "to": {
+      "up": null,
+      "cm": 3,
+      "pub": "2026-11-16"
+     }
+    },
+    {
+     "id": "2611.29829",
+     "title": "Who Makes the Decision? Auditing an Agentic LLM Pipeline for Illicit Cryptocurrency Transaction Monitoring",
+     "url": "https://huggingface.co/papers/2611.29829",
+     "from": {
+      "up": null,
+      "cm": 1,
+      "pub": "2026-11-22"
+     },
+     "to": {
+      "up": null,
+      "cm": 3,
+      "pub": "2026-11-22"
+     }
+    },
+    {
+     "id": "2611.28732",
+     "title": "Entangle: Scaling Human-Video In-Context World-Action Models across Unseen Tasks and Contexts",
+     "url": "https://huggingface.co/papers/2611.28732",
+     "from": {
+      "up": null,
+      "cm": 2,
+      "pub": "2026-11-25"
+     },
+     "to": {
+      "up": null,
+      "cm": 3,
+      "pub": "2026-11-25"
+     }
+    },
+    {
+     "id": "2611.34147",
+     "title": "Letting Models Manage Their Own Context: Where We Stand",
+     "url": "https://huggingface.co/papers/2611.34147",
+     "from": {
+      "up": null,
+      "cm": 3,
+      "pub": "2026-11-25"
+     },
+     "to": {
+      "up": null,
+      "cm": 4,
+      "pub": "2026-11-25"
+     }
+    }
+   ],
+   "gone": []
+  },
+  "hn": {
+   "new": [
+    {
+     "id": "50643158",
+     "title": "GPT 6.2 Astra Solves a Historical Mystery",
+     "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
+     "meta": {
+      "score": 373,
+      "comments": 235
+     }
+    },
+    {
+     "id": "50674489",
+     "title": "Claude silently added rules to ignore users skintone preferences in our app",
+     "url": "https://twitter.com/jakozloski/status/2126281598517576049",
+     "meta": {
+      "score": 8,
+      "comments": 0
+     }
+    },
+    {
+     "id": "50671275",
+     "title": "Prospero: Bloat-free, native AI coding harness with ImGui",
+     "url": "https://github.com/skeeto/prospero",
+     "meta": {
+      "score": 47,
+      "comments": 9
+     }
+    },
+    {
+     "id": "50669673",
+     "title": "Show HN: DragDropMath – Learn math by feel",
+     "url": "https://dragdropmath.com/",
+     "meta": {
+      "score": 115,
+      "comments": 33
+     }
+    },
+    {
+     "id": "50673521",
+     "title": "Woman evicted after landlord's AI assistant told her she could delay rent",
+     "url": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
+     "meta": {
+      "score": 109,
+      "comments": 83
+     }
+    },
+    {
+     "id": "50671651",
+     "title": "SessionGraph: Visualize all your coding agent sessions in one interactive graph",
+     "url": "https://sessiongraph.ai/",
+     "meta": {
+      "score": 39,
+      "comments": 17
+     }
+    },
+    {
+     "id": "50664325",
+     "title": "Claude sabotaging ML research tasks?",
+     "url": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+     "meta": {
+      "score": 647,
+      "comments": 298
+     }
+    },
+    {
+     "id": "50662933",
+     "title": "\"What's Claude's fursona?\" and other questions",
+     "url": "https://herecomesthemoon.net/2026/11/whats-claudes-fursona/",
+     "meta": {
+      "score": 189,
+      "comments": 179
+     }
+    },
+    {
+     "id": "50670443",
+     "title": "Show HN: Getting 101 tok/s from Inkling 2 Mini in vLLM on one GB10",
+     "url": "https://runtimenotes.com/blog/getting-101-tok-s-from-inkling-2-mini-in-vllm-on-one-gb10/",
+     "meta": {
+      "score": 50,
+      "comments": 11
+     }
+    },
+    {
+     "id": "50663595",
+     "title": "Group chat where your AI talks behind your back",
+     "url": "https://construct22.com/",
+     "meta": {
+      "score": 692,
+      "comments": 286
+     }
+    }
+   ],
+   "changed": [],
+   "gone": []
+  }
+ },
+ "counts": {
+  "openrouter": {
+   "new": 1,
+   "changed": 14,
+   "gone": 2,
+   "total": 476
+  },
+  "mcp": {
+   "new": 0,
+   "changed": 0,
+   "gone": 0,
+   "total": 184
+  },
+  "hf": {
+   "new": 12,
+   "changed": 14,
+   "gone": 0,
+   "total": 40
+  },
+  "hn": {
+   "new": 10,
+   "changed": 0,
+   "gone": 0,
+   "total": 11
+  }
+ }
+}
